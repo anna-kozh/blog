@@ -4,7 +4,7 @@ title: "The Impact of Good UX/UI Design on Conversion Rates"
 description: "Discover how investing in excellent UX/UI design can significantly boost your website or app's conversion rates."
 date: 2024-03-10
 tag: "Quick tip"
-image: "UX-Conversion-Rates-Image.webp"
+image: ""
 promoted: 1
 posted: 1
 deleted: 0
