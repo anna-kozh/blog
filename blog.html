@@ -9,7 +9,7 @@ under_construction: "{{ site.is_under_construction }}"
     <a href="{{post.url}}" style="all: unset;">
         <div class="post{% if post.promoted == 1 %} promoted{% endif %}" data-word-count="{{ post.content | number_of_words  }}">
         <div class="post-content">
-          <img class="post-image" src="{{site.baseurl}}/assets/uploads/{{post.image}}">
+          <!-- <img class="post-image" src="{{site.baseurl}}/assets/uploads/{{post.image}}"> -->
           <h2>{{post.title}}</h2>
           <span>{{post.content}}</span>
           <div class="post-stats">
