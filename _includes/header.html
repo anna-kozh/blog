@@ -52,32 +52,19 @@
             </li>
         </ul>
     </nav>
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', function() {
-        // Get all anchor tags with the class 'nav-link'
-        const navLinks = document.querySelectorAll('.nav-link');
-
-        // Add click event listener to each anchor tag
-        navLinks.forEach(function(link) {
-            link.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent the default behavior
-
-                // Get the target URL from the 'data-href' attribute
-                const targetURL = link.getAttribute('data-href');
-                console.log('Navigation to: ' + targetURL);
-
-                // Fetch the content from the target URL using AJAX
-                fetch(targetURL)
-                    .then(response => response.text())
-                    .then(data => {
-                        console.log(data)
-                        // Update the content of the 'content' div with the fetched data
-                        document.getElementById('content').innerHTML = data;
-                    })
-                    .catch(error => {
-                        console.error('Error fetching content:', error);
-                    });
-            });
-        });
-    });
-    </script> -->
+    
+    <script>
+        window.addEventListener("load", function() {
+            let getPage = window.location.pathname;
+            let portfolioLink = document.querySelectorAll('a')[1];
+            let blogLink = document.querySelectorAll('a')[2];
+  
+            if(getPage === "/") {
+                    portfolioLink.classList.add("selected");
+                    blogLink.classList.remove("selected");
+            } else {
+                    blogLink.classList.add("selected");
+                    portfolioLink.classList.remove("selected");
+            }
+        })
+    </script>
