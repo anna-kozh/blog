@@ -6,7 +6,7 @@ date: 2024-03-10
 tag: "Case study"
 image: 
 promoted: 0
-posted: 1
+posted: 0
 deleted: 0
 ---
 
