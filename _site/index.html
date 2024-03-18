@@ -8,8 +8,31 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon.jpg">
     <link rel="stylesheet" href="/assets/css/custom.css">
     <script src="/assets/js/calculate_reading_time.js"></script>
+
+    <!-- Hotjar Tracking Code for Site 3908995 (name missing) -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:3908995,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJJCJPXX0M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WJJCJPXX0M');
+</script>
+    
 <body>
     <nav class="navbar">
         <ul class="navbar-nav me-auto">
@@ -30,35 +53,23 @@
             </li>
         </ul>
     </nav>
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', function() {
-        // Get all anchor tags with the class 'nav-link'
-        const navLinks = document.querySelectorAll('.nav-link');
+    
+    <script>
+        window.addEventListener("load", function() {
+            let getPage = window.location.pathname;
+            let portfolioLink = document.querySelectorAll('a')[1];
+            let blogLink = document.querySelectorAll('a')[2];
+  
+            if(getPage === "/") {
+                    portfolioLink.classList.add("selected");
+                    blogLink.classList.remove("selected");
+            } else {
+                    blogLink.classList.add("selected");
+                    portfolioLink.classList.remove("selected");
+            }
+        })
+    </script>
 
-        // Add click event listener to each anchor tag
-        navLinks.forEach(function(link) {
-            link.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent the default behavior
-
-                // Get the target URL from the 'data-href' attribute
-                const targetURL = link.getAttribute('data-href');
-                console.log('Navigation to: ' + targetURL);
-
-                // Fetch the content from the target URL using AJAX
-                fetch(targetURL)
-                    .then(response => response.text())
-                    .then(data => {
-                        console.log(data)
-                        // Update the content of the 'content' div with the fetched data
-                        document.getElementById('content').innerHTML = data;
-                    })
-                    .catch(error => {
-                        console.error('Error fetching content:', error);
-                    });
-            });
-        });
-    });
-    </script> -->
 
   <div id="content"><section id="pastExperiences">
     <div class="experienceBlock">

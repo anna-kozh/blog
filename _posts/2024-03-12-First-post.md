@@ -5,7 +5,7 @@ description: "Explore the world of UX/UI design and learn how designers craft us
 date: 2024-03-10
 tag: "Case study"
 image: "UX-Conversion-Rates-Image.webp"
-promoted: 0
+promoted: 1
 posted: 1
 deleted: 0
 ---
