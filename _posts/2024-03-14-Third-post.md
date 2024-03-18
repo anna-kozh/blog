@@ -5,7 +5,7 @@ description: "Discover how investing in excellent UX/UI design can significantly
 date: 2024-03-10
 tag: "Quick tip"
 image: ""
-promoted: 1
+promoted: 0
 posted: 1
 deleted: 0
 ---

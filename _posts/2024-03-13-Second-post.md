@@ -5,7 +5,7 @@ description: "Uncover the symbiotic relationship between UX (User Experience) an
 date: 2024-03-10
 tag: "Case study"
 image: ""
-promoted: 1
+promoted: 0
 posted: 1
 deleted: 0
 ---
