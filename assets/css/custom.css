@@ -37,7 +37,7 @@ body {
   flex-direction: column;
   background-color: var(--white);
   background: url(../images/pattern.png) repeat;
-  font-family: var(--primary-font) !important;
+  font-family: var(--primary-font), sans-serif;
   color: var(--primary-text-color);
   background-size: 22rem;
   margin: 0 auto;
@@ -66,7 +66,7 @@ body {
 }
 
 h1, h2, h3, h5 {
-  font-family: var(--primary-font) !important;
+  font-family: var(--primary-font), sans-serif;
   margin: 2rem 0;
   font-weight: 900;
 }
@@ -124,12 +124,9 @@ strong {
   margin: 0 24px;
 }
 
-/* #singlePost img, .post img {
-  object-fit: none;
-  margin: 0 auto;
-  display: block;
-  max-width: 90vw;
-} */
+#singlePost p {
+  text-align: left;
+}
 
 .post .post-stats {
   margin-top: 1rem;
