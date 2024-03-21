@@ -15,7 +15,7 @@ under_construction: "{{ site.is_under_construction }}"
           <div class="post-stats">
             {% assign formattedDate = post.date | date: "%d %b %Y" | upcase %}
             <span>{{formattedDate}}</span>
-            <span class="readingTime"></span>
+            <span>{{post.time}}</span>
             <span class="{% if post.tags %}post_type{% endif %}">{{post.tag}}</span>
           </div>
         </div>
@@ -23,7 +23,7 @@ under_construction: "{{ site.is_under_construction }}"
     </a>
   {% endfor %}
 </section>
-<script>
+<!-- <script>
   document.addEventListener('DOMContentLoaded', function() {
     const postElements = document.querySelectorAll('.post');
 
@@ -40,4 +40,4 @@ under_construction: "{{ site.is_under_construction }}"
       }
     });
   });
-</script>
+</script> -->
