@@ -36,7 +36,7 @@
         <div class="post-stats">
             {% assign formattedDate = page.date | date: "%d %b %Y" | upcase %}
             <span>{{formattedDate}}</span>
-            <span>{{post.time}}</span>
+            <span>{{page.time}}</span>
             <!-- <span>{{readingTime}}READ</span> -->
             <span class="post_type">{{page.tag}}</span>
         </div>
