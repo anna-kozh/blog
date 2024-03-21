@@ -2,6 +2,7 @@
     {% include under-construction.html %}
 {% else %}
     {% include header.html %}
+
     <script>
         // Function to update the loader bar
         function updateLoaderBar() {
@@ -35,34 +36,14 @@
         <div class="post-stats">
             {% assign formattedDate = page.date | date: "%d %b %Y" | upcase %}
             <span>{{formattedDate}}</span>
-            <span class="readingTime"></span>
-            <span>{{readingTime}}READ</span>
+            <span>{{post.time}}</span>
+            <!-- <span>{{readingTime}}READ</span> -->
             <span class="post_type">{{page.tag}}</span>
         </div>
         <h1>{{page.title}}</h1>
         <h4>{{page.description}}</h4>
         <p>{{page.content}}</p>
     </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          const postElements = document.querySelectorAll('#singlePost');
-      
-          postElements.forEach(function(postElement, index) {
-            const wordCount = postElement.getAttribute('data-word-count');
-            const readingTime = calculateReadingTime(wordCount);
-      
-            // Find the readingTime span element within the current post
-            const readingTimeElement = postElement.querySelector('.readingTime');
-            if (readingTimeElement) {
-              // Update the readingTime span element with the calculated reading time
-              readingTimeElement.textContent = readingTime;
-            } else {
-              console.error('Element with class "readingTime" not found in post #' + (index + 1));
-            }
-          });
-        });
-      </script>
 
     {% include footer.html %}
 {% endif %}
