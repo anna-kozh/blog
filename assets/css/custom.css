@@ -155,14 +155,14 @@ strong {
   z-index: 9;
 }
 
-.navbar-nav {
+.nav {
   display: flex;
   flex-direction: row !important;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 3rem 2rem;
-  max-width: 1360px;
   justify-content: space-between;
+  max-width: 1312px;
 }
 
 .nav_links {
@@ -514,13 +514,13 @@ footer > * {
 }
 
 @media screen and (max-width: 728px) {
-  .navbar-nav {
+  .nav {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 @media screen and (max-width: 530px) {
-  .navbar-nav {
+  .nav {
     flex-direction: column !important;
     padding: 2rem 1.5rem 1.5rem;
     gap: 2rem;
