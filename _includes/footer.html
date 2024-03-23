@@ -7,20 +7,34 @@
     </a>
   </footer>
 
-    <script>
-        function copy() {
-          var copyText = document.getElementById("emailCopy").innerText;
-          navigator.clipboard.writeText(copyText);
-    
-          var tooltip = document.getElementById("tooltip");
-          tooltip.innerHTML = "Copied";
-          tooltip.style.display = "block";
-          setTimeout(
-            function () {
-              tooltip.style.display = "none";
-            }, 2000)
+  <script>
+    window.addEventListener("load", function() {
+        let getPage = window.location.pathname;
+        let portfolioLink = document.querySelectorAll('a')[1];
+        let blogLink = document.querySelectorAll('a')[2];
+
+        if(getPage === "/") {
+                portfolioLink.classList.add("selected");
+                blogLink.classList.remove("selected");
+        } else {
+                blogLink.classList.add("selected");
+                portfolioLink.classList.remove("selected");
         }
-    </script>
+    })
+
+    function copy() {
+      var copyText = document.getElementById("emailCopy").innerText;
+      navigator.clipboard.writeText(copyText);
+
+      var tooltip = document.getElementById("tooltip");
+      tooltip.innerHTML = "Copied";
+      tooltip.style.display = "block";
+      setTimeout(
+        function () {
+          tooltip.style.display = "none";
+        }, 2000)
+    }
+  </script>
    
 </body>
 </html>

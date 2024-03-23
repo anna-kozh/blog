@@ -8,37 +8,23 @@
 </head>
 <body>
     <nav class="navbar">
-        <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav">
             <li class="nav-item">
-                <img class="logo" src="{{site.baseurl}}/assets/images/favicon.jpg" alt="" srcset="">
+                <img class="logo" src="{{site.baseurl}}/assets/images/favicon.jpg" alt="">
                 <a aria-current="page" href="/">Anna Kozh</a>
             </li>
-            <li class="nav-item">
-                <a aria-current="page" href="{{site.baseurl}}/">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a aria-current="page" href="{{site.baseurl}}/blog.html">Blog</a>
-            </li>
-            <li class="nav-item icon download"
-                style="background: url({{site.baseurl}}/assets/images/cloud-arrow-down-solid.svg) no-repeat;">
-                <a class="resume-placeholder " href="">
-                    R&#233sum&#233</a>
-            </li>
+            <div class="nav_links">
+                <li class="nav-item">
+                    <a aria-current="page" href="{{site.baseurl}}/">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="{{site.baseurl}}/blog.html">Blog</a>
+                </li>
+                <li class="nav-item icon download"
+                    style="background: url({{site.baseurl}}/assets/images/cloud-arrow-down-solid.svg) no-repeat;background-size:1rem;background-position-y:center;">
+                    <a class="resume-placeholder " href="">
+                        R&#233sum&#233</a>
+                </li>
+            </div>
         </ul>
     </nav>
-    
-    <script>
-        window.addEventListener("load", function() {
-            let getPage = window.location.pathname;
-            let portfolioLink = document.querySelectorAll('a')[1];
-            let blogLink = document.querySelectorAll('a')[2];
-  
-            if(getPage === "/") {
-                    portfolioLink.classList.add("selected");
-                    blogLink.classList.remove("selected");
-            } else {
-                    blogLink.classList.add("selected");
-                    portfolioLink.classList.remove("selected");
-            }
-        })
-    </script>

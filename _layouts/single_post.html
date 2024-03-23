@@ -2,7 +2,19 @@
     {% include under-construction.html %}
 {% else %}
     {% include header.html %}
-
+    <div class="loader-bar" id="loader-bar"></div>
+    <div id="singlePost" data-word-count="{{ page.content | number_of_words  }}">
+        <div class="post-stats">
+            {% assign formattedDate = page.date | date: "%d %b %Y" | upcase %}
+            <span>{{formattedDate}}</span>
+            <span>{{page.time}}</span>
+            <!-- <span>{{readingTime}}READ</span> -->
+            <span class="post_type">{{page.tag}}</span>
+        </div>
+        <h1>{{page.title}}</h1>
+        <h4>{{page.description}}</h4>
+        <p>{{page.content}}</p>
+    </div>
     <script>
         // Function to update the loader bar
         function updateLoaderBar() {
@@ -24,26 +36,8 @@
             loaderBar.style.width = scrollProgress + '%';
         }
 
-        // Call the function on page load
         window.addEventListener('load', updateLoaderBar);
-
-        // Call the function on the scroll event
         window.addEventListener('scroll', updateLoaderBar);
     </script>
-
-    <div class="loader-bar" id="loader-bar"></div>
-    <div id="singlePost" data-word-count="{{ page.content | number_of_words  }}">
-        <div class="post-stats">
-            {% assign formattedDate = page.date | date: "%d %b %Y" | upcase %}
-            <span>{{formattedDate}}</span>
-            <span>{{page.time}}</span>
-            <!-- <span>{{readingTime}}READ</span> -->
-            <span class="post_type">{{page.tag}}</span>
-        </div>
-        <h1>{{page.title}}</h1>
-        <h4>{{page.description}}</h4>
-        <p>{{page.content}}</p>
-    </div>
-
     {% include footer.html %}
 {% endif %}
