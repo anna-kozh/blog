@@ -12,7 +12,7 @@ under_construction: "{{ site.is_under_construction }}"
             In 2022 I joined Simpology .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
         </p>
         <ul class="xpLink">
-            <li><a href="{{site.baseurl}}/2024/03/10/First-post.html">Case study “Digital income”</a></li>
+             <li><a href="{{site.baseurl}}/2024/03/10/First-post.html">Case study “Digital income”</a></li>
             <li><a href="{{site.baseurl}}/2024/03/10/Second-post.html">Case study “Digital income”</a></li>
             <li><a href="{{site.baseurl}}/2024/03/10/Third-post.html">Case study “Digital income”</a></li>
         </ul>

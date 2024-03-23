@@ -23,21 +23,3 @@ under_construction: "{{ site.is_under_construction }}"
     </a>
   {% endfor %}
 </section>
-<!-- <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const postElements = document.querySelectorAll('.post');
-
-    postElements.forEach(function(postElement, index) {
-      const wordCount = postElement.getAttribute('data-word-count');
-      const readingTime = calculateReadingTime(wordCount);
-      // Find the readingTime span element within the current post
-      const readingTimeElement = postElement.querySelector('.readingTime');
-      if (readingTimeElement) {
-        // Update the readingTime span element with the calculated reading time
-        readingTimeElement.textContent = readingTime;
-      } else {
-        console.error('Element with class "readingTime" not found in post #' + (index + 1));
-      }
-    });
-  });
-</script> -->
