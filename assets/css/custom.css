@@ -4,19 +4,6 @@
   font-weight: 900;
 }
 
-/* @font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Bold.ttf");
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Medium.ttf");
-  font-weight: 500;
-} */
-
 :root {
   --primary-color: #F11CDC;
   --secondary-color: #EEEEEE;
@@ -47,6 +34,7 @@ body {
   -webkit-font-smoothing: antialiased;
   position: relative;
   min-height: 100vh;
+  min-width: 100vw;
   background-color: var(--white);
   background: url(../images/pattern.png) repeat;
   font-family: system-ui;
@@ -106,9 +94,7 @@ h4 {
 p {
   all: unset;
   margin: 0;
-  /* color: var(--secondary-text-color); */
   text-align: justify;
-  /* font-weight: 500; */
   font-size: 1.4rem;
   line-height: 2rem;
 }
@@ -163,9 +149,7 @@ strong {
   flex-direction: row;
   width: 100%;
   list-style: none;
-  /* margin: 0 auto; */
-  padding: 3rem 2rem;
-  justify-content: space-evenly;
+  justify-content: space-between;
   max-width: 1312px;
 }
 
@@ -437,6 +421,7 @@ span {
 
 .xpLogo {
   height: fit-content;
+  object-fit: contain;
   width: 10rem;
   /* filter: grayscale(0) contrast(1) saturate(0); */
 }
@@ -513,27 +498,30 @@ footer > * {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 1408px) {
- 
+@media only screen and (min-width: 729px) {
+  .nav {
+    padding: 32px 48px 24px 48px;
+  }
 }
 
 @media only screen and (max-width: 728px) and (min-width: 531px) {
   .nav {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 32px 24px 24px 24px;
   }
 }
 @media only screen and (max-width: 530px) and (min-width: 336px){
   .nav {
     flex-direction: column !important;
-    padding: 2rem 1.5rem 1.5rem;
-    gap: 2rem;
+    padding: 32px 24px 24px;
+    gap: 32px;
   }
 }
 
 @media only screen and (max-width: 335px) {
-  .nav_links {
+  .nav {
+    flex-direction: column !important;
+    padding: 32px 24px 24px;
     justify-content: space-evenly;
-    gap: inherit;
+    gap: 32px;
   }
 }
