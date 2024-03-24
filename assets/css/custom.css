@@ -34,7 +34,6 @@ body {
   -webkit-font-smoothing: antialiased;
   position: relative;
   min-height: 100vh;
-  min-width: 100vw;
   background-color: var(--white);
   background: url(../images/pattern.png) repeat;
   font-family: system-ui;
