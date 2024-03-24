@@ -452,16 +452,21 @@ span {
 footer {
   position: static;
   display: flex;
-  flex-direction: column;
-  padding: 4rem;
   background: #fff;
   border-top: 1px solid #E4E4E4;
-  margin-top: 3rem;
+  justify-content: center;
 }
 
-footer > * {
-  width: max-content;
-  position: relative;
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  width: 100%;
+  max-width: 1312px;
+}
+
+.footer-content a {
+  width: min-content;
 }
 
 .tooltip {
@@ -499,13 +504,13 @@ footer > * {
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 729px) {
-  .nav {
+  .nav, .footer-content {
     padding: 32px 48px 24px 48px;
   }
 }
 
 @media only screen and (max-width: 728px) and (min-width: 531px) {
-  .nav {
+  .nav, .footer-content {
     padding: 32px 24px 24px 24px;
   }
 }
@@ -515,6 +520,9 @@ footer > * {
     padding: 32px 24px 24px;
     gap: 32px;
   }
+  .footer-content {
+    padding: 32px 24px 24px;
+  }
 }
 
 @media only screen and (max-width: 335px) {
@@ -523,5 +531,8 @@ footer > * {
     padding: 32px 24px 24px;
     justify-content: space-evenly;
     gap: 32px;
+  }
+  .footer-content {
+    padding: 32px 24px 24px;
   }
 }
