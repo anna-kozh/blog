@@ -6,7 +6,7 @@ under_construction: "{{ site.is_under_construction }}"
 
 <section id="pastExperiences">
     <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/simpology.png" />
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_simpology.webp" />
         <h2 class="xpTitle">Product Owner & UI/UX Lead, Simpology</h2>
         <p class="xpText">
             In 2022 I joined Simpology .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
@@ -18,7 +18,7 @@ under_construction: "{{ site.is_under_construction }}"
         </ul>
     </div>
     <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/skoolbag.png" />
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_skoolbag.webp" />
         <h2 class="xpTitle">Product Owner & Design Lead, SkoolBag</h2>
         <p class="xpText">
             In 2020 I joined SkoolBag .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
@@ -30,7 +30,7 @@ under_construction: "{{ site.is_under_construction }}"
         </ul>
     </div>
     <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/asg.png" />
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_asg.webp" />
         <h2 class="xpTitle">Senior UX Consultant, ASG Group</h2>
         <p class="xpText">
             In 2016 I joined ASG Group .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
@@ -38,7 +38,7 @@ under_construction: "{{ site.is_under_construction }}"
         <ul class="xpLink"></ul>
     </div>
     <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/voicebox.png" />
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_voicebox.webp" />
         <h2 class="xpTitle">UX Designer, VoiceBox Technologies</h2>
         <p class="xpText">
             In 2013 I joined VoiceBox Technologies .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
