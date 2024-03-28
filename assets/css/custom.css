@@ -162,7 +162,7 @@ strong {
 .download {
   background: url(../images/download.png) no-repeat;
   background-size: 1rem;
-  background-position: 0px .75rem
+  background-position: 4rem .75rem;
 }
 
 a,
@@ -252,7 +252,7 @@ textarea {
 }
 
 .resume-placeholder {
-  margin-left: 22px;
+  margin-right: 22px;
 }
 
 img {
@@ -472,8 +472,22 @@ footer {
   max-width: 1312px;
 }
 
+.footer-content {
+  gap: 1rem;
+}
+
 .footer-content a {
   width: min-content;
+}
+
+.footer-content a:first-of-type::after {
+  content: "";
+  background: url(../images/open.png) no-repeat;
+  background-size: cover;
+  width: 16px !important;
+  height: 16px !important;
+  position: absolute;
+  margin: 1px 4px;
 }
 
 .tooltip {
@@ -528,7 +542,7 @@ footer {
     gap: 32px;
   }
   .download {
-    background-position: 0px .2rem
+    background-position: 4rem 0.2rem;
   }
   .footer-content {
     padding: 32px 24px 24px;
