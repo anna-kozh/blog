@@ -159,6 +159,12 @@ strong {
   gap: .5rem;
 }
 
+.download {
+  background: url(../images/download.png) no-repeat;
+  background-size: 1rem;
+  background-position: 0px .75rem
+}
+
 a,
 a:visited, .more {
   color: var(--primary-text-color);
@@ -515,11 +521,14 @@ footer {
     padding: 32px 24px 24px 24px;
   }
 }
-@media only screen and (max-width: 530px) and (min-width: 336px){
+@media only screen and (max-width: 530px){
   .nav {
     flex-direction: column !important;
     padding: 32px 24px 24px;
     gap: 32px;
+  }
+  .download {
+    background-position: 0px .2rem
   }
   .footer-content {
     padding: 32px 24px 24px;
@@ -527,13 +536,8 @@ footer {
 }
 
 @media only screen and (max-width: 335px) {
-  .nav {
-    flex-direction: column !important;
-    padding: 32px 24px 24px;
+  .nav_links {
+    gap: unset;
     justify-content: space-evenly;
-    gap: 32px;
-  }
-  .footer-content {
-    padding: 32px 24px 24px;
   }
 }
