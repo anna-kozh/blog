@@ -25,10 +25,10 @@
     })
 
     function copy() {
-      var copyText = document.getElementById("emailCopy").innerText;
+      let copyText = document.getElementById("emailCopy").innerText;
       navigator.clipboard.writeText(copyText);
 
-      var tooltip = document.getElementById("tooltip");
+      let tooltip = document.getElementById("tooltip");
       tooltip.innerHTML = "Copied";
       tooltip.style.display = "block";
       setTimeout(
