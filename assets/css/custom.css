@@ -85,9 +85,9 @@ h4 {
 }
 
 p {
-  all: unset;
+  /* all: unset; */
   margin: 0;
-  text-align: justify;
+  /* text-align: justify; */
   font-size: 1.4rem;
   line-height: 2rem;
 }
@@ -114,6 +114,13 @@ strong {
 
 #singlePost p {
   text-align: left;
+  text-indent: 2rem;
+}
+
+#singlePost img {
+  display: block;
+  margin: 0 auto;
+  max-width: 680px;
 }
 
 .post-stats {
@@ -310,7 +317,7 @@ span {
 }
 
 .block span {
-  text-align: justify;
+  /* text-align: justify; */
   display: block;
 }
 
@@ -341,9 +348,9 @@ span {
   gap: 1rem;
 }
 
-.post-content > :nth-child(3) {
+/* .post-content > :nth-child(3) {
   margin-top: -1rem;
-}
+} */
 
 #post-container .post-title {
   all: unset;
@@ -527,6 +534,12 @@ footer {
 @media only screen and (min-width: 729px) {
   .nav, .footer-content {
     padding: 32px 48px 24px 48px;
+  }
+}
+
+@media only screen and (max-width: 728px){
+ #singlePost img {
+    max-width: 100%;
   }
 }
 
