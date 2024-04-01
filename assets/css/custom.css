@@ -86,6 +86,7 @@ h4 {
 
 p {
   /* all: unset; */
+  hyphens: auto;
   margin: 0;
   /* text-align: justify; */
   font-size: 1.4rem;
