@@ -1,6 +1,7 @@
 # Ignore domain settings file
 CNAME
 # Ignore jekyll specific files and folders
+_config.yml
 _site/
 .sass-cache/
 .jekyll-cache/
