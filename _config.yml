@@ -28,7 +28,8 @@ baseurl: ""
 url: ""
 github_username:  anna-kozh
 
-is_under_construction: false
+is_under_construction: true
+is_local: false
 
 # Build settings
 # theme: minima
