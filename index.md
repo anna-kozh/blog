@@ -1,48 +1,51 @@
 ---
-layout: default
-title: Portfolio
-under_construction: "{{ site.is_under_construction }}"
+layout: under-construction
 ---
 
-<section id="pastExperiences">
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_simpology.webp" alt="Simpology logo" />
-        <h2 class="xpTitle">Product Owner & UI/UX Lead, Simpology</h2>
-        <p class="xpText">
-            In 2022 I joined Simpology .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
-        </p>
-        <ul class="xpLink">
-            <li><a href="{{site.baseurl}}/2024/03/10/First-post.html">Case study “Digital income”</a></li>
-            <li><a href="{{site.baseurl}}/2024/03/10/Second-post.html">Case study “Digital income”</a></li>
-            <li><a href="{{site.baseurl}}/2024/03/10/Third-post.html">Case study “Digital income”</a></li>
-        </ul>
-    </div>
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_skoolbag.webp" alt="Skoolbag logo" />
-        <h2 class="xpTitle">Product Owner & Design Lead, SkoolBag</h2>
-        <p class="xpText">
-            In 2020 I joined SkoolBag .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
-        </p>
-        <ul class="xpLink">
-            <li><a href="/posts/5">Case study “Digital income”</a></li>
-            <li><a href="/posts/5">Case study “Digital income”</a></li>
-            <li><a href="/posts/5">Case study “Digital income”</a></li>
-        </ul>
-    </div>
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_asg.webp" alt="ASG logo" />
-        <h2 class="xpTitle">Senior UX Consultant, ASG Group</h2>
-        <p class="xpText">
-            In 2016 I joined ASG Group .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
-        </p>
-        <ul class="xpLink"></ul>
-    </div>
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_voicebox.webp" alt="Voicebox logo"/>
-        <h2 class="xpTitle">UX Designer, VoiceBox Technologies</h2>
-        <p class="xpText">
-            In 2013 I joined VoiceBox Technologies .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
-        </p>
-        <ul class="xpLink"></ul>
-    </div>
-</section>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#F11CDC" />
+  <title>Anna Kozh - Under Construction</title>
+  <link rel="icon" sizes="152x152" type="image/png" href="{{site.baseurl}}/assets/images/favicon152x152.png">
+  <link rel="icon" sizes="32x32" type="image/png" href="{{site.baseurl}}/assets/images/favicon32x32.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      background: url(../assets/images/pattern.webp) repeat;
+      background-size: 60px;
+      background-color: #00000003;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Under Construction</h1>
+  <p>We're working hard to bring you something awesome. Stay tuned!</p>
+</div>
+
+</body>
+</html>

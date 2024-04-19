@@ -1,11 +1,5 @@
 {% if site.is_under_construction %}
-  {% if site.is_local %}
-    {% include header.html %}
-    <div id="content">{{ content }}</div>
-    {% include footer.html %}
-  {% else %}
     {% include under-construction.html %}
-  {% endif %}
 {% else %}
   {% include header.html %}
   <div id="content">{{ content }}</div>
