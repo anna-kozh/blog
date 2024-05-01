@@ -117,6 +117,14 @@ strong {
   text-indent: 2rem;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  text-align: center;
+}
+
 #singlePost img {
   display: block;
   margin: 0 auto;
