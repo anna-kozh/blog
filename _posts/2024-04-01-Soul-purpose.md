@@ -21,7 +21,10 @@ Our purpose with respect to what you are meant to be "doing" here in this life w
 It is understandable that by the time you are hearing this message many of you have reached a point where you are not currently living a life that makes you feel a deep sense of purpose. This is because it is so common that when we are born it is such a fight in modern society to maintain our own direction, instead we choose to adopt external values, opinions and advice from other people around us. We do this for one primary reason… we hold the illusion that happiness, worth, security, love, care and direction comes from others... when in fact it can only ever come from our true selves. By the time we are adults, most of us have become so accustomed to the effort it takes to live according to someone else's values and directions, it feels normal. In other words, though it does not feel good, it feels normal to have lost touch with our very selves.
 </p>
 <br>
-<img src="{{site.baseurl}}/assets/uploads/Soul_image.jpg" alt="You are allowed to do things differently">
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/Soul_image.jpg" alt="">
+  <figcaption>You are allowed to do things differently</figcaption>
+</figure>
 <br>
 <p style="text-align: left;">
 When you have lost touch with your true self, your purpose is lost to you as well. And so we must be willing to take a risk. We must be willing to take the risk of change and the risk of placing value on our joy. If we take this risk, we are committing to the willingness for our entire life and our entire direction to change. We are committing to our direction changing perhaps several times over the course of our lives. Only with this commitment is it possible to be truly happy and express your purpose.
