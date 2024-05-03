@@ -40,6 +40,7 @@ layout: under-construction
     }
   </style>
 </head>
+{% include analytics.html %}
 <body>
 
 <div class="container">
