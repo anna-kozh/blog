@@ -12,15 +12,20 @@
 </head>
 {% include analytics.html %}
 <body>
+    <div id="scroll-up-parent">
+        <a id="scroll-up-link" href="#">
+            <div id="scroll-up"></div>
+        </a>
+    </div>
     <div id="container">
     <div class="navbar">
-        <menu class="nav">
+        <div class="nav">
             <li class="nav-item logo">
                 <a aria-current="page" href="/">
                     <img src="{{site.baseurl}}/assets/images/logo.svg" alt="Anna kozh logo">
                 </a>
             </li>
-            <div class="nav_links">
+            <menu class="nav_links">
                 <li class="nav-item">
                     <a aria-current="page" href="{{site.baseurl}}/">Portfolio</a>
                 </li>
@@ -31,6 +36,6 @@
                     <a class="resume-placeholder " href="" alt="Download resume">
                         R&#233sum&#233</a>
                 </li>
-            </div>
-        </menu>
+            </menu>
+        </div>
     </div>
