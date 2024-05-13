@@ -3,6 +3,7 @@ layout: "single_post"
 title: "Branding tool • Story of convincing my manager"
 description: "‘Don’t change the original design,’ my Product Lead told me on day 2 in Simpology. He had designed the whole solution two years before I joined, and the team had already implemented 20% of the design. This is a story of me changing the original design."
 tag: "Case study"
+image: 
 posted: 1
 ---
 

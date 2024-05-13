@@ -8,11 +8,13 @@ under_construction: "{{ site.is_under_construction }}"
   {% for post in site.posts %}
     {% if post.posted == 1 %}
       <a class="post-title" href="{{post.url}}">
-          <div class="post{% if post.promoted == 1 %} promoted{% endif %}" data-word-count="{{ post.content | number_of_words  }}">
+          <div class="post" data-word-count="{{ post.content | number_of_words  }}">
           <div class="post-content">
-            <!-- <img class="post-image" src="{{site.baseurl}}/assets/uploads/{{post.image}}"> -->
             <h2>{{post.title}}</h2>
-            <span class="desc">{{post.description}}</span>
+            {% if post.image %}
+            <img class="post-image" src="{{site.baseurl}}/assets/uploads/{{post.image}}">
+            {% endif %}
+         <span class="desc">{{post.description}}</span>
             <div class="more">Read more</div>
             <div class="post-stats">
               {% assign formattedDate = post.date | date: "%d %b %Y" | upcase %}
