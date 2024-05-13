@@ -429,10 +429,13 @@ span {
 }
 
 #post-container .post-title {
-  all: unset;
+  /* all: unset; */
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  color: inherit;
+  border: none;
+  font-weight: inherit;
 }
 
 #post-container .post-content .desc {
