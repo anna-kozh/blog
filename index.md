@@ -15,7 +15,7 @@ layout: under-construction
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
-      background: url(../assets/images/pattern.webp) repeat;
+      background: url(../assets/images/pattern.png) repeat;
       background-size: 60px;
       background-color: #00000003;
       margin: 0;
