@@ -9,7 +9,9 @@
   --light-grey: #EEE5E9;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -19,28 +21,18 @@ html {
 }
 
 body {
-  /* display: flex;
-  flex-direction: column; */
-  gap: 1.5rem;
   margin: 0;
   padding: 0;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  position: relative;
-  min-height: 100vh;
-  /* background-color: var(--white);
-  background: url(../images/pattern.png) repeat;
-  font-family: system-ui;
-  color: var(--primary-text-color);
-  background-size: 60px;
-  background-color: #999999;
-  background-blend-mode: hard-light; */
-  /* overflow-x: hidden; */
 }
 
 #container {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  min-height: 100vh;
   background-color: var(--white);
   background: url(../images/pattern.png) repeat;
   font-family: system-ui;
@@ -74,7 +66,10 @@ body {
   background: var(--secondary-text-color);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--primary-font);
   margin: 0;
 }
@@ -141,7 +136,7 @@ p {
   padding-bottom: 1.5rem;
 }
 
-.full-width-section > * {
+.full-width-section>* {
   max-width: 780px;
 }
 
@@ -149,13 +144,13 @@ p {
   content: "";
   margin-left: calc(-100vw - 4px);
   padding-left: calc(100vw - 4px);
-  /* margin-right: calc(100vw - 4px); */
   padding-right: calc(100vw - 44px);
 }
 
 .highlighted {
   border-top: 1px solid var(--light-grey);
-  border-bottom: 1px solid var(--light-grey);;
+  border-bottom: 1px solid var(--light-grey);
+  ;
   background-color: #00000008;
 }
 
@@ -181,7 +176,6 @@ strong {
 
 #singlePost p {
   text-align: left;
-  /* text-indent: 2rem; */
 }
 
 figure {
@@ -248,7 +242,8 @@ figure {
 }
 
 a,
-a:visited, .more {
+a:visited,
+.more {
   color: var(--primary-text-color);
   border-bottom: 1px solid var(--primary-color);
   text-decoration: none;
@@ -435,7 +430,7 @@ span {
   gap: 1rem;
 }
 
-#post-container .post-content .desc{
+#post-container .post-content .desc {
   font-size: 1.4rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -512,7 +507,6 @@ span {
   height: fit-content;
   object-fit: contain;
   width: 130px;
-  /* filter: grayscale(0) contrast(1) saturate(0); */
 }
 
 .xpLink {
@@ -562,6 +556,7 @@ footer {
 
 .footer-content a {
   width: min-content;
+  text-wrap: nowrap;
 }
 
 .footer-content a:first-of-type::after {
@@ -580,41 +575,35 @@ footer {
 }
 
 #tooltip {
-  display: none;
-  width: 140px;
-  background-color: #555;
+  background-color: var(--primary-color);
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  border-bottom-right-radius: 0;
-  padding: 5px;
-  position: absolute;
+  padding: .5rem;
+  position: fixed;
   z-index: 1;
-  top: -2rem;
-  left: 100%;
+  bottom: -2rem;
+  left: 50%;
   transform: translateX(-50%);
+  transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
 }
 
-#tooltip::before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-right: 0.6rem solid transparent;
-  border-top: 0.6rem solid #555;
-  display: block;
-  position: absolute;
-  margin-top: 25px;
-  left: 5px;
+#tooltip.show {
+  bottom: 1rem;
+  opacity: 1;
 }
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 729px) {
-  .nav, .footer-content {
+
+  .nav,
+  .footer-content {
     padding: 32px 48px 24px 48px;
   }
 }
 
-@media only screen and (max-width: 728px){
+@media only screen and (max-width: 728px) {
   #singlePost {
     max-width: 780px;
     text-align: left;
@@ -623,25 +612,31 @@ footer {
     padding-right: 24px;
     overflow: hidden;
   }
- #singlePost img {
+
+  #singlePost img {
     max-width: 100%;
   }
 }
 
 @media only screen and (max-width: 728px) and (min-width: 531px) {
-  .nav, .footer-content {
+
+  .nav,
+  .footer-content {
     padding: 32px 24px 24px 24px;
   }
 }
-@media only screen and (max-width: 530px){
+
+@media only screen and (max-width: 530px) {
   .nav {
     flex-direction: column !important;
     padding: 32px 24px 24px;
     gap: 32px;
   }
+
   .download {
     background-position: 4rem 0.2rem;
   }
+
   .footer-content {
     padding: 32px 24px 24px;
   }
