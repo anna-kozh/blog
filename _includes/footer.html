@@ -38,6 +38,15 @@
           popupVisible = false;
         }, 3000)
   });
+
+  window.addEventListener("scroll", function() {
+        const scrollDiv = document.getElementById("scroll-up-parent");
+        if (window.scrollY > (window.innerHeight * 3)) {
+          scrollDiv.style.display = "flex";
+        } else {
+          scrollDiv.style.display = "none";
+        }
+      });
   </script>
 </body>
 </html>
