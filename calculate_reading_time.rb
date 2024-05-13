@@ -6,7 +6,7 @@ def calculate_reading_time(content)
   words_count = content.scan(/\w+/).size
   words_per_minute = 200 # Adjust as needed
   minutes = (words_count.to_f / words_per_minute).ceil
-  "#{minutes} minute#{minutes != 1 ? 's' : ''}"
+  "#{minutes} min"
 end
 
 # Read each post file in the _posts directory
