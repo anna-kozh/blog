@@ -40,8 +40,6 @@ body {
   font-family: system-ui;
   color: var(--primary-text-color);
   background-size: 60px;
-  background-color: #999999;
-  background-blend-mode: hard-light;
 }
 
 #container:has(#singlePost) {
