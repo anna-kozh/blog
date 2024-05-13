@@ -3,7 +3,7 @@ layout: default
 title: Portfolio
 ---
 
-<section id="pastExperiences">
+<div id="pastExperiences">
     <div class="experienceBlock">
         <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_simpology.webp" alt="Simpology logo" />
         <h2 class="xpTitle">Product Owner & UI/UX Lead, Simpology</h2>
@@ -44,4 +44,4 @@ title: Portfolio
         </p>
         <ul class="xpLink"></ul>
     </div>
-</section>
+</div>
