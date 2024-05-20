@@ -1,7 +1,7 @@
 ---
 layout: "single_post"
-title: "Branding tool • Story of convincing my manager"
-description: "‘Don’t change the original design,’ my Product Lead told me on day 2 in Simpology. He had designed the whole solution two years before I joined, and the team had already implemented 20% of the design. This is a story of me changing the original design."
+title: "Branding tool • How I convinced my manager"
+description: '"Don’t change the original design," my Product Lead told me on my second day at Simpology. He had designed the whole solution two years before I joined, and the team had already implemented 20% of the design. This is a story about how I changed the original design.'
 tag: "Case study"
 image: 
 posted: 1
@@ -18,7 +18,7 @@ posted: 1
   <p>“Loanapp” is a loan origination platform for brokers.</p>
   </div>
   <div class="overview-item">
-  <h4>DESIGN TAK</h4>
+  <h4>DESIGN TASK</h4>
   <p>Enable customers to brand the platform as their own.</p>
   </div>
   <div class="overview-item">
@@ -31,46 +31,45 @@ posted: 1
   </div>
   <div class="overview-item">
   <h4>KEY RESULT</h4>
-  <p>Reduced the time needed to create branding to just 1 minute.</p>
+  <p>Reduced the amount of time needed to create branding to just 1 minute.</p>
   </div>
 </div>
 
 <p>
-Loanapp has a highly customizable user interface, allowing customers to modify everything, from form fields to colors. Technically speaking, colors are stored in a JSON metadata file that consists of 81 variables. Previously, customers did not have an easy way to brand the platform themselves.
+Loanapp lets customers customize everything, from form fields to colors. These colors are stored in a JSON metadata file with 81 variables. Previously, customers did not have an easy way to brand the platform themselves.
 </p>
 
 <p>
-The goal of this project was to provide customers with a tool to create their own branded color scheme for the app.
+The goal of this project was to create a tool that makes it easily for customers to create their own branded color schemes for the app.
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.png" alt="Loanapp UI">
   <figcaption>Loanapp UI <a href="google.com">Figma link </a></figcaption>
 </figure>
 
-<h2>But we already have a design...</h2>
+<h2>"But we already have a design!"</h2>
 <p>
-The design for the Branding tool already existed. It was created three years ago, before any development work or research findings. Still, my Product Head was convinced that it was the best solution.
-After reviewing the design, I identified discrepancies with the current colors implementation and found usability problems. 
+The design for the branding tool already existed. It had been created three years earlier, before any development work or research findings. Still, my Product Lead was convinced that it was the best solution. After reviewing the design, I identified discrepancies with the current colors implementation and found usability problems. 
 </p>
 
 <p>
 While I'm good at finding simple, practical solutions, I struggled to effectively communicate with this manager, who was reluctant to change the design.
 </p>
 
-<div class="callout thought">How can I persuade my manager to reconsider the design?</div>
+<div class="callout thought">So how could I persuade my manager to reconsider the design?</div>
 
 <h2>
-6 months earlier...
+6 months earlier
 </h2>
 <p>
-Six months before this work was prioritised, I created an interim branding solution for customers in Figma. I created an editable library of 81 styles, along with a tutorial, so customers could easily modify the styles and create their own color scheme.
+Six months before this work was prioritised, I had created an interim branding solution for customers in Figma. That was an editable library of 81 styles, along with a tutorial, so that customers could easily modify the styles and create their own color scheme.
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/tutorial.png" alt="Tutorial UI">
   <figcaption>Branding tutorial <a href="google.com">Figma link </a></figcaption>
 </figure>
 <p>
-Although customers loved the tool, some of them lacked the skills or capacity to change the styling themselves, so they asked me to do it for them. I created around a dozen of style guides for different lenders in Australia.
+Although customers loved the tool, some of them lacked the skills or capacity to change the styling themselves, so they asked me to do it for them. I created around a dozen style guides for different lenders in Australia.
 </p>
 <p>
 After a while, I realized that I only needed three colors from the brand to create the entire set.
@@ -80,9 +79,9 @@ After a while, I realized that I only needed three colors from the brand to crea
   <figcaption>Different brand styleguides <a href="google.com">Figma link </a></figcaption>
 </figure>
 
-<h2>Fast-forward to present day</h2>
+<h2>Fast-forward to the present day</h2>
 <p>
-I reflected these findings in a design where users are asked to provide three brand colors along with corresponding text colors.
+I incorporated these findings into design where users were asked to provide three brand colors, along with corresponding text colors.
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/wizzard.png" alt="Color generator">
@@ -95,22 +94,23 @@ The six colors were used to generate all 81 colors required for the color scheme
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/mapping.png" alt="Color mapping">
   <figcaption>Colors mapping <a href="google.com">Figma link </a></figcaption>
 </figure>
-<p>This design provided users with a solid starting point, which would create the whole style guide and may only require small tweaks.
+<p>This design provided users with a solid starting point, which would help them create the whole style guide, with maybe just a few small tweaks.
 </p>
-<p>I also added a JSON editor to allow the CX team to upload the colors that was imported from Figma, which some customers still preferred to use.
+<p>I also added a JSON editor to allow the CX team to upload the colors that were imported from Figma, which some customers still preferred to use.
 </p>
-<h2>Anna, don’t change design!</h2>
+<h2>"Anna, don’t change design!"</h2>
 <p>
-I presented the design to the Product Lead, but he quickly dismissed it. Feeling frustrated, I found myself stuck with a design that was impossible to advocate for in front of developers. This led to self-doubt creeping in.
+I presented the design to the Product Lead, but he quickly dismissed it. I felt frustrated, I found myself stuck with a design that was hard to defend to actual developers. As a result, self-doubt began creeping in.
 </p>
 <div class="callout idea">I needed to find a way to persuade him.</div>
+<h2> Don't stop believing...</h2>
 <p>
-Believing I am capable of changing his mind, I decided to approach the problem systematically:
+Believing I was capable of changing his mind, I decided to approach the problem strategically:
 </p>
 <ol>
 <li>Understand why he was so reluctant to change the design?</li>
-<p>From what I've gathered, he was stretched thin, with his day packed full of meetings. As a result, revisiting the original design is not a priority for him. </p>
-<li>Find support in CX team members</li>
+<p>From what I gathered, he was stretched thin, with his day packed full of meetings. As a result, revisiting the original design was not a priority for him. </p>
+<li>Obtain some support from CX team</li>
 <ul>
 <li>Collect use cases for the tool</li>
 <li>Gather their feedback on the proposed design prototype</li>
@@ -119,33 +119,23 @@ Believing I am capable of changing his mind, I decided to approach the problem s
 <ul>
 <li>Highlight the problems with the original design</li>
 <li>Show how the proposed design solves the problems</li>
-<li>Show my findings from testing with the CX team</li>
+<li>Show my findings from testing the proposed design with the CX team</li>
 </ul>
-<li>People don’t like change, don’t change all at once.</li>
+<li>People don’t like change, so don’t change everything at once.</li>
 <p>I chose to reintroduce elements of the original design to ensure it didn’t feel like a complete overhaul. This way, it appeared as though I was enhancing the user experience rather than making drastic changes.</p>
 </ol>
 
-<div class="callout feedback">This approach helped secure buy-in from the manager.</div>
+<div class="callout feedback">This approach helped me secure buy-in from the manager.</div>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/finalui.png" alt="Final UI">
   <figcaption>Final implementation <a href="google.com">Figma link </a></figcaption>
 </figure>
 
-<h2>They think it’s great</h2>
+<h2>"It's great"</h2>
 <p>
-The Branding tool was implemented and the feedback I’ve gotten from the CX team and leadership:
+The branding tool was implemented, and this is some of feedback I received from the CX team and leadership:
  </p>
-
-<div class="callout">
-  <div class="icon idea"></div>
-  <div class="text">“It’s very helpful, I didn’t have to change the corresponding buttons individually. I think I only had to change one or 2 after that” - CX manager</div>
-</div>
-
-<div class="callout">
-  <div class="icon thought"></div>
-  <div class="text">”It’s great. I have punched in a few colours and it populates the whole style guide” - CEO</div>
-</div>
 
  <div class="callout message">“It’s very helpful, I didn’t have to change the corresponding buttons individually. I think I only had to change one or 2 after that” - CX manager</div>
 
@@ -156,7 +146,7 @@ The Branding tool was implemented and the feedback I’ve gotten from the CX tea
 What would I do differently? 
 </p>
 <ul>
-<li>Ideally, implementing a WYSIWYG tool would be a significant improvement, but it would have required more time and resources, which the company didn't have at the time. </li>
+<li>Implementing a WYSIWYG tool would have been a significant improvement, but it would have required more time and resources, which the company didn't have at the time. </li>
 <li>Instead of using a modal, which causes usability issues, I would explore alternative solutions.</li>
-<li>Additionally, I would prioritize testing with users, a step the company never seem to have time for.</li>
+<li>Additionally, I would prioritize testing with users, a step the company never seems to have time for.</li>
 </ul>
