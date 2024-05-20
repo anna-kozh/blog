@@ -6,7 +6,7 @@
   --scroll-track: #00000016;
   --white: #fff;
   --light-grey: #EEE5E9;
-  --primary-font:"Inter";
+  --primary-font:"Inter", Arial, sans-serif;
 }
 
 *,
