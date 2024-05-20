@@ -233,7 +233,8 @@ figure {
   width: 100%;
   list-style: none;
   justify-content: space-between;
-  max-width: 1312px;
+  /* max-width: 1312px; */
+  margin: 0 auto;
 }
 
 menu {
@@ -735,10 +736,18 @@ ul li {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 829px) {
+@media only screen and (min-width: 1408px) {
   .nav,
   .footer-content {
-    padding: 2rem 24px 4rem;
+    max-width: 1312px;
+    padding: 2rem 0px 4rem;
+  }
+}
+
+@media only screen and (min-width: 828px) and (max-width: 1407px) {
+  .nav,
+  .footer-content {
+    padding: 2rem 48px 4rem;
   }
 }
 
@@ -747,9 +756,6 @@ ul li {
     max-width: 780px;
     text-align: left;
     align-self: center;
-    padding-left: 24px;
-    padding-right: 24px;
-    overflow: hidden;
   }
 
   #singlePost img {
@@ -774,14 +780,18 @@ ul li {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
 }
-
 
 @media only screen and (max-width: 828px) and (min-width: 531px) {
   .nav,
   .footer-content {
     padding: 2rem 24px 4rem;
+  }
+
+  #singlePost {
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
@@ -794,6 +804,11 @@ ul li {
 
   .download {
     background-position: 4.2rem 0.2rem;
+  }
+
+  #singlePost {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .footer-content {
