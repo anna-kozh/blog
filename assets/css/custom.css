@@ -15,21 +15,21 @@
   box-sizing: inherit;
 }
 
-
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Inter-Regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../fonts/Inter-Regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */}
+  src: 
+    url('../fonts/Inter-Regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/Inter-Regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */}
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   src: 
-       url('../fonts/Inter-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../fonts/Inter-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('../fonts/Inter-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/Inter-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
 }
 
 @font-face {
@@ -37,10 +37,9 @@
   font-style: italic;
   font-weight: 400;
   src: 
-       url('../fonts/Inter-Italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../fonts/Inter-Italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('../fonts/Inter-Italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/Inter-Italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
 }
-
 
 html {
   box-sizing: border-box;
@@ -544,7 +543,6 @@ span {
 
 .xpText {
   margin: 0 0 1rem;
-
 }
 
 .xpLink {
@@ -639,6 +637,7 @@ footer h2 {
 .footer-content a {
   width: min-content;
   text-wrap: nowrap;
+  
 }
 
 .footer-content a:first-of-type::after {
@@ -736,7 +735,50 @@ ul li {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 531px) {
+@media only screen and (min-width: 829px) {
+  .nav,
+  .footer-content {
+    padding: 2rem 24px 4rem;
+  }
+}
+
+@media only screen and (max-width: 828px) {
+  #singlePost {
+    max-width: 780px;
+    text-align: left;
+    align-self: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+  }
+
+  #singlePost img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  #scroll-up-parent:hover #scroll-up-link {
+    background-color: var(--primary-color);
+    border-color: var(--white);
+  }
+  #scroll-up-parent:hover #scroll-up {
+    border-color: var(--white);
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 828px) and (min-width: 531px) {
   .nav,
   .footer-content {
     padding: 2rem 24px 4rem;
@@ -749,36 +791,11 @@ ul li {
     padding: 32px 24px 24px;
     gap: 1.5rem;
   }
+
   .download {
     background-position: 4.2rem 0.2rem;
   }
-  h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-  #singlePost {
-    max-width: 780px;
-    text-align: left;
-    align-self: center;
-    padding-left: 24px;
-    padding-right: 24px;
-    overflow: hidden;
-  }
-  #singlePost img {
-    width: 100%;
-    object-fit: contain;
-  }
-  #scroll-up-parent:hover #scroll-up-link {
-    background-color: var(--primary-color);
-    border-color: var(--white);
-  }
-  #scroll-up-parent:hover #scroll-up {
-    border-color: var(--white);
-  }
+
   .footer-content {
     padding: 4rem 24px 4rem;
   }
