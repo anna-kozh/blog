@@ -140,6 +140,7 @@ figcaption{
 
 figcaption a {
   margin-left: 0.3rem;
+  font-style: normal;
 }
 
 p {
@@ -277,6 +278,7 @@ a:visited,
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.3rem;
+  letter-spacing: 0.3px;
   color: var(--primary-text-color);
 }
 
@@ -451,6 +453,7 @@ span {
   color: inherit;
   border: none;
   font-weight: inherit;
+  letter-spacing: normal;
 }
 
 #post-container h2 {
