@@ -6,19 +6,19 @@ title: Portfolio
 <div id="pastExperiences">
     <div class="experienceBlock">
         <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_simpology.webp" alt="Simpology logo" />
-        <h2 class="xpTitle">Product Owner & UI/UX Lead, Simpology</h2>
+        <h2 class="xpTitle">Lead UX/UI Designer, Simpology</h2>
         <p class="xpText">
             In 2022 I joined Simpology .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
         </p>
         <ul class="xpLink">
             <li><a href="{{site.baseurl}}/2024/05/13/Branding-tool.html">Branding tool • How I convinced my manager</a></li>
-            <li><a href="{{site.baseurl}}/2024/03/10/Second-post.html">Case study “Digital income”</a></li>
+            <li><a href="{{site.baseurl}}/2024/03/10/Second-post.html">Designing multi-brand app</a></li>
             <li><a href="{{site.baseurl}}/2024/03/10/Third-post.html">Case study “Digital income”</a></li>
         </ul>
     </div>
     <div class="experienceBlock">
         <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_skoolbag.webp" alt="Skoolbag logo" />
-        <h2 class="xpTitle">Product Owner & Design Lead, SkoolBag</h2>
+        <h2 class="xpTitle">Product Owner & Lead UX/UI Designer, SkoolBag</h2>
         <p class="xpText">
             In 2020 I joined SkoolBag .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
         </p>

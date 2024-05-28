@@ -111,7 +111,7 @@ Believing I was capable of changing his mind, I decided to approach the problem 
 <li>People don’t like change, so don’t change everything at once</li>
 <p>I chose to reintroduce elements of the original design so it didn’t feel like a complete overhaul. This way, I was enhancing the user experience rather than making drastic changes.</p>
 <li>Be clear and concise</li>
-<p>I chose to present my idea by highlighting "what I have added", instead of focusing on "what is wrong with the current design".</p>
+<p>I presented my idea by highlighting "what I have added", instead of focusing on "what is wrong with the current design".</p>
 </ol>
 
 <div class="callout feedback">This approach helped me secure buy-in from the manager.</div>
