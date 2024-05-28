@@ -23,7 +23,7 @@ posted: 1
   </div>
   <div class="overview-item">
   <h4>ROLE</h4>
-  <p>Lead UX Designer / Product Owner</p>
+  <p>Lead UX Designer</p>
   </div>
   <div class="overview-item">
   <h4>PLATFORM</h4>
@@ -44,7 +44,7 @@ The goal of this project was to create a tool that makes it easily for customers
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1">Figma link </a></figcaption>
+  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
 <h2>"But we already have a design!"</h2>
@@ -66,7 +66,7 @@ Six months before this work was prioritised, I had created an interim branding s
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/tutorial.webp" width= "780px" alt="Tutorial UI">
-  <figcaption>Branding tutorial <a href="https://www.figma.com/design/DsjLnz3zZpxPaqpLwq0INV/Tutorial?node-id=0-1&t=Wq3v12LAkzW2PP3t-1">Figma link </a></figcaption>
+  <figcaption>Branding tutorial <a href="https://www.figma.com/design/DsjLnz3zZpxPaqpLwq0INV/Tutorial?node-id=0-1&t=Wq3v12LAkzW2PP3t-1" target="_blank">Figma link </a></figcaption>
 </figure>
 <p>
 Although customers loved the tool, some of them lacked the skills or capacity to change the styling themselves, so they asked me to do it for them. I created around a dozen style guides for different lenders in Australia.
@@ -81,7 +81,7 @@ I incorporated these findings into design where users were asked to provide thre
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/generator.webp" width="780px" alt="Color generator">
-  <figcaption>Color generator <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-6332&t=1RmVXoVAVUM0o5ET-1">Figma link </a></figcaption>
+  <figcaption>Color generator <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-6332&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
 </figure>
 <p>
 The six colors were used to generate all 81 colors required for the color scheme, based on the mapping I created. For example:
@@ -99,33 +99,26 @@ The six colors were used to generate all 81 colors required for the color scheme
 I presented the design to the Product Lead, but he quickly dismissed it. I felt frustrated, I found myself stuck with a design that was hard to defend to actual developers. As a result, self-doubt began creeping in.
 </p>
 <div class="callout idea">I needed to find a way to persuade him.</div>
-<h2> Don't stop believing...</h2>
+<h2> Let's get strategic</h2>
 <p>
 Believing I was capable of changing his mind, I decided to approach the problem strategically:
 </p>
 <ol>
-<li>Understand why he was so reluctant to change the design?</li>
-<p>From what I gathered, he was stretched thin, with his day packed full of meetings. As a result, revisiting the original design was not a priority for him. </p>
-<li>Obtain some support from CX team</li>
-<ul>
-<li>Collect use cases for the tool</li>
-<li>Gather their feedback on the proposed design prototype</li>
-</ul>
-<li>Prepare a document to present</li>
-<ul>
-<li>Highlight the problems with the original design</li>
-<li>Show how the proposed design solves the problems</li>
-<li>Show my findings from testing the proposed design with the CX team</li>
-</ul>
-<li>People don’t like change, so don’t change everything at once.</li>
-<p>I chose to reintroduce elements of the original design to ensure it didn’t feel like a complete overhaul. This way, it appeared as though I was enhancing the user experience rather than making drastic changes.</p>
+<li>Understand why he was so reluctant to change the design</li>
+<p>From what I gathered, he was stretched thin, with his day packed full of meetings. As a result, revisiting the original design was not a priority for him.  </p>
+<li>Gather data</li>
+<p>I tested my prototype with the CX team and collected their supportive feedback on my ideas.</p>
+<li>People don’t like change, so don’t change everything at once</li>
+<p>I chose to reintroduce elements of the original design so it didn’t feel like a complete overhaul. This way, I was enhancing the user experience rather than making drastic changes.</p>
+<li>Be clear and concise</li>
+<p>I chose to present my idea by highlighting "what I have added", instead of focusing on "what is wrong with the current design".</p>
 </ol>
 
 <div class="callout feedback">This approach helped me secure buy-in from the manager.</div>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/finalui.webp" width= "780px" alt="Final UI">
-  <figcaption>Final implementation <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-4852&t=1RmVXoVAVUM0o5ET-1">Figma link </a></figcaption>
+  <figcaption>Final implementation <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-4852&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
 <h2>"It's great"</h2>
@@ -137,12 +130,9 @@ The branding tool was implemented, and this is some of feedback I received from 
 
   <div class="callout message">”It’s great. I have punched in a few colours and it populates the whole style guide” - CEO</div>
 
-<h2> Could have, would have...</h2>
-<p> 
-What would I do differently? 
-</p>
+<h2> What would I do differently?</h2>
 <ul>
 <li>Implementing a WYSIWYG tool would have been a significant improvement, but it would have required more time and resources, which the company didn't have at the time. </li>
 <li>Instead of using a modal, which causes usability issues, I would explore alternative solutions.</li>
-<li>Additionally, I would prioritize testing with users, a step the company never seems to have time for.</li>
+<li>Additionally, I would prioritize testing with users.</li>
 </ul>
