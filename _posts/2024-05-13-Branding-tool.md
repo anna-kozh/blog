@@ -121,7 +121,7 @@ Believing I was capable of changing his mind, I decided to approach the problem 
   <figcaption>Final implementation <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-4852&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
-<h2>"It's great"</h2>
+<h2>"It's great!ç"</h2>
 <p>
 The branding tool was implemented, and this is some of feedback I received from the CX team and leadership:
  </p>
