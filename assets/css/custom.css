@@ -640,6 +640,7 @@ footer h2 {
 .footer-content a {
   width: min-content;
   text-wrap: nowrap;
+  white-space: nowrap;
   
 }
 
