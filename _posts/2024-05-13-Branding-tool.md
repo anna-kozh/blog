@@ -23,7 +23,7 @@ posted: 1
   </div>
   <div class="overview-item">
   <h4>ROLE</h4>
-  <p>Lead UX Designer</p>
+  <p>Lead UX/UI Designer</p>
   </div>
   <div class="overview-item">
   <h4>PLATFORM</h4>
