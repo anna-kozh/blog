@@ -43,8 +43,8 @@ Loanapp lets customers customize everything, from form fields to colors. These c
 The goal of this project was to create a tool that makes it easily for customers to create their own branded color schemes for the app.
 </p>
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.png" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="google.com">Figma link </a></figcaption>
+<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
+  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1">Figma link </a></figcaption>
 </figure>
 
 <h2>"But we already have a design!"</h2>
@@ -65,8 +65,8 @@ While I'm good at finding simple, practical solutions, I struggled to effectivel
 Six months before this work was prioritised, I had created an interim branding solution for customers in Figma. That was an editable library of 81 styles, along with a tutorial, so that customers could easily modify the styles and create their own color scheme.
 </p>
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/tutorial.png" alt="Tutorial UI">
-  <figcaption>Branding tutorial <a href="google.com">Figma link </a></figcaption>
+<img src="{{site.baseurl}}/assets/uploads/Branding-tool/tutorial.webp" width= "780px" alt="Tutorial UI">
+  <figcaption>Branding tutorial <a href="https://www.figma.com/design/DsjLnz3zZpxPaqpLwq0INV/Tutorial?node-id=0-1&t=Wq3v12LAkzW2PP3t-1">Figma link </a></figcaption>
 </figure>
 <p>
 Although customers loved the tool, some of them lacked the skills or capacity to change the styling themselves, so they asked me to do it for them. I created around a dozen style guides for different lenders in Australia.
@@ -74,25 +74,21 @@ Although customers loved the tool, some of them lacked the skills or capacity to
 <p>
 After a while, I realized that I only needed three colors from the brand to create the entire set.
 </p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/dozenui.png" alt="Dozen of brandings">
-  <figcaption>Different brand styleguides <a href="google.com">Figma link </a></figcaption>
-</figure>
 
 <h2>Fast-forward to the present day</h2>
 <p>
 I incorporated these findings into design where users were asked to provide three brand colors, along with corresponding text colors.
 </p>
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/wizzard.png" alt="Color generator">
-  <figcaption>Color generator <a href="google.com">Figma link </a></figcaption>
+<img src="{{site.baseurl}}/assets/uploads/Branding-tool/generator.webp" width="780px" alt="Color generator">
+  <figcaption>Color generator <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-6332&t=1RmVXoVAVUM0o5ET-1">Figma link </a></figcaption>
 </figure>
 <p>
-The six colors were used to generate all 81 colors required for the color scheme, based on the mapping I created.
+The six colors were used to generate all 81 colors required for the color scheme, based on the mapping I created. For example:
 </p>
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/mapping.png" alt="Color mapping">
-  <figcaption>Colors mapping <a href="google.com">Figma link </a></figcaption>
+<img src="{{site.baseurl}}/assets/uploads/Branding-tool/mapping.webp" width="414px" height="244px" alt="Color mapping">
+  <figcaption>Colors mapping </figcaption>
 </figure>
 <p>This design provided users with a solid starting point, which would help them create the whole style guide, with maybe just a few small tweaks.
 </p>
@@ -128,8 +124,8 @@ Believing I was capable of changing his mind, I decided to approach the problem 
 <div class="callout feedback">This approach helped me secure buy-in from the manager.</div>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/finalui.png" alt="Final UI">
-  <figcaption>Final implementation <a href="google.com">Figma link </a></figcaption>
+<img src="{{site.baseurl}}/assets/uploads/Branding-tool/finalui.webp" width= "780px" alt="Final UI">
+  <figcaption>Final implementation <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-4852&t=1RmVXoVAVUM0o5ET-1">Figma link </a></figcaption>
 </figure>
 
 <h2>"It's great"</h2>
