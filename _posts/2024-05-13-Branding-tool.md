@@ -1,6 +1,6 @@
 ---
 layout: "single_post"
-title: "Branding tool • How I convinced my manager"
+title: "How I convinced my stubborn manager"
 description: '"Don’t change the original design," my Product Lead told me on my second day at Simpology. He had designed the whole solution two years before I joined, and the team had already implemented 20% of the design. This is a story about how I changed the original design.'
 tag: "Case study"
 image: 
@@ -36,7 +36,7 @@ posted: 1
 </div>
 
 <p>
-Loanapp lets customers customize everything, from form fields to colors. These colors are stored in a JSON metadata file with 81 variables. Previously, customers did not have an easy way to brand the platform themselves.
+Loanapp is a web platform for Australian lenders to create and evaluate home loan applications. It lets customers customize everything, from form fields to colors. These colors are stored in a JSON metadata file with 81 variables. Previously, customers did not have an easy way to brand the platform themselves.
 </p>
 
 <p>
