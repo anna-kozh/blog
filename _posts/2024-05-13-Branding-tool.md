@@ -40,7 +40,7 @@ Loanapp is a web platform for Australian lenders to create and evaluate home loa
 </p>
 
 <p>
-The goal of this project was to create a tool that makes it easily for customers to create their own branded color schemes for the app.
+The goal of this project was to create a tool that makes it easy for customers to create their own branded color schemes for the app.
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
