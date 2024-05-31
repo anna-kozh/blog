@@ -54,7 +54,7 @@ I inherited a dozen Figma files, each with its own local library of colors and f
 </p>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/White-label/Old.webp" width= "780px" alt="Old file structure">
+<img src="{{site.baseurl}}/assets/uploads/White-label/old.webp" width= "780px" alt="Old file structure">
   <figcaption>Each file had a local library </figcaption>
 </figure>
 
