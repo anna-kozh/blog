@@ -1,6 +1,6 @@
 ---
 layout: "single_post"
-title: "Creating multi-brand white label design system"
+title: "Creating a multi-brand white label design system"
 description: "Developers hate guessing design. Trying to work with an outdated, inconsistent design file can literally make them pull their hair out. This is the chaos I walked into. This is the story of how I transformed it into a multi-library, white-label design system."
 tag: "Case study"
 image: 
@@ -27,9 +27,9 @@ posted: 1
   <div class="overview-item">
   <h4>KEY RESULTS</h4>
   <p><ul>
-  <li>New design file structure is easier to navigate and maintain</li>
+  <li>The new design file structure is easier to navigate and maintain</li>
   <li>Design deliverables are more consistent and clear </li>
-  <li>Feature turn around sped up significantly</li>
+  <li>Feature turnaround sped up significantly</li>
   <li>Branding a product file is now a 2-second task</li>
   </ul>
   </p>
@@ -46,11 +46,11 @@ When I joined the company, there was a significant disconnect between design and
 </p>
 
 <p>
-Throughout the iterations, design has evolved, component libraries were adopted, customers brandings were created - but the design files stayed the same.
+Throughout the iterations, design has evolved, component libraries were adopted, and customers brandings were created - but the design files stayed the same.
 </p>
 
 <p>
-I inherited a dozen Figma files, each with its own local library of colors and fonts. Every task became unnesseasiriky time-consuming, whether it was branding a file for a customer or detailing the interaction flow for the team.
+I inherited a dozen Figma files, each with its own local library of colors and fonts. Every task became unnecessarily time-consuming, whether it was branding a file for a customer or detailing the interaction flow for the team.
 </p>
 
 <figure>
@@ -78,7 +78,7 @@ In Simpology, like any fast-growing company, design debt wasn't a high priority.
 
 
 <h2> It’s an improvement </h2>
-<p>The team now had a design file that reflected the current state. All new features were now designed using existing components and matching libraries.</p>
+<p>The team now had design files that reflected the current state. All new features were now designed using existing components and matching libraries.</p>
 <strong>That worked pretty well, but had a few flaws: </strong>
 <ul>
 <li>Swapping libraries only worked on finished wireframes. Any change would revert a component to its original library. </li>
@@ -108,14 +108,14 @@ During Figma Config 2023 a life-changing feature “Variables” was announced.
 This works much better
 </h2>
 <ul>
-<li>Redranding an app takes one click (ok, maybe 2)  </li>
+<li>Rebranding an app takes one click (ok, maybe 2)  </li>
 <p><a href="https://www.figma.com/design/zwLj0ZkWJvXSODN0AX57KZ/Demo?node-id=2-3384&t=rycZU5uNcaMOWZgI-1" target="_blank">See Demo (Figma file)</a></p>
 <li>Working on the branded file no longer disrupts the styles </li>
 <li>Maintaining the color schemes is very easy now - they are all in one table.</li>
 </ul>
 
 <h2>
-Design system is not enough
+Design system is not enough!
 </h2>
 <p>Creating a design system is one thing, but ensuring everyone in the company actually uses it is another challenge altogether. Keeping implementation and design aligned requires ongoing effort: </p>
 
