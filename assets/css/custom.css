@@ -520,7 +520,7 @@ span {
 #pastExperiences {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 4.5rem;
   max-width: 780px;
   margin: 0 24px;
   width: 100%;
