@@ -12,7 +12,7 @@ title: Portfolio
         </p>
         <ul class="xpLink">
             <li><a href="{{site.baseurl}}/2024/05/13/Branding-tool.html">How I convinced my stubborn manager</a></li>
-            <li><a href="{{site.baseurl}}/2024/05/30/White-label.html">Creating a multi-brand white label design system</a></li>
+            <li><a href="{{site.baseurl}}/2024/05/30/White-label.html">Creating multi-brand white label design system</a></li>
         </ul>
     </div>
     <div class="experienceBlock">
