@@ -202,6 +202,23 @@ figure {
   text-align: center;
 }
 
+.video-container {
+  position:relative;
+  width: 100%;
+  height:0;
+  padding-bottom:56.25%;
+}
+
+.video-container iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 #singlePost img {
   display: block;
   margin: 0 auto;
@@ -371,6 +388,8 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+
 
 video {
   pointer-events: none;
@@ -761,8 +780,15 @@ ul li {
     align-self: center;
   }
 
+  
   #singlePost img {
     width: 100%;
+    object-fit: contain;
+  }
+
+  .video-container {
+    width: 100%; 
+    aspect-ratio:16/9;
     object-fit: contain;
   }
 

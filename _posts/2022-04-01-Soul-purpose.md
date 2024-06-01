@@ -4,7 +4,7 @@ title: "Soul purpose"
 description: 'The purpose of life is to live it - to be immersed in that which we call "experience" to such a degree that we may know what it is that we truly want.'
 tag: "Personal"
 image: "Soul_image.jpg"
-posted: 1
+posted: 0
 ---
 
 <div class="full-width-section highlighted project-overview">
