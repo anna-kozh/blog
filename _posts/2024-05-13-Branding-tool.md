@@ -49,7 +49,7 @@ The goal of this project was to create a tool that makes it easy for customers t
 
 <h2>"But we already have a design!"</h2>
 <p>
-The design for the branding tool already existed. It had been created three years earlier, before any development work or research findings. Still, my Product Lead was convinced that it was the best solution. After reviewing the design, I identified discrepancies with the current colors implementation and found usability problems. 
+The design for the branding tool already existed. It had been created three years earlier, before any development work or research findings. Still, my Product Lead was convinced that it was the best solution. After reviewing the design, I identified discrepancies with the current color implementation and found usability problems. 
 </p>
 
 <p>
@@ -62,7 +62,7 @@ While I'm good at finding simple, practical solutions, I struggled to effectivel
 6 months earlier
 </h2>
 <p>
-Six months before this work was prioritised, I had created an interim branding solution for customers in Figma. That was an editable library of 81 styles, along with a tutorial, so that customers could easily modify the styles and create their own color scheme.
+Six months before this work was prioritized, I had created an interim branding solution for customers in Figma. That was an editable library of 81 styles, along with a tutorial, so that customers could easily modify the styles and create their own color scheme.
 </p>
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Branding-tool/tutorial.webp" width= "780px" alt="Tutorial UI">
@@ -123,7 +123,7 @@ Believing I was capable of changing his mind, I decided to approach the problem 
 
 <h2>"It's great!"</h2>
 <p>
-The branding tool was implemented, and this is some of feedback I received from the CX team and leadership:
+The branding tool was implemented, and this is some of the feedback I received from the CX team and leadership:
  </p>
 
  <div class="callout message">“It’s very helpful, I didn’t have to change the corresponding buttons individually. I think I only had to change one or 2 after that” - CX manager</div>
