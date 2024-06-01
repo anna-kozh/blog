@@ -108,7 +108,7 @@ During Figma Config 2023 a life-changing feature “Variables” was announced.
 This works much better
 </h2>
 <ul>
-<li>Rebranding an app takes one click (ok, maybe 2)  </li>
+<li>Rebranding an app takes one click (ok, maybe two)  </li>
 <p><a href="https://www.figma.com/design/zwLj0ZkWJvXSODN0AX57KZ/Demo?node-id=2-3384&t=rycZU5uNcaMOWZgI-1" target="_blank">See Demo (Figma file)</a></p>
 <li>Working on the branded file no longer disrupts the styles </li>
 <li>Maintaining the color schemes is very easy now - they are all in one table.</li>
