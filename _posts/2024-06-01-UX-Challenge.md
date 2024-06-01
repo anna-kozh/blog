@@ -32,7 +32,7 @@ posted: 1
 <p>Potentially, if the secondary action icon was smaller in size, it would be easier to read. I would test this option.</p>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Ux-challenge/quick.webp" width= "350px" alt="Quick soltuion">
+<img src="{{site.baseurl}}/assets/uploads/Ux-challenge/fast.webp" width= "350px" alt="Quick soltuion">
   <figcaption>Quick solution</figcaption>
 </figure>
 
