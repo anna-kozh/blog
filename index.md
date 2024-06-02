@@ -46,6 +46,6 @@ layout: under-construction
   <h1>Under Construction</h1>
   <p>We're working hard to bring you something awesome. Stay tuned!</p>
 </div>
-{% include hotjar.html %}
+
 </body>
 </html>
