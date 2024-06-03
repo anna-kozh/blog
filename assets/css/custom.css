@@ -442,7 +442,7 @@ span {
   display: flex;
   flex-direction: column;
   margin: 0 24px;
-  align-items: center;
+  align-items: start;
   gap: 3em;
 }
 
@@ -556,7 +556,7 @@ span {
   flex-direction: column;
   gap: 1rem;
   text-align: left;
-  align-self: center;
+  /* align-self: center; */
 }
 
 .xpLogo {
