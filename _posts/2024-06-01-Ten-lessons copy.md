@@ -17,10 +17,10 @@ posted: 1
 <p> Don’t just rely on an “expert opinion” or “instincts” - test your designs and hypothesis, even if it’s with a couple of less-involved coworkers. Beware of the confirmation bias.  </p>
 
 <li><strong>Keep learning, keep upskilling</strong></li>
-<p> <a href="https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA" target="_blank">Figma Youtube </a> channel has a gazillion videos. Also, many experts in the field generously share their knowledge for free. I like to follow <a href="https://adamsilver.io" target="_blank">Adam Silver</a> journey through form mastery.  </p>
+<p> <a href="https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA" target="_blank">Figma YouTube </a> channel has a gazillion videos. Also, many experts in the field generously share their knowledge for free. I like to follow <a href="https://adamsilver.io" target="_blank">Adam Silver</a> journey through form mastery.  </p>
 
 <li><strong>It’s not about making it easy for yourself</strong></li>
-<p> It’s about serving the team and development process. Your Figma file user is also a Product Manager, a BA, a Developer, and a PR manager - think about them when working on your deliverables. </p>
+<p> It’s about serving the team and the development process. Your Figma file user is also a Product Manager, a BA, a Developer, and a PR manager - think about them when working on your deliverables. </p>
 
 <li><strong>Designer is not an artist</strong></li>
 <p> She is an engineer working in a constrained environment of frameworks, business goals, and time restraints. We’re not here trying to win an Oscar for the best UI; we want our feature to be easy to implement, easy to use, and make revenue for the company. </p>
