@@ -22,6 +22,7 @@ title: Portfolio
             In 2020 I joined SkoolBag .....Lorem ipsum dolor sit amet consectetur. Eget consequat luctus a dui eu morbi eget dui arcu. Id ac justo odio felis eu. Consectetur sit ornare nisl cras. Lobortis massa nibh eget a.
         </p>
         <ul class="xpLink">
+            <li><a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html">Feature updates videos</a></li>
             <li><a href="{{site.baseurl}}/2024/06/06/Parent-app.html">Failure of my “brilliant idea”</a></li>
             <li><a href="/posts/5">Migrating customers v1 to v2</a></li>
         </ul>
