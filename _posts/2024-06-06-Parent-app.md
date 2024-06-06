@@ -55,7 +55,7 @@ posted: 1
 
 <h2>Log in issues</h2>
 <p>
-Even though it was straightforward, we were getting a lot of complaints from parents about difficulties logging into the app.  
+Even though the registration was straightforward, we frequently received tickets related to parents being unable to log into the app.
 </p>
 
 <p>
@@ -69,7 +69,7 @@ After conducting research, we identified two problems with our implementation:
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Parent-app/problems.webp" width= "780px" alt="Types of users in trouble">
-  <figcaption>User groups in trouble </figcaption>
+  <figcaption>User groups that couldn't log in </figcaption>
 </figure>
 
 <p>
@@ -89,9 +89,9 @@ One-Time Passwords (OTP) were getting more common and provided an effective log 
 </p>
 <strong>Implementing OTPs offered several advantages:</strong>
 <ul>
-<li>Replaced the outdated and clunky confirmation flow</li>
-<li>Served as an alternative way to log in, for both UNCONFIRMED and PASSWORD_RESER users</li>
-<li>Decreased the need for password resets</li>
+<li>OTP replaced the outdated and clunky confirmation flow</li>
+<li>It served as an alternative way to log in, for both UNCONFIRMED and PASSWORD_RESET users</li>
+<li>It decreased the need for password resets</li>
 <li>During the signup, it kept users within the app, which decreased the number of UNCONFIRMED users</li>
 </ul>
 
@@ -103,14 +103,14 @@ One-Time Passwords (OTP) were getting more common and provided an effective log 
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Parent-app/other-brands.webp" width= "780px" alt="Other brands with the pattern">
-  <figcaption>Combined sign up and log in (examples)</figcaption>
+  <figcaption>Some larger companies combined sing up/log in</figcaption>
 </figure>
 
 <p>In theory, it was supposed to work great for all the use cases and it seemed to make login and signup extra simple.</p>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Parent-app/flow.webp" width= "780px" alt="New flow">
-  <figcaption>New sign up / log in flow <a href="https://www.figma.com/design/kLQ8wJHkAUPwGua5OaP4nx/SkoolBag---Sign-up-%2F-Log-in?node-id=49-6622&t=zAYPYrevHo06SFPo-1" target="_blank">Figma link </a></figcaption>
+  <figcaption>New SkoolBag sign up/log in flow <a href="https://www.figma.com/design/kLQ8wJHkAUPwGua5OaP4nx/SkoolBag---Sign-up-%2F-Log-in?node-id=49-6622&t=zAYPYrevHo06SFPo-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
 
@@ -122,7 +122,7 @@ After a while, we started receiving feedback from parents saying:
 <div class="callout message">How do I register on the app? I only see the Login.</div>
 
 <strong>
-This is what happened
+This is what happened:
 </strong>
 <ul>
 <li>The solution broke users’ mental model: most users are used to seeing either Login or Signup options on the web. </li>
@@ -131,6 +131,6 @@ This is what happened
 </ul>
 
 <h2>Lessons learned</h2>
-<p>Even “brilliant ideas” need to be tested. Even widely used patterns should undergo testing. Aim for simplicity with established mental models.</p>
+<p>Even “brilliant ideas” need to be tested. Even widely used patterns should undergo testing with your users. Aim for simplicity with established mental models.</p>
 
 <div class="callout idea">I was too busy feeling like a great innovator, that I forgot to ask my users if they liked the innovation.</div>
