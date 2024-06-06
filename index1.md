@@ -23,8 +23,8 @@ title: Portfolio
         </p>
         <ul class="xpLink">
             <li><a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html">Feature updates videos</a></li>
-            <li><a href="/posts/5">Case study “Digital income”</a></li>
-            <li><a href="/posts/5">Case study “Digital income”</a></li>
+            <li><a href="{{site.baseurl}}/2024/06/06/Parent-app.html">Failure of my “brilliant idea”</a></li>
+            <li><a href="/posts/5">Migrating customers v1 to v2</a></li>
         </ul>
     </div>
     <div class="experienceBlock">
