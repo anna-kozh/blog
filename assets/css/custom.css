@@ -152,6 +152,10 @@ p {
   margin: 1rem 0;
 }
 
+strong {
+  font-weight:700;
+}
+
 .project-overview p {
   text-indent: 0 !important;
   margin-bottom: 2rem;
