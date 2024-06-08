@@ -78,7 +78,7 @@ This approach had multiple advantages:
 Design strategy
 </h2>
 <p>
-Redesigning the entire system was necessary to achieve several goals, such as making the system responsive to different devices, improving user experience, optimizing performance, and incorporating the new Angular Material framework.</p>
+Redesigning the entire system was necessary to achieve several goals, such as making the system responsive, improving user experience, optimizing performance, and incorporating the new Angular Material framework.</p>
 <p>In the design process, I embraced an iterative approach, which really challenged my inner perfectionist:</p>
 <ul>
 <li>Sticking to an MVP-like approach to design quality and feature prioritization</li>
@@ -99,7 +99,7 @@ Redesigning the entire system was necessary to achieve several goals, such as ma
 <h2>Wearing multiple hats </h2>
 <p>In SkoolBag we functioned like a startup with a small team including the CEO, Head of Product, developers, QA, CX team, and myself. This exposed me to all aspects of the business, allowing me an invaluable learning experience during my two years in the role. </p>
 
-<p> In addition to my role, I stepped in as a Product Owner, managing requirement writing and joining feature prioritization discussions. I would kick off work with the dev team through feature reviews and provide ongoing support during feature development.</p>
+<p> In addition to my role, I stepped in as a Product Owner, managing requirement writing and joining feature prioritization discussions. I would kick off work with the dev team through feature reviews and provide them with ongoing support during feature development.</p>
 
 <p>Ensuring quality, I conducted PR reviews and tested the dev work, often having fun at those late-night debugging sessions with the team. </p>
 
@@ -117,7 +117,7 @@ Redesigning the entire system was necessary to achieve several goals, such as ma
 </figure>
 
 <h2>Mindset shift </h2>
-<p>Two years in SkoolBag completely changed my perspective on the development process. With the help of my manager, I adopted a growth mindset. I learned not to be afraid to make mistakes. Understanding that everything I design will evolve and grow over time. I realized that striving for perfection is futile. </p>
+<p>Two years in SkoolBag completely changed my perspective on the development process. With the help of my manager, I adopted a growth mindset. I learned not to be afraid to make mistakes. Understanding that everything I design will evolve and grow over time, striving for perfection is futile. </p>
 
 <div class="callout idea">A growth mindset is the opposite of perfectionism.</div>
 
