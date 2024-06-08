@@ -10,7 +10,7 @@ posted: 1
 <div class="full-width-section highlighted project-overview">
   <div class="overview-item">
   <h4>COMPANY</h4>
-  <p>"SkoolBag" is a communication platform connecting schools with parents.</p>
+  <p>"SkoolBag" is a communication platform connecting schools and parents.</p>
   </div>
   <div class="overview-item">
   <h4>PRODUCT</h4>
@@ -41,7 +41,7 @@ posted: 1
 <p>
 “SkoolBag” (now “Audiri”) is a communication platform, where the two main products are:
 <ul>
-  <li>Admin console (content creation web app)</li>
+  <li>School admin console (content creation web app)</li>
   <li>Parent app (content interaction mobile app)</li>
   </ul>
 </p>
