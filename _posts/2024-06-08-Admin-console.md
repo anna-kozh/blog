@@ -1,7 +1,7 @@
 ---
 layout: "single_post"
 title: "Death of perfectionist"
-description: "'I can't release a product unless it's perfect,' I used to think. But when I had a year to move 1,000 schools and 500,000 parents to a new platform that didn't exist yet, my perfectionism had to take a back seat."
+description: '"I can&#x2019t release a product unless it&#x2019s perfect," I used to think. But when I had a year to move 1,000 schools and 500,000 parents to a new platform that didn&#x2019t exist yet, my perfectionism had to take a back seat.'
 tag: "Case study"
 image: 
 posted: 1
@@ -106,7 +106,7 @@ Redesigning the entire system was necessary to achieve several goals, such as ma
 <p> Collaborating closely with the dev team helped me to design features faster and more efficiently. I also learned about dev tools and processes, occasionally submitting my own PRs with CSS tweaks.</p>
 
 <p>To understand our customers better, I would interact with them on Intercom to resolve issues. </p>
-<p> To inform the entire company about our progress, I made <a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html">Product update videos</a>. </p>
+<p> To inform the entire company about our progress, I made weekly <a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html">Product update videos</a>. </p>
 
 <div class="callout thought">I was given the autonomy to own the product, which allowed me to do some cool stuff.
 </div>
