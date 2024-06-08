@@ -46,7 +46,7 @@ posted: 1
   </ul>
 </p>
 
-<p>I joined SkoolBag when its main goals were to create a new console for school admins and migrate all schools to the new console. Maintenance cost of the current system were getting too high, while performance was too slow. In addition, adding new features was a challenge (e.g. social logins, custom permissions, private messaging, integrations). </p>
+<p>I joined SkoolBag when its main goals were to create a new console for school admins and migrate all schools to the new console. Maintenance costs of the current system were getting too high, while performance was too slow. In addition, adding new features was a challenge (e.g. social logins, custom permissions, private messaging, integrations). </p>
 
 <h2>Product strategy</h2>
 <p>
@@ -79,7 +79,6 @@ Design strategy
 </h2>
 <p>
 Redesigning the entire system was necessary to achieve several goals, such as making the system responsive to different devices, improving user experience, optimizing performance, and incorporating the new Angular Material framework.</p>
-
 <p>In the design process, I embraced an iterative approach, which really challenged my inner perfectionist:</p>
 <ul>
 <li>Sticking to an MVP-like approach to design quality and feature prioritization</li>
@@ -107,14 +106,14 @@ Redesigning the entire system was necessary to achieve several goals, such as ma
 <p> Collaborating closely with the dev team helped me to design features faster and more efficiently. I also learned about dev tools and processes, occasionally submitting my own PRs with CSS tweaks.</p>
 
 <p>To understand our customers better, I would interact with them on Intercom to resolve issues. </p>
-<p> To inform the entire company about our progress, I made company <a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html">Feature updates videos</a>. </p>
+<p> To inform the entire company about our progress, I made <a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html">Product update videos</a>. </p>
 
 <div class="callout thought">I was given the autonomy to own the product, which allowed me to do some cool stuff.
 </div>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Parent-app/other-brands.webp" width= "780px" alt="Other brands with the pattern">
-  <figcaption>Some of the admin console designs <a href="https://www.figma.com/design/kLQ8wJHkAUPwGua5OaP4nx/SkoolBag---Sign-up-%2F-Log-in?node-id=49-6622&t=zAYPYrevHo06SFPo-1" target="_blank">Figma link </a></figcaption>
+  <figcaption> Wearing multiple hats</figcaption>
 </figure>
 
 <h2>Mindset shift </h2>
@@ -122,5 +121,5 @@ Redesigning the entire system was necessary to achieve several goals, such as ma
 
 <div class="callout idea">A growth mindset is the opposite of perfectionism.</div>
 
-<p>Releasing features that aren’t perfect can be tough. There is a fear of negative feedback, loss of  credibility and customer churn. </p>
+<p>Releasing features that aren’t perfect can be tough. There is a fear of negative feedback, damage to reputation, and customer churn. </p>
 <p>While some customers churned, and others complained, the majority were surprisingly supportive. I learned to remind myself that as a designer, I’m wired to seek out imperfections to fix, while my users just want to send that message to parents and move on with their day.  </p>
