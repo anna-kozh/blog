@@ -31,7 +31,7 @@ posted: 1
   <div class="overview-item">
   <h4>KEY RESULTS</h4>
   <p><ul>
-  <li>Designed and developed the new admin console</li>
+  <li>Designed and supported the development of the new admin console</li>
   <li>Successfully migrated all schools to the new platform within a year without any loss of functionality </li>
   </ul>
   </p>
