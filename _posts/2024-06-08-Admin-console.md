@@ -1,7 +1,7 @@
 ---
 layout: "single_post"
-title: "Death of perfectionist"
-description: '"I can&#x2019t release a product unless it&#x2019s perfect," I used to think. But when I had a year to move 1,000 schools and 500,000 parents to a new platform that didn&#x2019t exist yet, my perfectionism had to take a back seat.'
+title: "How I adapted to start-up culture"
+description: "Start-ups aren’t for everyone. They are fast-paced and require many compromises. I ran out of wardrobe space for all the hats I was wearing. This is a story of how I adapted to start-up culture."
 tag: "Case study"
 image: 
 posted: 1
@@ -14,11 +14,11 @@ posted: 1
   </div>
   <div class="overview-item">
   <h4>PRODUCT</h4>
-  <p>School admin console for creating school updates.</p>
+  <p>School administrator console for creating school updates.</p>
   </div>
   <div class="overview-item">
   <h4>DESIGN TASK</h4>
-  <p>Create a new admin console for schools.</p>
+  <p>Create a new administrator console for schools.</p>
   </div>
   <div class="overview-item">
   <h4>ROLE</h4>
@@ -31,75 +31,79 @@ posted: 1
   <div class="overview-item">
   <h4>KEY RESULTS</h4>
   <p><ul>
-  <li>Designing and developing a new admin console</li>
-  <li>Successfully migrating all customers to the new platform within a year without any loss of functionality </li>
+  <li>Designed and developed the new admin console</li>
+  <li>Successfully migrated all schools to the new platform within a year without any loss of functionality </li>
   </ul>
   </p>
   </div>
 </div>
 
 <p>
-“SkoolBag” (now “Audiri”) is a communication platform, where the two main products are:
-<ul>
-  <li>School admin console (content creation web app)</li>
-  <li>Parent app (content interaction mobile app)</li>
-  </ul>
-</p>
+After three years in consulting, where I worked with clients such as government, banks, and universities, I was pretty skilled in "business-pleasing". The team would gather requirements, deliver them according to the business’ preferences, and move on to the next project. </p>
 
-<p>I joined SkoolBag when its main goals were to create a new console for school admins and migrate all schools to the new console. Maintenance costs of the current system were getting too high, while performance was too slow. In addition, adding new features was a challenge (e.g. social logins, custom permissions, private messaging, integrations). </p>
+<p>Business and the consulting teams were quite disconnected. All decisions were made by the business. We had no ownership of the product. None at all. </p>
 
-<h2>Product strategy</h2>
+<div class="callout thought">All that was about to change when I joined a start-up.
+</div>
+
+<h2>This new role was exciting</h2>
 <p>
-In the traditional “waterfall” world, we would have waited until the new platform was polished before migrating all schools into it.
+When I found the opportunity in SkoolBag, I was so excited. I had always admired start-ups for their camaraderie and passion for the product, full of energy and ideas. I saw it as my big break. I was so ambitious: I wanted to win awards, expand the product internationally, and become the best designer possible.
+
 </p>
 <p>
-But we were not in a waterfall world, we were in a “lean startup” world. That’s why we divided customers into groups based on the features they used and migrated each group once the features were ready. 
+I joined SkoolBag when its main goals were to develop a new console for school admins and migrate all schools to this new console. The admin console was one of SkoolBag’s multiple products, serving as a content publishing platform for schools.
 </p>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Parent-app/problems.webp" width= "780px" alt="Types of users in trouble">
-  <figcaption>Migrating in stages </figcaption>
+  <figcaption>SkoolBag products</figcaption>
 </figure>
 
 <p>
-This approach had multiple advantages:
+It was a big and intimidating project. The new console was expected to be modern and responsive while remaining easy to learn for our non-tech-savvy user demographic.
 </p>
-<ul>
-<li><strong>Deliver faster</strong>: Migrate users faster and keep improving based on actual use and customer feedback.</li>
-<li><strong>Focus on the customer</strong>: Prioritize features that customers value most.</li>
-<li><strong>Save money</strong>: Focus on essential features to reduce waste.</li>
-<li> <strong>Spot issues early</strong>: Find and fix problems before they become big.</li>
-<li><strong>Lighten CX Load</strong>: Handle fewer customer issues simultaneously.
-</li>
-</ul>
-
 
 <h2>
-Design strategy
+… yet this role was challenging
 </h2>
 <p>
-Redesigning the entire system was necessary to achieve several goals, such as making the system responsive, improving user experience, optimizing performance, and incorporating the new Angular Material framework.</p>
-<p>In the design process, I embraced an iterative approach, which really challenged my inner perfectionist:</p>
-<ul>
-<li>Sticking to an MVP-like approach to design quality and feature prioritization</li>
-<li>Continuously gathering and integrating user feedback</li>
-<li>Keeping clear communication and deliverables despite the frequent changes</li>
-<li>Seamlessly integrate with both the old system and the parent app</li>
-<li>Maintaining design debt and finding opportunities to address it</li>
-<li>Wearing multiple hats to fill in gaps in the process</li>
-</ul>
-
-<p>These were some of the wireframes I created while I was at SkoolBag:</p>
+SkoolBag was different in an unexpected way. The team worked in the iterative approach. The goal was to migrate schools as soon as possible, so they worked fast and compromised a lot on design quality, which was against everything I believed at the time.
+</p>
+<p>The approach to the development was to divide schools into groups and once the features for the group were ready - migrate the group. </p>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Parent-app/other-brands.webp" width= "780px" alt="Other brands with the pattern">
-  <figcaption>Some of the admin console designs <a href="https://www.figma.com/design/kLQ8wJHkAUPwGua5OaP4nx/SkoolBag---Sign-up-%2F-Log-in?node-id=49-6622&t=zAYPYrevHo06SFPo-1" target="_blank">Figma link </a></figcaption>
+<img src="{{site.baseurl}}/assets/uploads/Parent-app/problems.webp" width= "780px" alt="Types of users in trouble">
+  <figcaption>Migration approach</figcaption>
 </figure>
 
-<h2>Wearing multiple hats </h2>
-<p>In SkoolBag we functioned like a startup with a small team including the CEO, Head of Product, developers, QA, CX team, and myself. This exposed me to all aspects of the business, allowing me an invaluable learning experience during my two years in the role. </p>
+<h2>
+Will my “big break” break me? 
+</h2>
+<p>
+The first months were stressful. That was my big break, and I needed to prove myself, which meant my designs had to be nothing short of perfect, even if I had to pay the price with carpal tunnel syndrome. In addition to that, I felt like a complete imposter and it was a matter of time before they uncovered me.</p>
+<p>
+This approach wasn’t sustainable. The current mindset wasn't effective. I couldn’t keep isolating myself, trying to design everything alone and then simply handing it over to the team. I needed to embrace the iterative approach. </p>
+
+<h2>
+Adapting to change
+</h2>
+<p>
+Adapting to the iterative approach to design was not easy. Instinctually I wanted to deliver the final version and move on to the next feature. The testing was done not to learn from the user, but to validate my ideas. Negative feedback from users was painful and personal.</p>
+
+<p>It was hard to constantly compromise on quality for the sake of fast delivery. That resulted in a long design debt, which I would try to “select for development” any opportunity I’d have. </p>
+
+<p>It was challenging to try and find a balance between constantly changing requirements and keeping the dev team happy… for some reason, they don’t like change… </p>
+
+
+
+<h2>Taking ownership</h2>
+<p>I realized that stress and anxiety come from chasing a sense of control. Why chase it, if I could just ask for it? So, I asked for more ownership. That allowed me to stay focused on present issues and tasks of today. </p>
 
 <p> In addition to my role, I stepped in as a Product Owner, managing requirement writing and joining feature prioritization discussions. I would kick off work with the dev team through feature reviews and provide them with ongoing support during feature development.</p>
+
+<div class="callout thought">I was given the autonomy to own the product, which allowed me to do some cool stuff.
+</div>
 
 <p>Ensuring quality, I conducted PR reviews and tested the dev work, often having fun at those late-night debugging sessions with the team. </p>
 
@@ -108,16 +112,17 @@ Redesigning the entire system was necessary to achieve several goals, such as ma
 <p>To understand our customers better, I would interact with them on Intercom to resolve issues. </p>
 <p> To inform the entire company about our progress, I made weekly <a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html">Product update videos</a>. </p>
 
-<div class="callout thought">I was given the autonomy to own the product, which allowed me to do some cool stuff.
-</div>
+
+<p>These were some of the designs I created during my time at SkoolBag: </p>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Parent-app/other-brands.webp" width= "780px" alt="Other brands with the pattern">
-  <figcaption> Wearing multiple hats</figcaption>
+  <figcaption>Some of the admin console designs <a href="https://www.figma.com/design/kLQ8wJHkAUPwGua5OaP4nx/SkoolBag---Sign-up-%2F-Log-in?node-id=49-6622&t=zAYPYrevHo06SFPo-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
-<h2>Mindset shift </h2>
-<p>Two years in SkoolBag completely changed my perspective on the development process. With the help of my manager, I adopted a growth mindset. I learned not to be afraid to make mistakes. Understanding that everything I design will evolve and grow over time, striving for perfection is futile. </p>
+
+<h2>Shifting mindset </h2>
+<p>Two years in SkoolBag completely changed my perspective on the software development process. With the help of my manager, I adopted a growth mindset. I learned not to be afraid to make mistakes. Understanding that everything I design will evolve and grow over time, striving for perfection is futile. </p>
 
 <div class="callout idea">A growth mindset is the opposite of perfectionism.</div>
 
