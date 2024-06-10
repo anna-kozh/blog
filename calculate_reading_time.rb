@@ -4,7 +4,7 @@ require 'yaml'
 def calculate_reading_time(content)
   # Calculate reading time based on words count
   words_count = content.scan(/\w+/).size
-  words_per_minute = 200 # Adjust as needed
+  words_per_minute = 250 # Adjust as needed
   minutes = (words_count.to_f / words_per_minute).ceil
   "#{minutes} min"
 end
