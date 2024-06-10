@@ -14,11 +14,11 @@ posted: 1
   </div>
   <div class="overview-item">
   <h4>PRODUCT</h4>
-  <p>School administrator console for creating school updates.</p>
+  <p>School administrator console for publishing school updates.</p>
   </div>
   <div class="overview-item">
   <h4>DESIGN TASK</h4>
-  <p>Create a new administrator console for schools.</p>
+  <p>Design a new administrator console for schools.</p>
   </div>
   <div class="overview-item">
   <h4>ROLE</h4>
@@ -68,7 +68,7 @@ It was a big and intimidating project. The new console was expected to be modern
 … yet this role was challenging
 </h2>
 <p>
-SkoolBag was different in an unexpected way. The team worked in the iterative approach. The goal was to migrate schools as soon as possible, so they worked fast and compromised a lot on design quality, which was against everything I believed at the time.
+SkoolBag was different in an unexpected way. The team worked in the iterative approach. The goal was to migrate schools as soon as possible, so they worked fast and compromised a lot on design quality, which went against everything I believed at the time.
 </p>
 <p>The approach to the development was to divide schools into groups and once the features for the group were ready - migrate the group. </p>
 
@@ -93,14 +93,14 @@ Adapting to the iterative approach to design was not easy. Instinctually I wante
 
 <p>It was hard to constantly compromise on quality for the sake of fast delivery. That resulted in a long design debt, which I would try to “select for development” any opportunity I’d have. </p>
 
-<p>It was challenging to try and find a balance between constantly changing requirements and keeping the dev team happy… for some reason, they don’t like change… </p>
+<p>It was challenging to balance the rapidly changing requirements and make sure the developers' efforts weren't wasted. </p>
 
 
 
 <h2>Taking ownership</h2>
-<p>I realized that stress and anxiety come from chasing a sense of control. Why chase it, if I could just ask for it? So, I asked for more ownership. That allowed me to stay focused on present issues and tasks of today. </p>
+<p>I realized that my stress and anxiety were coming from chasing a sense of control. Why chase it, if I could just ask for it? So, I asked for more ownership. That allowed me to stay focused on present issues and tasks of today. </p>
 
-<p> In addition to my role, I stepped in as a Product Owner, managing requirement writing and joining feature prioritization discussions. I would kick off work with the dev team through feature reviews and provide them with ongoing support during feature development.</p>
+<p> In addition to my role, I stepped in as a Product Owner, managing requirement writing and joining feature prioritization discussions. I would kick off work with the dev team through feature reviews and provided them with ongoing support during feature development.</p>
 
 <div class="callout thought">I was given the autonomy to own the product, which allowed me to do some cool stuff.
 </div>
