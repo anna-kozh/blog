@@ -68,7 +68,7 @@ After conducting research, we identified two problems with our implementation:
   </ul>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Parent-app/problems.webp" width= "780px" alt="Types of users in trouble">
+<img src="{{site.baseurl}}/assets/uploads/Parent-app/problems.webp" width= "780px" alt="Users that can't log in">
   <figcaption>User groups that couldn't log in </figcaption>
 </figure>
 

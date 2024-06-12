@@ -56,7 +56,7 @@ I joined SkoolBag when its main goals were to develop a new console for school a
 </p>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Parent-app/problems.webp" width= "780px" alt="Types of users in trouble">
+<img src="{{site.baseurl}}/assets/uploads/Admin-console/products.webp" width= "780px" alt="SkoolBag range of products">
   <figcaption>SkoolBag products</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ SkoolBag was different in an unexpected way. The team worked in the iterative ap
 <p>The approach to the development was to divide schools into groups and once the features for the group were ready - migrate the group. </p>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Parent-app/problems.webp" width= "780px" alt="Types of users in trouble">
+<img src="{{site.baseurl}}/assets/uploads/Admin-console/process.webp" width= "780px" alt="Migration approach">
   <figcaption>Migration approach</figcaption>
 </figure>
 
@@ -116,8 +116,8 @@ Adapting to the iterative approach to design was not easy. Instinctually I wante
 <p>These were some of the designs I created during my time at SkoolBag: </p>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/Parent-app/other-brands.webp" width= "780px" alt="Other brands with the pattern">
-  <figcaption>Some of the admin console designs <a href="https://www.figma.com/design/kLQ8wJHkAUPwGua5OaP4nx/SkoolBag---Sign-up-%2F-Log-in?node-id=49-6622&t=zAYPYrevHo06SFPo-1" target="_blank">Figma link </a></figcaption>
+<img src="{{site.baseurl}}/assets/uploads/Admin-console/dashboard.webp" width= "780px" alt="Admin console">
+  <figcaption>Some of the admin console designs <a href="https://www.figma.com/design/axafjXhpcS0ogkUSv4OBKk/Admin-Console?node-id=26202-167609&t=4ifFJ9LVijMhwM9b-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
 
