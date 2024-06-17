@@ -57,7 +57,7 @@ To investigate the issue further, I spoke with the Sri Lankan team lead. He intr
  <ul>
  <li> We gave developers the power to control their work. They were responsible for breaking the epic into releases, breaking the stories, and setting deadlines for themselves.</li>
  <li>For every retrospective, we had a new team member facilitating. That put them in the role of the leader and got them used to speaking up. </li>
- <li>I added a design review, where developers could contribute while the work is still in progress. Collegues were much more willing to give feedback on something that didn’t look finished yet.  </li>
+ <li>I added a design review, where developers could contribute while the work is still in progress. Colleagues were much more willing to give feedback on something that didn’t look finished yet.  </li>
  <li> I built personal relationships with developers: we had game nights, trivia, and poker nights. For every birthday we all sang "Happy Birthday" together via Zoom. We also shared more personal life details with each other.</li>
 <li> If I saw something not working - I would have a one-on-one conversation with a person and focus on listening and understanding the problem. </li>
 <li>Positive reinforcement was very important. I would always consider their design input. Often I would change the design based on the dev feedback and give them a shout-out for the input. </li>
