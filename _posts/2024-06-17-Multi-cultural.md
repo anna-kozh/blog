@@ -1,7 +1,7 @@
 ---
 layout: "single_post"
 title: "Clash of the cultures"
-description: "Working with a remote team? From a different culture? That have different values and ways of working? Not just different, but opposite? Yes, I made it work."
+description: "Working with a remote team? From a different culture? That has different values and ways of working? Not just different, but opposite? Yes, I made it work."
 tag: "Experience"
 image: 
 posted: 1
@@ -39,12 +39,12 @@ To investigate the issue further, I spoke with the Sri Lankan team lead. He intr
 
 <p>High context is characterized by a courteous and indirect speech style. In such cultures, people often prefer to insinuate rather than be explicit. Sri Lankans avoid saying "No" or providing negative feedback, even when they disagree, as it is considered rude. He also explained that there is a strong respect for seniority in Sri Lanka, and it is customary for more junior colleagues to stay quiet in group discussions. </p>
 
-<p>My “low context” culture was the opposite end of the spectrum, where I was outspoken and words carried most of the meaning.
+<p>My “low context” culture was on the opposite end of the spectrum, where I was outspoken and words carried most of the meaning.
  </p>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/Multi-cultural/context.webp" width= "780px" alt="High context vs Low context cultures">
-  <figcaption>High context vs Low context</figcaption>
+  <figcaption>High context vs Low context cultures</figcaption>
 </figure>
 
  <h2> Build a productive culture</h2>
@@ -57,9 +57,9 @@ To investigate the issue further, I spoke with the Sri Lankan team lead. He intr
  <ul>
  <li> We gave developers the power to control their work. They were responsible for breaking the epic into releases, breaking the stories, and setting deadlines for themselves.</li>
  <li>For every retrospective, we had a new team member facilitating. That put them in the role of the leader and got them used to speaking up. </li>
- <li>I added a design review, where developers could contribute while the work is still in progress. People are much more willing to give feedback on something that doesn’t look like it’s done yet.  </li>
+ <li>I added a design review, where developers could contribute while the work is still in progress. Collegues were much more willing to give feedback on something that didn’t look finished yet.  </li>
  <li> I built personal relationships with developers: we had game nights, trivia, and poker nights. For every birthday we all sang "Happy Birthday" together via Zoom. We also shared more personal life details with each other.</li>
-<li> If I saw something not working - I would have a one-on-one conversation with a person and try to listen and understand the problem. </li>
+<li> If I saw something not working - I would have a one-on-one conversation with a person and focus on listening and understanding the problem. </li>
 <li>Positive reinforcement was very important. I would always consider their design input. Often I would change the design based on the dev feedback and give them a shout-out for the input. </li>
  <li>Instead of focusing on the words a person was saying, I became more aware of what they were not saying: long pauses and avoidance of eye contact would indicate they had a problem with my proposal. </li>
 <li> My design process has changed to make it work for us. I myself became softer and less direct.</li>
