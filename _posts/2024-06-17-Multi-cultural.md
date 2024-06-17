@@ -1,7 +1,7 @@
 ---
 layout: "single_post"
 title: "Clash of the cultures"
-description: "Working with a remote team? Located in another country? That have different values and ways of working? Not just different, but opposite? Yes, I made it work."
+description: "Working with a remote team? From different culture? That have different values and ways of working? Not just different, but opposite? Yes, I made it work."
 tag: "Experience"
 image: 
 posted: 1
@@ -12,7 +12,7 @@ posted: 1
 I learned to be direct from an early age. In my culture, nobody hesitates to correct others, and criticism is delivered quite honestly. People usually speak to the point and keep their words concise. This style of communication can seem blunt, even when that is not the intention. I never saw a problem with it since everyone around me communicated this way.
  </p>
 
-<p>When I immigrated to Australia, I learned that people there are reserved, indirect, and conflict-averse. It took me a long time to find a balance between being honest and being blunt, between being concise and abrasive, expressing my opinion, but also considering others' perspectives.
+<p>When I immigrated to Australia, I learned that people there were reserved, indirect, and conflict-averse. It took me a long time to find a balance between being honest and being blunt, between being concise and abrasive, expressing my opinion, but also considering others' perspectives.
  </p>
 
  <p>I didn't expect changing my communication style to be such a big part of adapting to my new country. Even more so, I didn’t anticipate facing a whole new communication challenge when I started working with a remote team from South Asia.</p>
@@ -63,9 +63,9 @@ To investigate the issue further, I spoke with the Sri Lankan team lead. He intr
 <li>Positive reinforcement was very important. I would always consider their design input. Often I would change the design based on the dev feedback and give them a shout-out for the input. </li>
  <li>Instead of focusing on the words a person was saying, I became more aware of what they were not saying: long pauses and avoidance of eye contact would indicate they had a problem with my proposal. </li>
 <li> My design process has changed to make it work for us. I myself became softer and less direct.</li>
-
+</ul>
  <h2> Culture was changing</h2>
 
-  <p>All those ideas really helped to build such relationships, where sometimes I get messages from developers out of nowhere suggesting a feature for the product they are not even working on.  </p>
-  <div class="callout idea">The team is more engaged and feel empowered to make a difference.</div>
+  <p>All those ideas really helped to build such relationships, where sometimes I would get messages from developers out of nowhere suggesting a feature for the product they were not even working on.  </p>
+  <div class="callout idea">The team became more engaged and felt empowered to make a difference.</div>
  <p>Company culture is a process of accepting and understanding all the individual cultures in the team. Your company culture is unique and it takes time to build. </p>
