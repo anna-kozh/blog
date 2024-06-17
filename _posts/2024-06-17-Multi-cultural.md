@@ -9,7 +9,7 @@ posted: 1
 
 <h2>Short and <s>sweet</s> direct </h2>
 <p>
-I learned to be direct from an early age. In my culture, nobody hesitates to correct others, and criticism is delivered quite honestly. People usually speak to the point and keep their words concise. This style of communication can seem blunt, even when that is not the intention. I never saw a problem with it since everyone around me communicated this way.
+I learned to be direct from an early age. In my culture, nobody hesitates to correct others, and criticism is delivered quite honestly. People usually speak to the point and keep their words concise. This style of communication can seem blunt, even when that's not intended. I never saw a problem with it since everyone around me communicated this way.
  </p>
 
 <p>When I immigrated to Australia, I learned that people there were reserved, indirect, and conflict-averse. It took me a long time to find a balance between being honest and being blunt, between being concise and abrasive, expressing my opinion, but also considering others' perspectives.
@@ -39,7 +39,7 @@ To investigate the issue further, I spoke with the Sri Lankan team lead. He intr
 
 <p>High context is characterized by a courteous and indirect speech style. In such cultures, people often prefer to insinuate rather than be explicit. Sri Lankans avoid saying "No" or providing negative feedback, even when they disagree, as it is considered rude. He also explained that there is a strong respect for seniority in Sri Lanka, and it is customary for more junior colleagues to stay quiet in group discussions. </p>
 
-<p>My “low context” culture was on another end of the spectrum, where what I say is what I mean.
+<p>My “low context” culture was the opposite end of the spectrum, where I was outspoken and words carried most of the meaning.
  </p>
 
 <figure>
