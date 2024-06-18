@@ -1,6 +1,6 @@
 ---
 layout: "single_post"
-title: "How I adapted to start-up culture"
+title: "Let's get lean and iterative"
 description: "Start-ups aren’t for everyone. They are fast-paced and require many compromises. I ran out of wardrobe space for all the hats I was wearing. This is a story of how I adapted to start-up culture."
 tag: "Case study"
 image: 
@@ -105,9 +105,9 @@ Adapting to the iterative approach to design was not easy. Instinctually I wante
 <div class="callout thought">I was given the autonomy to own the product, which allowed me to do some cool stuff.
 </div>
 
-<p>Ensuring quality, I conducted PR reviews and tested the dev work, often having fun at those late-night debugging sessions with the team. </p>
+<p>Ensuring quality, I conducted pull requests reviews and tested the dev work, often having fun at those late-night debugging sessions with the team. </p>
 
-<p> Collaborating closely with the dev team helped me to design features faster and more efficiently. I also learned about dev tools and processes, occasionally submitting my own PRs with CSS tweaks.</p>
+<p> Collaborating closely with the dev team helped me to design features faster and more efficiently. I also learned about dev tools and processes, occasionally submitting my own pull requests with CSS tweaks.</p>
 
 <p>To understand our customers better, I would interact with them on Intercom to resolve issues. </p>
 <p> To inform the entire company about our progress, I made weekly <a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html" target="_blank">Product update videos</a>. </p>

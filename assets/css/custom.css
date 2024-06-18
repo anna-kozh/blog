@@ -152,6 +152,15 @@ p {
   margin: 1rem 0;
 }
 
+.singlePage_bottom {
+  margin-bottom: 2rem;
+}
+
+.singlePage {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 strong {
   font-weight:700;
 }
@@ -271,7 +280,7 @@ menu {
 .nav_links {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 2rem;
   justify-content: center;
 }
 
@@ -641,6 +650,11 @@ span {
   background-image: url(../uploads/message.svg);
 }
 
+.heart::before {
+  background-image: url(../uploads/heart.svg);
+}
+
+
 footer {
   position: static;
   display: flex;
@@ -875,8 +889,8 @@ ul li {
 
 @media only screen and (max-width: 335px) {
   .nav_links {
-    gap: unset;
-    justify-content: space-between;
+    gap: 2rem;
+    /* justify-content: space-between; */
   }
 
   .post-stats {
