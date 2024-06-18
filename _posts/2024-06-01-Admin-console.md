@@ -110,7 +110,7 @@ Adapting to the iterative approach to design was not easy. Instinctually I wante
 <p> Collaborating closely with the dev team helped me to design features faster and more efficiently. I also learned about dev tools and processes, occasionally submitting my own pull requests with CSS tweaks.</p>
 
 <p>To understand our customers better, I would interact with them on Intercom to resolve issues. </p>
-<p> To inform the entire company about our progress, I made weekly <a href="{{site.baseurl}}/2024/06/01/Fresh-off-the-code.html" target="_blank">Product update videos</a>. </p>
+<p> To inform the entire company about our progress, I made weekly <a href="{{site.baseurl}}/2024/05/25/Fresh-off-the-code.html" target="_blank">Product update videos</a>. </p>
 
 
 <p>These were some of the designs I created during my time at SkoolBag: </p>
