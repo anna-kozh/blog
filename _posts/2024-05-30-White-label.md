@@ -46,7 +46,7 @@ When I joined the company, there was a significant disconnect between design and
 </p>
 
 <p>
-Throughout the iterations, design has evolved, component libraries were adopted, and customers brandings were created - but the design files stayed the same.
+Throughout the iterations, design has evolved, component libraries were adopted, and customer brandings were created - but the design files stayed the same.
 </p>
 
 <p>
@@ -61,15 +61,14 @@ I inherited a dozen Figma files, each with its own local library of colors and f
 <h2>
 Phase 1 - Get on the same page
 </h2>
+<p>In Simpology, like any fast-growing company, design debt wasn't a high priority. To get us on the same page, design had to catch up with implementation and iterate from there.</p>
 <p>
-In Simpology, like any fast-growing company, design debt wasn't a high priority. To get us on the same page, design had to catch up with implementation and iterate from there.
-</p>
-<strong> I created: </strong>
-<ul>
-<li>Design system with UI components</li>
-<li>Branding file per customer, each with a library of 81 color styles</li>
-<li>I recreated the wireframes matching the current implementation using the libraries above.</li>
-</ul>
+I partnered up with front-end developers to clean up all the style primitives that were used to create branding. These primitives were then added to Figma to match the implementation. </p>
+
+<p> For each brand, I created a library file, consisting of 81 color styles matching the naming devs used. All the brands shared a design system with the UI components.</p>
+
+<p> In addition, I recreated all wireframes to match the current implementation. </p>
+
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/White-label/phase1.webp" width= "780px" alt="Tutorial UI">
@@ -78,7 +77,7 @@ In Simpology, like any fast-growing company, design debt wasn't a high priority.
 
 
 <h2> It’s an improvement </h2>
-<p>The team now had design files that reflected the current state. All new features were now designed using existing components and matching libraries.</p>
+<p>The team now had design files that reflected the current state of implementation. All new features were now designed using existing components and matching libraries. A shared naming convention eliminated a lot of confusion with the design deliverables.</p>
 <strong>That worked pretty well, but had a few flaws: </strong>
 <ul>
 <li>Swapping libraries only worked on finished wireframes. Any change would revert a component to its original library. </li>
@@ -92,12 +91,11 @@ In Simpology, like any fast-growing company, design debt wasn't a high priority.
 <p>
 During Figma Config 2023 a life-changing feature “Variables” was announced.
 </p>
-<ul>
-<li>Now, I was able to combine all customers' styles and logos into one file “Branding” using variables</li>
+
+<p>Now, I was able to combine all customers' styles and logos into one file “Branding” using variables.</p>
 <p><a href="https://www.figma.com/design/9E88nOcSjMjZVjB9fAx49h/Branding?node-id=14-22258&t=cxsSVkRGSYhc1GOD-1" target="_blank">Branding file (Figma link) </a> </p>
-<li>I rebuilt components using component variants and properties </li>
+<p>I also rebuilt components using component variants and properties. </p>
 <p><a href="https://www.figma.com/design/QYJC5EsMLgAqFCF9c747vd/Core?node-id=98-98895&t=q5vLNFRld5vb3rzW-1" target="_blank">Design system (Figma link) </a></p>
-</ul>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/White-label/phase2.webp" width="780px" alt="Color generator">
@@ -105,7 +103,7 @@ During Figma Config 2023 a life-changing feature “Variables” was announced.
 </figure>
 
 <h2>
-This works much better
+This worked much better
 </h2>
 <ul>
 <li>Rebranding an app takes one click (ok, maybe two)  </li>
@@ -115,12 +113,11 @@ This works much better
 </ul>
 
 <h2>
-Design system is not enough!
+The future is bright!
 </h2>
-<p>Creating a design system is one thing, but ensuring everyone in the company actually uses it is another challenge altogether. Keeping implementation and design aligned requires ongoing effort: </p>
-
+<p>Currently, we have a good system of libraries that meets the company's needs. However, as Simpology grows, we need new improvements: </p>
 <ul>
-<li>I now involve developers early in the feature design process. </li>
-<li>All front-end pull requests must be reviewed by a designer (me). </li>
-<li>As the design team expands, new processes and practices must be established (e.g. RACI for each library)</li>
+<li> I'm working with developers to add spacing and typography to the design system.</li>
+<li> Implementing design tokens to improve design consistency.</li>
+<li>Establishing new processes and practices, such as RACI, as the design team expands.</li>
 </ul>
