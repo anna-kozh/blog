@@ -1,51 +1,48 @@
 ---
-layout: under-construction
+layout: default
+title: Portfolio
 ---
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#F11CDC" />
-  <title>Anna Kozh - Under Construction</title>
-  <link rel="icon" sizes="152x152" type="image/png" href="{{site.baseurl}}/assets/images/favicon152x152.png">
-  <link rel="icon" sizes="32x32" type="image/png" href="{{site.baseurl}}/assets/images/favicon32x32.png">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      background: url(../assets/images/pattern.png) repeat;
-      background-size: 60px;
-      background-color: #00000003;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      text-align: center;
-    }
-    h1 {
-      color: #333;
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-    p {
-      color: #666;
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-  </style>
-</head>
-{% include google.html %}
-<body>
-<div class="container">
-  <h1>Under Construction</h1>
-  <p>We're working hard to bring you something awesome. Stay tuned!</p>
+<div id="pastExperiences">
+    <div class="experienceBlock">
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_simpology.webp" alt="Simpology logo" />
+        <h2 class="xpTitle">Lead Product Designer, Simpology</h2>
+        <p class="xpText">
+            In 2022, I joined Simpology, a fintech dedicated to revolutionizing the home loan application process, to lead the design of a multi-product platform.</p>
+        <ul class="xpLink">
+            <li><a href="{{site.baseurl}}/2024/06/15/Branding-tool.html">How I convinced my stubborn manager</a></li>
+            <li><a href="{{site.baseurl}}/2024/06/10/White-label.html">Creating multi-brand white label design system</a></li>
+        </ul>
+    </div>
+    <div class="experienceBlock">
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_skoolbag.webp" alt="Skoolbag logo" />
+        <h2 class="xpTitle">Lead Product Designer & Product Owner, SkoolBag</h2>
+        <p class="xpText">
+            In 2020, at SkoolBag, I led the design of a new school administrator console for publishing content to a parent mobile app. We created the platform and successfully migrated 1,000 schools to it, while also enhancing the parent app's functionality.
+        </p>
+        <ul class="xpLink">
+            <li><a href="{{site.baseurl}}/2024/06/01/Admin-console.html">Let's get lean and iterative</a></li>
+             <li><a href="{{site.baseurl}}/2024/06/05/Multi-cultural.html">Clash of the cultures</a></li>
+            <li><a href="{{site.baseurl}}/2024/05/25/Fresh-off-the-code.html">Product update videos</a></li>
+             <li><a href="{{site.baseurl}}/2024/05/07/Parent-app.html">Failure of my “brilliant idea”</a></li>
+            
+            
+   </ul>
+    </div>
+    <div class="experienceBlock">
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_asg.webp" alt="ASG logo" />
+        <h2 class="xpTitle">Senior UX Consultant, ASG Group</h2>
+        <p class="xpText">
+            In 2016, I started a consulting role where I worked with various industries such as government, education, finance, and telecommunications. I contributed to a variety of projects, from creating e-learning tutorials to implementing a giant IBM lease management system.
+        </p>
+        <ul class="xpLink"></ul>
+    </div>
+    <div class="experienceBlock">
+        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_voicebox.webp" alt="Voicebox logo"/>
+        <h2 class="xpTitle">UX Designer, VoiceBox Technologies</h2>
+        <p class="xpText">
+            In 2013, one year before Alexa, I was working with Samsung on the voice user interactions of a new (at the time) Galaxy S5.
+        </p>
+        <ul class="xpLink"></ul>
+    </div>
 </div>
-{% include hotjar.html %}
-</body>
-</html>
