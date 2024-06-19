@@ -18,4 +18,4 @@ What particularly excites me is the opportunity to contribute to Figma community
 
 </p>
 
-<div class="callout heart">Looking forward to hearing from you!</div>
+<div class="callout heart">Can't wait to hear from you!</div>
