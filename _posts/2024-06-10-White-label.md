@@ -107,7 +107,7 @@ This worked much better
 </h2>
 <ul>
 <li>Rebranding an app takes one click (ok, maybe two)  </li>
-<p><a href="https://www.figma.com/design/zwLj0ZkWJvXSODN0AX57KZ/Demo?node-id=2-3384&t=rycZU5uNcaMOWZgI-1" target="_blank">See Demo (Figma file)</a></p>
+<p><a href="https://www.figma.com/design/zwLj0ZkWJvXSODN0AX57KZ/Demo?node-id=0-1&t=PhYxHUjn4qgqu3v3-1" target="_blank">See Demo (Figma file)</a></p>
 <li>Working on the branded file no longer disrupts the styles </li>
 <li>Maintaining the color schemes is very easy now - they are all in one table.</li>
 </ul>
