@@ -100,12 +100,12 @@ Adapting to the iterative approach to design was not easy. Instinctually I wante
 <h2>Taking ownership</h2>
 <p>I realized that my stress and anxiety were coming from chasing a sense of control. Why chase it, if I could just ask for it? So, I asked for more ownership. That allowed me to stay focused on present issues and tasks of today. </p>
 
-<p> In addition to my role, I stepped in as a Product Owner, managing requirement writing and joining feature prioritization discussions. I would kick off work with the dev team through feature reviews and provided them with ongoing support during feature development.</p>
+<p> In addition to my role, I stepped in as a Product Owner, managing requirement writing and joining feature prioritization discussions. I would kick off work with the dev team through feature reviews and provide them with ongoing support during feature development.</p>
 
 <div class="callout thought">I was given the autonomy to own the product, which allowed me to do some cool stuff.
 </div>
 
-<p>Ensuring quality, I conducted pull requests reviews and tested the dev work, often having fun at those late-night debugging sessions with the team. </p>
+<p>Ensuring quality, I conducted pull request reviews and tested the dev work, often having fun at those late-night debugging sessions with the team. </p>
 
 <p> Collaborating closely with the dev team helped me to design features faster and more efficiently. I also learned about dev tools and processes, occasionally submitting my own pull requests with CSS tweaks.</p>
 
