@@ -4,6 +4,7 @@ title: Portfolio
 ---
 
 <div id="pastExperiences">
+<h1> I'm Anna, Senior Product Designer. This is my portfolio.</h1>
     <div class="experienceBlock">
         <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_simpology.webp" alt="Simpology logo" />
         <h2 class="xpTitle">Lead Product Designer, Simpology</h2>
