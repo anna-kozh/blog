@@ -15,7 +15,4 @@ title: "Hi Figma!"
 <p>Have a fantastic Config 2024! I hope to join you there next year.</p>
 
 
-
-</p>
-
 <div class="callout heart-figma">Looking forward to hearing from you!</div>

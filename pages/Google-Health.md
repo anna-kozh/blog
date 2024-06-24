@@ -1,5 +1,5 @@
 ---
-permalink: /google/
+permalink: /google-health/
 layout: "single_page"
 title: "Hi Google!"
 
@@ -8,13 +8,11 @@ title: "Hi Google!"
 
 <div class="video-container"><iframe width="780" height="438.75" src="https://www.youtube.com/embed/8Z6rk6de4rs?si=3NH5xpcnl2L8H2_e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
 
-<p class="singlePage">Here are my <a href="../assets/uploads/...." target="_blank">Resume</a> and <a href="../../index.html" target="_blank">Portfolio</a>.</p>
+<p class="singlePage">Here are my <a href="../assets/uploads/Resume/Resume_Anna_Kozhevnikova_Google_Health.pdf" target="_blank">Resume</a> and <a href="../../index.html" target="_blank">Portfolio</a>.</p>
 <p class="cover_letter">On a more serious note, I am genuinely intrigued by this role and eager to learn about the team, its near-future objectives, and how I might fit in there.</p>
-<p>Having spent my entire life around developers, building a dev tool sounds like the next logical step. </p>
-<p>What particularly excites me is the opportunity to contribute to Figma community. Beyond UX, I find the biggest life satisfaction in being creative and building communities. By the way, I strongly believe every company should do a Maker Week.</p>
+<p>I use health-data gathering wearables myself, and I am passionate about leveraging technology to improve people's health and education around it.</p>
 
 
 
-</p>
 
 <div class="callout heart">Looking forward to hearing from you!</div>
