@@ -649,11 +649,13 @@ span {
   background-image: url(../uploads/message.svg);
 }
 
+.heart-figma::before {
+  background-image: url(../uploads/heart_figma.svg);
+}
+
 .heart::before {
   background-image: url(../uploads/heart.svg);
 }
-
-
 footer {
   position: static;
   display: flex;
