@@ -14,8 +14,4 @@ title: "Hi Intercom!"
 <p>Just like Intercom, I believe in honesty, transparency, taking ownership of my product, advocating for simple solutions, and prioritizing reuse over creating anew.</p>
 <p>What particularly excites me is the opportunity to contribute to Intercom Blog. Beyond UX, I find the biggest life satisfaction in being creative and building communities.</p>
 
-
-
-</p>
-
 <div class="callout heart">Looking forward to hearing from you!</div>
