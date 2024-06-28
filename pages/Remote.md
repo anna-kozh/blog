@@ -10,7 +10,7 @@ title: "Hi Remote!"
 
 <p class="singlePage">Here are my <a href="../assets/uploads/Resume/Resume_Anna_Kozhevnikova_Remote.pdf" target="_blank">Resume</a> and <a href="../../index.html" target="_blank">Portfolio</a>.</p>
 <p class="cover_letter">On a more serious note, I am genuinely intrigued by the opportunity and eager to learn about the team, its near-future objectives, and how I might fit in there.</p>
-<p>I believe I bring a lot of relevant experience to Remote: my current job in fintech, three years working in Payroll, and three years of remote work experience.</p>
+<p>I believe I bring a lot of relevant experience to Remote: my current job in fintech, three years working in payroll, and three years of remote work experience.</p>
 
 <p>I'm particularly excited about Remote's design principle of "Insights over intuition". It truly aligns with my values and the kind of designer I aspire to be.</p>
 
