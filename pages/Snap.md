@@ -1,10 +1,10 @@
 ---
 permalink: /snap/
 layout: "single_page"
-title: "Hi Snap Inc!"
+title: "Hi Snap!"
 
 ---
-<p class="singlePage_bottom">I’m Anna, a Senior Product Designer, and I believe I'm a great match for Snap Inc. Let me tell you why:</p>
+<p class="singlePage_bottom">I’m Anna, a Senior Product Designer, and I believe I'm a great match for Snap. Let me tell you why:</p>
 
 <div class="video-container"><iframe width="780" height="438.75" src="https://www.youtube.com/embed/Aik_6jVxsUY?si=Ip1yDUTZ7JLo4GGp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
 
