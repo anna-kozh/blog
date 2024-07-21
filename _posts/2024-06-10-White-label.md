@@ -66,6 +66,11 @@ Phase 1 - Get on the same page
 I partnered up with front-end developers to clean up all the style primitives that were used to create branding. These primitives were then added to Figma to match the implementation. </p>
 
 <p> For each brand, I created a library file, consisting of 81 color styles matching the naming devs used. All the brands shared a design system with the UI components.</p>
+ç
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/White-label/brand_first.webp" width="780px" alt="First version of branding file">
+  <figcaption>Branding file (Phase 1) </figcaption>
+</figure>
 
 <p> In addition, I recreated all wireframes to match the current implementation. </p>
 
@@ -78,6 +83,7 @@ I partnered up with front-end developers to clean up all the style primitives th
 
 <h2> It’s an improvement </h2>
 <p>The team now had design files that reflected the current state of implementation. All new features were now designed using existing components and matching libraries. A shared naming convention eliminated a lot of confusion with the design deliverables.</p>
+
 <strong>That worked pretty well, but had a few flaws: </strong>
 <ul>
 <li>Swapping libraries only worked on finished wireframes. Any change would revert a component to its original library. </li>
@@ -93,9 +99,21 @@ During Figma Config 2023 a life-changing feature “Variables” was announced.
 </p>
 
 <p>Now, I was able to combine all customers' styles and logos into one file “Branding” using variables.</p>
-<p><a href="https://www.figma.com/design/9E88nOcSjMjZVjB9fAx49h/Branding?node-id=14-22258&t=cxsSVkRGSYhc1GOD-1" target="_blank">Branding file (Figma link) </a> </p>
-<p>I also rebuilt components using component variants and properties. </p>
-<p><a href="https://www.figma.com/design/QYJC5EsMLgAqFCF9c747vd/Core?node-id=98-98895&t=q5vLNFRld5vb3rzW-1" target="_blank">Design system (Figma link) </a></p>
+
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/White-label/modes.webp" width="780px" alt="Two brands of Loanapp">
+  <figcaption>Branding file (Phase 2)<a href="https://www.figma.com/design/9E88nOcSjMjZVjB9fAx49h/Branding?node-id=14-22258&t=cxsSVkRGSYhc1GOD-1" target="_blank">Figma link </a></figcaption>
+</figure>
+
+
+<p>I also rebuilt the design system using component variants and properties. </p>
+
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/White-label/button.webp" width="780px" alt="Two brands of Loanapp">
+  <figcaption>Design system (Phase 2) <a href="https://www.figma.com/design/QYJC5EsMLgAqFCF9c747vd/Core?node-id=98-98895&t=q5vLNFRld5vb3rzW-1" target="_blank">Figma link </a></figcaption>
+</figure>
+
+<p>Both libraries contributed to the ecosystem of Simpology products:</p>
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/White-label/phase2.webp" width="780px" alt="Color generator">
@@ -106,11 +124,18 @@ During Figma Config 2023 a life-changing feature “Variables” was announced.
 This worked much better
 </h2>
 <ul>
-<li>Rebranding an app takes one click (ok, maybe two)  </li>
-<p><a href="https://www.figma.com/design/zwLj0ZkWJvXSODN0AX57KZ/Demo?node-id=0-1&t=PhYxHUjn4qgqu3v3-1" target="_blank">See Demo (Figma file)</a></p>
+<li>Rebranding Loanapp now takes only 5 seconds  </li>
+
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/White-label/demo.webp" width="780px" alt="Two brands of Loanapp">
+  <figcaption>Two brands of Loanapp <a href="https://www.figma.com/design/zwLj0ZkWJvXSODN0AX57KZ/Demo?node-id=0-1&t=PhYxHUjn4qgqu3v3-1" target="_blank">Figma link </a></figcaption>
+</figure>
+
 <li>Working on the branded file no longer disrupts the styles </li>
 <li>Maintaining the color schemes is very easy now - they are all in one table.</li>
+<li>The improvements reduced developer confusion, and improved front-end task completion speed by 32%.</li>
 </ul>
+
 
 <h2>
 The future is bright!
