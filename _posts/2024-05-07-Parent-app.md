@@ -58,6 +58,11 @@ posted: 1
 Even though the registration was straightforward, we frequently received tickets related to parents being unable to log into the app.
 </p>
 
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/Parent-app/errors.webp" width= "780px" alt="Error messages">
+  <figcaption>Users couldn't log in</figcaption>
+</figure>
+
 <p>
 After conducting research, we identified two problems with our implementation:
 </p>
@@ -87,6 +92,12 @@ OTP to the rescue
 <p>
 One-Time Passwords (OTP) were getting more common and provided an effective log in method. SkoolBag users stayed logged in as long as they could, so remembering yet another password was a challenge.
 </p>
+
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/Parent-app/otp.webp" width= "780px" alt="OTP flow">
+  <figcaption>One Time Password flow</figcaption>
+</figure>
+
 <strong>Implementing OTPs offered several advantages:</strong>
 <ul>
 <li>OTP replaced the outdated and clunky confirmation flow</li>
