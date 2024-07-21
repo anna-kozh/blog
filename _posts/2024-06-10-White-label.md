@@ -82,7 +82,7 @@ I partnered up with front-end developers to clean up all the style primitives th
 
 
 <h2> It’s an improvement </h2>
-<p>The team now had design files that reflected the current state of implementation. All new features were now designed using existing components and matching libraries. A shared naming convention eliminated a lot of confusion with the design deliverables.</p>
+<p>The team now had design files that reflected the current state of implementation. All new features were now designed using existing components and matching libraries. A shared naming convention eliminated a lot of confusion with the design deliverables, which improved front-end task completion speed by 32%.</p>
 
 <strong>That worked pretty well, but had a few flaws: </strong>
 <ul>
@@ -133,7 +133,6 @@ This worked much better
 
 <li>Working on the branded file no longer disrupts the styles </li>
 <li>Maintaining the color schemes is very easy now - they are all in one table.</li>
-<li>The improvements reduced developer confusion, and improved front-end task completion speed by 32%.</li>
 </ul>
 
 
