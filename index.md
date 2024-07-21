@@ -22,10 +22,11 @@ title: Portfolio
             In 2020, at SkoolBag, I led the design of a new school administrator console for publishing content to a parent mobile app. We created the platform and successfully migrated 1,000 schools to it, while also enhancing the parent app's functionality.
         </p>
         <ul class="xpLink">
+            <li><a href="{{site.baseurl}}/2024/05/07/Parent-app.html">Failure of my “brilliant idea”</a></li>
             <li><a href="{{site.baseurl}}/2024/06/01/Admin-console.html">Let's get lean and iterative</a></li>
              <li><a href="{{site.baseurl}}/2024/06/05/Multi-cultural.html">Clash of the cultures</a></li>
             <li><a href="{{site.baseurl}}/2024/05/25/Fresh-off-the-code.html">Product update videos</a></li>
-             <li><a href="{{site.baseurl}}/2024/05/07/Parent-app.html">Failure of my “brilliant idea”</a></li>
+            
             
             
    </ul>
