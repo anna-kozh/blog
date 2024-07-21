@@ -66,7 +66,7 @@ Phase 1 - Get on the same page
 I partnered up with front-end developers to clean up all the style primitives that were used to create branding. These primitives were then added to Figma to match the implementation. </p>
 
 <p> For each brand, I created a library file, consisting of 81 color styles matching the naming devs used. All the brands shared a design system with the UI components.</p>
-ç
+
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/White-label/brand_first.webp" width="780px" alt="First version of branding file">
   <figcaption>Branding file (Phase 1) </figcaption>
