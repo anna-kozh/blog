@@ -32,7 +32,7 @@ posted: 1
   <h4>KEY RESULTS</h4>
   <p><ul>
   <li>Designed and supported the development of the new admin console</li>
-  <li>Successfully migrated all schools to the new platform within a year without any loss of functionality </li>
+  <li>Successfully migrated 1,000 schools to the new platform within a year without any loss of functionality </li>
   </ul>
   </p>
   </div>
@@ -116,8 +116,24 @@ Adapting to the iterative approach to design was not easy. Instinctually I wante
 <p>These were some of the designs I created during my time at SkoolBag: </p>
 
 <figure>
+<img src="{{site.baseurl}}/assets/uploads/Admin-console/profile.webp" width= "780px" alt="Admin console">
+  <figcaption>School profile <a href="https://www.figma.com/design/axafjXhpcS0ogkUSv4OBKk/Admin-Console?node-id=26202-167609&t=4ifFJ9LVijMhwM9b-1" target="_blank">Figma link </a></figcaption>
+</figure>
+
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/Admin-console/post.webp" width= "780px" alt="Admin console">
+  <figcaption>Create a post <a href="https://www.figma.com/design/axafjXhpcS0ogkUSv4OBKk/Admin-Console?node-id=26202-167609&t=4ifFJ9LVijMhwM9b-1" target="_blank">Figma link </a></figcaption>
+</figure>
+
+<figure>
+<img src="{{site.baseurl}}/assets/uploads/Admin-console/event.webp" width= "780px" alt="Admin console">
+  <figcaption>Create an event <a href="https://www.figma.com/design/axafjXhpcS0ogkUSv4OBKk/Admin-Console?node-id=26202-167609&t=4ifFJ9LVijMhwM9b-1" target="_blank">Figma link </a></figcaption>
+</figure>
+
+
+<figure>
 <img src="{{site.baseurl}}/assets/uploads/Admin-console/dashboard.webp" width= "780px" alt="Admin console">
-  <figcaption>Some of the admin console designs <a href="https://www.figma.com/design/axafjXhpcS0ogkUSv4OBKk/Admin-Console?node-id=26202-167609&t=4ifFJ9LVijMhwM9b-1" target="_blank">Figma link </a></figcaption>
+  <figcaption>Dashboard <a href="https://www.figma.com/design/axafjXhpcS0ogkUSv4OBKk/Admin-Console?node-id=26202-167609&t=4ifFJ9LVijMhwM9b-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
 

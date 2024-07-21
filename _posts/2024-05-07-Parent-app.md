@@ -31,7 +31,7 @@ posted: 1
   <div class="overview-item">
   <h4>KEY RESULTS</h4>
   <p><ul>
-  <li>Reduced number of login issues</li>
+  <li>Eliminated login issues for 500,000 users</li>
   <li>Unexpected technical and usability issues </li>
   </ul>
   </p>
