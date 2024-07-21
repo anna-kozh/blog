@@ -11,8 +11,9 @@ title: Portfolio
         <p class="xpText">
             In 2022, I joined Simpology, a fintech dedicated to revolutionizing the home loan application process, to lead the design of a multi-product platform.</p>
         <ul class="xpLink">
+              <li><a href="{{site.baseurl}}/2024/06/10/White-label.html">Creating multi-brand white label design system</a></li>
             <li><a href="{{site.baseurl}}/2024/06/15/Branding-tool.html">How I convinced my stubborn manager</a></li>
-            <li><a href="{{site.baseurl}}/2024/06/10/White-label.html">Creating multi-brand white label design system</a></li>
+          
         </ul>
     </div>
     <div class="experienceBlock">
