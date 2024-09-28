@@ -337,6 +337,7 @@ a:hover {
 #content {
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .post-type {
@@ -516,6 +517,13 @@ span {
   max-width: 100%;
   width: 20vw;
   object-fit: contain;
+    transition: .3s ease;
+}
+
+#post-container .post-image:hover {
+  transform: scale(1.004);
+  transition: .3s ease;
+  transition-property: transform, filter;
 }
 
 /* Show images for even posts and adjust order */
@@ -659,8 +667,8 @@ span {
 footer {
   position: static;
   display: flex;
-  margin-top: 3rem;
-  background: #fff;
+  margin-top:auto;
+  background: #FFFFFF;
   border-top: 1px solid #E4E4E4;
   justify-content: center;
 }
