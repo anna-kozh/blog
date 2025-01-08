@@ -1,7 +1,7 @@
 ---
 permalink: /amazon/
 layout: "single_page"
-title: "Hi Amazon!"
+title: "Hi Amazon!!"
 
 ---
 <p class="singlePage_bottom">I’m Anna, a Senior UX Designer, and I believe I'm a great match for Amazon. Let me tell you why:</p>
