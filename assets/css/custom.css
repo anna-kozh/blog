@@ -7,6 +7,8 @@
   --white: #fff;
   --light-grey: #EEE5E9;
   --primary-font: "Inter";
+  --background-color: #FBFBFD;
+  --border-color:#ededf3;
 }
 
 *,
@@ -58,8 +60,8 @@ html {
   gap: 1.5rem;
   position: relative;
   min-height: 100vh;
-  background-color: var(--white);
-  background: url(../images/pattern.png) repeat;
+  background-color: var(--background-color);
+  /* background: url(../images/pattern.png) repeat;*/
   background-size: 60px;
 }
 
@@ -259,7 +261,10 @@ figure {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
   z-index: 9;
+  background-color: white;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .nav {
@@ -270,6 +275,7 @@ figure {
   justify-content: space-between;
   /* max-width: 1312px; */
   margin: 0 auto;
+
 }
 
 menu {
@@ -332,6 +338,12 @@ a:hover {
 
 .logo a {
   border-bottom: 1px solid transparent;
+  display: flex;
+  align-items: center;
+}
+
+.logo a img {
+  width: 120px;
 }
 
 #content {
@@ -454,7 +466,7 @@ span {
 #post-container {
   display: flex;
   flex-direction: column;
-  margin: 0 24px;
+  margin: 2rem 24px;
   align-items: start;
   gap: 3em;
 }
@@ -567,9 +579,97 @@ span {
   flex-direction: column;
   gap: 4.5rem;
   max-width: 780px;
-  margin: 0 24px;
+  margin: 2rem 24px;
   width: 100%;
 }
+
+/* Index page text */
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+  gap: 1rem;
+  max-width: 780px;
+  margin: 0 24px;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#hero_text h1{
+line-height: 2rem;
+}
+
+
+.hero_title span {
+    position: relative;
+    z-index: 1;
+    display:inline;
+   /* font-weight: 600;*/
+  }
+
+.hero_title span::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      bottom: 0px;
+      width: 100%;
+      height: 38%;
+      opacity: .1;
+      background-color: var(--primary-color);
+    }
+
+
+    /* Button "See my portfolio" */
+
+.button-container {
+      display: flex;
+      align-items: center;
+      margin: 2rem 0 ;
+    }
+    
+.arrow-link {
+      display: flex;
+      text-decoration: none; /* Remove underline */
+      border-bottom: 0;
+      align-items: center;
+    }
+
+.arrow-link:visited {
+  text-decoration: none; /* Remove underline */
+  border-bottom: 0; 
+}
+
+    
+ .arrow-button {
+      width: 30px;
+      height: 30px;
+      background-color: var(--primary-color); /* Pink background */
+      border: none;
+      border-radius: 5px; /* Optional: to make it rounded */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 0; /* Remove extra padding */
+      transition: background-color 0.3s ease;
+      margin-right: 10px; /* Space between button and text */
+    }
+    
+    .arrow-button svg {
+      fill: var(--white); /* White color for the arrow */
+      width: 16px; /* Adjust the size of the arrow */
+      height: 16px; /* Adjust the size of the arrow */
+    }
+    
+    .arrow-button:hover {
+      background-color: var(-primary-hover); /* Darker pink on hover */
+    }
+    
+  
+    
 
 .experienceBlock {
   display: flex;
@@ -667,14 +767,17 @@ span {
 footer {
   position: static;
   display: flex;
-  margin-top:auto;
-  background: #FFFFFF;
+  margin-top: 3rem;
+  background: #fff;
   border-top: 1px solid #E4E4E4;
   justify-content: center;
+  margin-top:auto;
+  background: #FFFFFF;
+
 }
 
 footer h2 {
-  margin: 0 0 1rem;
+  margin: 0 0 0.4rem;
 }
 
 .footer-content {
@@ -795,17 +898,23 @@ ul li {
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 1408px) {
-  .nav,
+  .nav {
+    max-width: 1312px;
+    padding: 1.2rem 0px 1.2rem;
+  }
+
   .footer-content {
     max-width: 1312px;
-    padding: 2rem 0px 4rem;
+    padding: 2rem 0px 3rem;
   }
 }
 
 @media only screen and (min-width: 828px) and (max-width: 1407px) {
-  .nav,
+  .nav{
+    padding: 1.2rem 48px 1.2rem;
+  }
   .footer-content {
-    padding: 2rem 48px 4rem;
+    padding: 2rem 48px 3rem;
   }
 }
 
@@ -849,7 +958,9 @@ ul li {
 }
 
 @media only screen and (max-width: 828px) and (min-width: 531px) {
-  .nav,
+  .nav{
+    padding: 1.2rem 24px 1.2rem;
+  }
   .footer-content {
     padding: 2rem 24px 4rem;
   }
@@ -882,7 +993,7 @@ ul li {
   }
 
   .footer-content {
-    padding: 4rem 24px 4rem;
+    padding: 3rem 24px 4rem;
   }
 
   .callout {
