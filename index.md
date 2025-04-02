@@ -3,49 +3,28 @@ layout: default
 title: Portfolio
 ---
 
-<div id="pastExperiences">
-<h1> I'm Anna, Senior Product Designer. <br>This is my portfolio.</h1>
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_simpology.webp" alt="Simpology logo" />
-        <h2 class="xpTitle">Lead Product Designer, Simpology</h2>
-        <p class="xpText">
-            In 2022, I joined Simpology, a fintech dedicated to revolutionizing the home loan application process, to lead the design of a multi-product platform.</p>
-        <ul class="xpLink">
-              <li><a href="{{site.baseurl}}/2024/06/10/White-label.html">Creating multi-brand white label design system</a></li>
-            <li><a href="{{site.baseurl}}/2024/06/15/Branding-tool.html">How I convinced my stubborn manager</a></li>
-          
-        </ul>
-    </div>
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_skoolbag.webp" alt="Skoolbag logo" />
-        <h2 class="xpTitle">Lead Product Designer & Product Owner, SkoolBag</h2>
-        <p class="xpText">
-            In 2020, at SkoolBag, I led the design of a new school administrator console for publishing content to a parent mobile app. We created the platform and successfully migrated 1,000 schools to it, while also enhancing the parent app's functionality.
-        </p>
-        <ul class="xpLink">
-            <li><a href="{{site.baseurl}}/2024/05/07/Parent-app.html">Failure of my “brilliant idea”</a></li>
-            <li><a href="{{site.baseurl}}/2024/06/01/Admin-console.html">Let's get lean and iterative</a></li>
-             <li><a href="{{site.baseurl}}/2024/06/05/Multi-cultural.html">Clash of the cultures</a></li>
-            <li><a href="{{site.baseurl}}/2024/05/25/Fresh-off-the-code.html">Product update videos</a></li>
-            
-            
-            
-   </ul>
-    </div>
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_asg.webp" alt="ASG logo" />
-        <h2 class="xpTitle">Senior UX Consultant, ASG Group</h2>
-        <p class="xpText">
-            In 2016, I started a consulting role where I worked with various industries such as government, education, finance, and telecommunications. I contributed to a variety of projects, from creating e-learning tutorials to implementing a giant IBM lease management system.
-        </p>
-        <ul class="xpLink"></ul>
-    </div>
-    <div class="experienceBlock">
-        <img class="xpLogo" src="{{site.baseurl}}/assets/images/img_voicebox.webp" alt="Voicebox logo"/>
-        <h2 class="xpTitle">UX Designer, VoiceBox Technologies</h2>
-        <p class="xpText">
-            In 2013, one year before Alexa, I was working with Samsung on the voice user interactions of a new (at the time) Galaxy S5.
-        </p>
-        <ul class="xpLink"></ul>
-    </div>
+<div id="hero">
+
+<div id="hero_text">
+    <h1 class="hero_title"> Hi, I'm <span>Anna Kozh</span></h1>
+    <h1>Senior Product Designer</h1>
+    <p> I design with curiosity, strategy, and just the right amount of obsession. From startups to big teams, solo to team collaborations - I get things done.</p>
+
+
+<div class="button-container">
+ <a href="/portfolio.html" class="arrow-link">
+     <button class="arrow-button">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24">
+         <g><path d="M0,0h24v24H0V0z" fill="none"/></g>
+         <g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g>
+         </svg>
+     </button>
+ <span class="button-text">See my portfolio</span>
+  </a>
 </div>
+</div>
+
+<div class="video-container"><iframe width="780" height="438.75" src="https://www.youtube.com/embed/Aik_6jVxsUY?si=Ip1yDUTZ7JLo4GGp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+
+</div>
+   

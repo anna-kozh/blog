@@ -13,15 +13,28 @@
   <script>
     window.addEventListener("load", function() {
         let getPage = window.location.pathname;
-        let portfolioLink = document.querySelectorAll('a')[2];
-        let blogLink = document.querySelectorAll('a')[3];
+        let portfolioLink = document.querySelectorAll('.nav_links .nav-item a')[0];
+        let blogLink = document.querySelectorAll('.nav_links .nav-item a')[1];
+        let aboutLink = document.querySelectorAll('.nav_links .nav-item a')[2];
 
-        if(getPage === "/") {
+        if(getPage === "/portfolio.html") {
                 portfolioLink.classList.add("selected");
                 blogLink.classList.remove("selected");
-        } else {
+                aboutLink.classList.remove("selected");
+        } else if(getPage === "/blog.html") {
+                portfolioLink.classList.remove("selected");      
                 blogLink.classList.add("selected");
-                portfolioLink.classList.remove("selected");
+                aboutLink.classList.remove("selected");
+        }
+        else if(getPage === "/about.html") {
+                portfolioLink.classList.remove("selected");      
+                blogLink.classList.remove("selected");
+                aboutLink.classList.add("selected");
+        }
+        else if(getPage === "/") {
+                portfolioLink.classList.remove("selected");      
+                blogLink.classList.remove("selected");
+                aboutLink.classList.remove("selected");
         }
     })
     
