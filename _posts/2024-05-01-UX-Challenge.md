@@ -3,6 +3,7 @@ layout: "single_post"
 title: "iPhone UX challenge"
 description: "I've attempted David Hammill's UX challenge to redesign the iPhone screen for accepting or declining a call while you are already on another one."
 tag: "Experience"
+permalink: /blog/ux-challenge
 image: 
 posted: 1
 ---

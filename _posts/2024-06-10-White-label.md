@@ -3,6 +3,7 @@ layout: "single_post"
 title: "Creating multi-brand white label design system"
 description: "Developers hate guessing design. Trying to work with an outdated, inconsistent design file can literally make them pull their hair out. This is the chaos I walked into. This is the story of how I transformed it into a multi-library, white-label design system."
 tag: "Case study"
+permalink: /blog/white-label
 image: 
 posted: 1
 ---

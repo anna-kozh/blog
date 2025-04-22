@@ -10,8 +10,8 @@ title: Portfolio
         <p class="xpText">
             In 2022, I joined Simpology, a fintech dedicated to revolutionizing the home loan application process, to lead the design of a multi-product platform.</p>
         <ul class="xpLink">
-              <li><a href="{{site.baseurl}}/2024/06/10/White-label.html">Creating multi-brand white label design system</a></li>
-            <li><a href="{{site.baseurl}}/2024/06/15/Branding-tool.html">How I convinced my manager</a></li>
+              <li><a href="/blog/white-label">Creating multi-brand white label design system</a></li>
+            <li><a href="/blog/branding-tool">How I convinced my manager</a></li>
           
         </ul>
     </div>
@@ -22,10 +22,10 @@ title: Portfolio
             In 2020, at SkoolBag, I led the design of a new school administrator console for publishing content to a parent mobile app. We created the platform and successfully migrated 1,000 schools to it, while also enhancing the parent app's functionality.
         </p>
         <ul class="xpLink">
-            <li><a href="{{site.baseurl}}/2024/05/07/Parent-app.html">Failure of my “brilliant idea”</a></li>
-            <li><a href="{{site.baseurl}}/2024/06/01/Admin-console.html">Let's get lean and iterative</a></li>
-             <li><a href="{{site.baseurl}}/2024/06/05/Multi-cultural.html">Clash of the cultures</a></li>
-            <li><a href="{{site.baseurl}}/2024/05/25/Fresh-off-the-code.html">Product update videos</a></li>
+            <li><a href="/blog/parent-app">Failure of my “brilliant idea”</a></li>
+            <li><a href="/blog/admin-console">Let's get lean and iterative</a></li>
+             <li><a href="/blog/multi-cultural">Clash of the cultures</a></li>
+            <li><a href="/blog/fresh-off-the-code">Product update videos</a></li>
             
             
             
