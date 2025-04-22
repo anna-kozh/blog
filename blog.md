@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+permalink: /blog
 under_construction: "{{ site.is_under_construction }}"
 ---
 

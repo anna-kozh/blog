@@ -3,6 +3,7 @@ layout: "single_post"
 title: "Let's get lean and iterative"
 description: "Start-ups aren’t for everyone. They are fast-paced and require many compromises. I ran out of wardrobe space for all the hats I was wearing. This is a story of how I adapted to start-up culture."
 tag: "Case study"
+permalink: /blog/admin-console
 image: 
 posted: 1
 ---

@@ -3,6 +3,7 @@ layout: "single_post"
 title: 'Failure of my “brilliant idea”'
 description: 'I had a brilliant idea. It was clever, innovative, and had everything needed to be successful. It even had working examples in several larger companies. This is the story of my failed “brilliant idea.”'
 tag: "Case study"
+permalink: /blog/parent-app
 image: 
 posted: 1
 ---

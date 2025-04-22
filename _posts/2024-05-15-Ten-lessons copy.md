@@ -3,6 +3,7 @@ layout: "single_post"
 title: "10 Lessons I learned"
 description: "Sometimes we get caught up in the moment, beating ourselves up because it feels like we are getting nowhere just because we are not where we want to be. As I reflected on my experiences over the last two years, I realized how much I’ve actually learned and grown."
 tag: "Experience"
+permalink: /blog/ten-lessons
 image: 
 posted: 1
 ---

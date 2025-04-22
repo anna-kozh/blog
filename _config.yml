@@ -27,6 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: ""
 github_username:  anna-kozh
+permalink: /blog/:title/
 
 is_under_construction: false
 
