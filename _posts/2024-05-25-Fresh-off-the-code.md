@@ -2,7 +2,7 @@
 layout: "single_post"
 title: "Product update videos"
 description: '"Fresh off the code" weekly video updates were born during the pandemic. We saw a need for company-wide updates on the progress of our product development. I was excited to exercise my unrealized potential as a YouTuber, even on a small scale within my company.'
-tag: "Experience"
+tag: "Videos"
 permalink: /blog/fresh-off-the-code
 image: 
 posted: 1
