@@ -2,7 +2,7 @@
 layout: "single_post"
 title: "Clash of the cultures"
 description: "Working with a remote team? From a different culture? That has different values and ways of working? Not just different, but opposite? Yes, I made it work."
-tag: "Experience"
+tag: "Communication"
 permalink: /blog/multi-cultural
 image: 
 posted: 1
