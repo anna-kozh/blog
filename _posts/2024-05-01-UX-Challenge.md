@@ -30,6 +30,7 @@ posted: 1
 
 <p>Everything incoming, while the user is in the middle of a task (calls, messages, Taylor Swift ticket sale notification) is just that — a notification. </p>
 
+<div class="last-step">
 <h3> The main changes: </h3>
 <ul>
 <li>Keep the user in the context of the current call </li>
@@ -43,3 +44,4 @@ posted: 1
 <img src="{{site.baseurl}}/assets/uploads/Ux-challenge/solution.webp" width= "780px" alt="Solution to UX challenge">
   <figcaption>Keeping user on the current call</figcaption>
 </figure>
+</div>

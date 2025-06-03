@@ -1,0 +1,19 @@
+{% if page.show_toc %}
+<aside class="table-of-contents">
+    <h3 id="toc-header">Contents</h3>
+    <ul id="toc-list">
+        {% for item in page.toc %}
+            <li>
+                <a href="#{{ item.id }}">{{ item.title }}</a>
+                {% if item.sub_sections %}
+                    <ul class="submenu"> 
+                    {% for sub_item in item.sub_sections %}
+                        <li><a href="#{{ sub_item.id }}">{{ sub_item.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</aside>
+{% endif %}

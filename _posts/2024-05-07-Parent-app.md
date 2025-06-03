@@ -8,7 +8,7 @@ image:
 posted: 1
 ---
 
-<div class="full-width-section highlighted project-overview">
+<div class="overview-width highlighted project-overview">
   <div class="overview-item">
   <h4>COMPANY</h4>
   <p>"SkoolBag" is a communication platform connecting schools and parents.</p>
@@ -145,4 +145,4 @@ This is what happened:
 <h2>Lessons learned</h2>
 <p>Even “brilliant ideas” need to be tested. Even widely used patterns should undergo testing with your users. Aim for simplicity with established mental models.</p>
 
-<div class="callout idea">I was too busy feeling like a great innovator, that I forgot to ask my users if they liked the innovation.</div>
+<div class="callout idea last-step">I was too busy feeling like a great innovator, that I forgot to ask my users if they liked the innovation.</div>

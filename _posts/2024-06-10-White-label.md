@@ -8,7 +8,7 @@ image:
 posted: 1
 ---
 
-<div class="full-width-section highlighted project-overview">
+<div class="overview-width highlighted project-overview">
   <div class="overview-item">
   <h4>COMPANY</h4>
   <p>"Simpology" is an Australian fintech company that develops white-label products for the lending industry.</p>
@@ -27,13 +27,13 @@ posted: 1
   </div>
   <div class="overview-item">
   <h4>KEY RESULTS</h4>
-  <p><ul>
+  <ul>
   <li>The new design file structure is easier to navigate and maintain</li>
   <li>Design deliverables are more consistent and clear </li>
   <li>Feature turnaround sped up significantly</li>
   <li>Branding a product file is now a 2-second task</li>
   </ul>
-  </p>
+  
   </div>
 </div>
 
@@ -141,7 +141,7 @@ This worked much better
 The future is bright!
 </h2>
 <p>Currently, we have a good system of libraries that meets the company's needs. However, as Simpology grows, we need new improvements: </p>
-<ul>
+<ul class="last-step">
 <li> I'm working with developers to add spacing and typography to the design system.</li>
 <li> Implementing design tokens to improve design consistency.</li>
 <li>Establishing new processes and practices, such as RACI, as the design team expands.</li>
