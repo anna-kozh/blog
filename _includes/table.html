@@ -1,0 +1,35 @@
+<div class="custom-table-wrapper">
+<table class="custom-table">
+  <thead>
+    <tr>
+      {% assign headers = include.headers | split: "|" %}
+      {% assign accent_index = include.accent_index | default: -1 | plus: 0 %}
+      {% for header in headers %}
+        <th class="{% if accent_index >= 0 and forloop.index0 == accent_index %}accent-header{% endif %}">{{ header }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% assign rows = include.rows | split: ";" %}
+    {% for row in rows %}
+      <tr>
+        {% assign cells = row | split: "|" %}
+        {% for cell in cells %}
+          {% assign cell_parts = cell | split: ":" %}
+          {% if forloop.first %}
+            <th>{{ cell_parts[0] }}</th>
+          {% else %}
+            <td class="
+              {% if accent_index >= 0 and forloop.index0 == accent_index %}
+                accent-cell
+                {% if forloop.parentloop.last %} accent-bottom{% endif %}
+              {% endif %}
+              {% if cell_parts.size > 1 %} {{ cell_parts[1] }}{% endif %}
+            ">{{ cell_parts[0] }}</td>
+          {% endif %}
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>

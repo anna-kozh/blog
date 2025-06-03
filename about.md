@@ -20,6 +20,6 @@ under_construction: "{{ site.is_under_construction }}"
 <br>It encourages collaboration, open communication, trust, and the freedom of independent thinking.</p>
 <p><b>A challenge I’ve overcome in my career...</b>
 <br>Working in difficult environments that tested my confidence. I discovered strategies to rebuild my self-belief and regained my confidence through self-reflection and growth.</p>
-<p><b>When I’m not designing, you’ll find me...</b>
+<p class="last-step"><b>When I’m not designing, you’ll find me...</b>
 <br>Trying out random creative classes (stand-up, improv, painting), planning a fun event or trip, slowly making my way through the Harry Potter books, or wandering near trees and water.</p>
 

@@ -1,0 +1,66 @@
+{% assign card_class = '' %}
+{% assign header_class = '' %}
+{% assign icon_bg_class = '' %}
+{% assign icon_color_class = include.icon_color_class %}
+{% assign header_color_class = include.header_color_class %}
+{% assign subheader_color_class = '' %}
+{% assign show_subheader = false %}
+
+{% if include.type == 'info' %}
+  {% assign card_class = 'card-white' %}
+  {% assign header_class = 'header-grey' %}
+  {% assign subheader_color_class = 'subheader-darkgrey' %}
+  {% assign show_subheader = true %}
+  {% if include.subtype == 'purple' %}
+    {% assign icon_bg_class = 'icon-bg-purple' %}
+  {% elsif include.subtype == 'blue' %}
+    {% assign icon_bg_class = 'icon-bg-blue' %}
+  {% elsif include.subtype == 'red' %}
+    {% assign icon_bg_class = 'icon-bg-red' %}
+  {% endif %}
+{% elsif include.type == 'ideate' %}
+  {% assign card_class = 'card-white' %}
+  {% assign header_class = 'header-grey' %}
+  {% assign show_subheader = false %}
+  {% if include.subtype == 'needs' %}
+    {% assign icon_bg_class = 'icon-bg-blue' %}
+  {% elsif include.subtype == 'challenges' %}
+    {% assign icon_bg_class = 'icon-bg-orange' %}
+  {% endif %}
+{% elsif include.type == 'tradeoff' %}
+  {% assign show_subheader = false %}
+  {% if include.mode == 'green' %}
+    {% assign card_class = 'card-light-green' %}
+    {% assign header_class = 'header-dark-green' %}
+  {% elsif include.mode == 'red' %}
+    {% assign card_class = 'card-light-red' %}
+    {% assign header_class = 'header-dark-red' %}
+  {% elsif include.mode == 'yellow' %}
+    {% assign card_class = 'card-light-yellow' %}
+    {% assign header_class = 'header-dark-yellow' %}
+  {% endif %}
+{% endif %}
+
+<div class="card {{ card_class }}">
+  <div class="card-header {{ header_class }}">
+    {% if include.icon %}
+      <span class="material-symbols-outlined card-icon {{ icon_bg_class }} {{ icon_color_class }}">
+        {{ include.icon }}
+      </span>
+    {% endif %}
+    <div>
+      <h3 class="{{ header_color_class }}">{{ include.header }}</h3>
+      {% if include.subheader and show_subheader %}
+        <p class="subheader {{ subheader_color_class }}">{{ include.subheader }}</p>
+      {% endif %}
+    </div>
+  </div>
+  {% if include.list %}
+    <ul class="card-list">
+      {% assign items = include.list | split: ';' %}
+      {% for item in items %}
+        <li>{{ item | strip }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

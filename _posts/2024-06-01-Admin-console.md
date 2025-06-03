@@ -8,7 +8,7 @@ image:
 posted: 1
 ---
 
-<div class="full-width-section highlighted project-overview">
+<div class="overview-width highlighted project-overview">
   <div class="overview-item">
   <h4>COMPANY</h4>
   <p>"SkoolBag" is a communication platform connecting schools and parents.</p>
@@ -144,4 +144,4 @@ Adapting to the iterative approach to design was not easy. Instinctually I wante
 <div class="callout idea">A growth mindset is the opposite of perfectionism.</div>
 
 <p>Releasing features that aren’t perfect can be tough. There is a fear of negative feedback, damage to reputation, and customer churn. </p>
-<p>While some customers churned, and others complained, the majority were surprisingly supportive. I learned to remind myself that as a designer, I’m wired to seek out imperfections to fix, while my users just want to send that message to parents and move on with their day.  </p>
+<p class="last-step">While some customers churned, and others complained, the majority were surprisingly supportive. I learned to remind myself that as a designer, I’m wired to seek out imperfections to fix, while my users just want to send that message to parents and move on with their day.  </p>

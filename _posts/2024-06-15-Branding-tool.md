@@ -8,7 +8,7 @@ image:
 posted: 1
 ---
 
-<div class="full-width-section highlighted project-overview">
+<div class="overview-width highlighted project-overview">
   <div class="overview-item">
   <h4>COMPANY</h4>
   <p>“Simpology” is an Australian fintech company dedicated to improving the mortgage application process.</p>
@@ -132,7 +132,7 @@ The branding tool was implemented, and this is some of the feedback I received f
   <div class="callout message">”It’s great. I have punched in a few colours and it populates the whole style guide” - CEO</div>
 
 <h2> What would I do differently?</h2>
-<ul>
+<ul class="last-step">
 <li>Implementing a WYSIWYG tool would have been a significant improvement, but it would have required more time and resources, which the company didn't have at the time. </li>
 <li>Instead of using a modal, which causes usability issues, I would explore alternative solutions.</li>
 <li>Additionally, I would prioritize testing with users.</li>

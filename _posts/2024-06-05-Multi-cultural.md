@@ -6,9 +6,22 @@ tag: "Communication"
 permalink: /blog/multi-cultural
 image: 
 posted: 1
+
+show_toc: false
+toc:
+  - title: "Short and direct"
+    id: "short-and-direct" # This should match the ID of the HTML element you want to scroll to
+  - title: "Working with a remote team"
+    id: "working-with-a-remote-team"
+  - title: "High and low context cultures"
+    id: "high-and-low-context-cultures"
+  - title: "Build a productive culture"
+    id: "build-a-productive-culture"
+  - title: "Culture was changing"
+    id: "culture-was-changing"
 ---
 
-<h2>Short and <s>sweet</s> direct </h2>
+<h2 id="short-and-direct">Short and <s>sweet</s> direct </h2>
 <p>
 I learned to be direct from an early age. In my culture, nobody hesitates to correct others, and criticism is delivered quite honestly. People usually speak to the point and keep their words concise. This style of communication can seem blunt, even when that's not intended. I never saw a problem with that since everyone around me communicated this way.
  </p>
@@ -18,7 +31,7 @@ I learned to be direct from an early age. In my culture, nobody hesitates to cor
 
  <p>I didn't expect changing my communication style to be such a big part of adapting to my new country. Even more so, I didn’t anticipate facing a whole new communication challenge when I started working with a remote team from South Asia.</p>
 
-<h2>Working with a remote team</h2>
+<h2 if="working-with-a-remote-team">Working with a remote team</h2>
 <p>
 Before I worked at SkoolBag, I didn’t have any experience with Sri Lankan culture, but I quickly realized they were very kind and sweet people, quiet, and respectful.
 </p>
@@ -32,7 +45,7 @@ However, over time, I started noticing that developers rarely contributed their 
 
 <p> When the time came for my annual review, one of the peer feedback was about improving my communication. I was so confused, no one had mentioned this to me throughout the year.</p>
 
-<h2>High and low context cultures </h2>
+<h2 id="high-and-low-context-cultures">High and low context cultures </h2>
 
 <p>
 To investigate the issue further, I spoke with the Sri Lankan team lead. He introduced me to the concept of "high context" and “low context” cultures. 
@@ -48,7 +61,7 @@ To investigate the issue further, I spoke with the Sri Lankan team lead. He intr
   <figcaption>High context vs Low context cultures</figcaption>
 </figure>
 
- <h2> Build a productive culture</h2>
+ <h2 id="build-a-productive-culture"> Build a productive culture</h2>
 
  <p>To create a great product, we first needed to build a productive company culture. This culture had to be based on contribution and collaboration, with each team member doing their part to develop it. </p>
 
@@ -65,8 +78,8 @@ To investigate the issue further, I spoke with the Sri Lankan team lead. He intr
  <li>Instead of focusing on the words a person was saying, I became more aware of what they were not saying: long pauses and avoidance of eye contact would indicate they had a problem with my proposal. </li>
 <li> My design process has changed to make it work for us. I myself became softer and less direct.</li>
 </ul>
- <h2> Culture was changing</h2>
+ <h2 id="culture-was-changing"> Culture was changing</h2>
 
   <p>All those ideas really helped to build such relationships, where sometimes I would get messages from developers out of nowhere suggesting a feature for the product they were not even working on.  </p>
   <div class="callout idea">The team became more engaged and felt empowered to make a difference.</div>
- <p>Company culture is a process of accepting and understanding all the individual cultures in the team. Your company culture is unique and it takes time to build. </p>
+ <p class="last-step">Company culture is a process of accepting and understanding all the individual cultures in the team. Your company culture is unique and it takes time to build. </p>
