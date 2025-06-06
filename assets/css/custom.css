@@ -1587,6 +1587,13 @@ div[id]{
   .card {
     flex: 1 1 calc(50% - 20px); /* 2 columns */
   }
+  .overview-width {
+    width: 100vw;
+    margin: 0;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    overflow-x: auto;
+  }
 }
  @media (max-width: 530px) {
   .card {
@@ -1688,7 +1695,7 @@ div[id]{
 /* Lightbox */
 
 
-img:hover {
+.thumbnail:hover {
     /* This line moves the figure up on hover */
     transform: translateY(-2px);
     box-shadow: var( --shadow-elevation);
