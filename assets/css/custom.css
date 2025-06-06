@@ -266,23 +266,6 @@ strong {
 }
 
 
-
-.overview-width {
- /* padding-top: 5rem; */
-}
-
-
-
-
-.full-width-section {
-  /* margin: 0px -2000px;
-  padding: 0px 2000px;
-  margin-bottom: 4rem;
-   background: var(--white);  
-  margin-top: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 3.5rem; */}
-
   .full-width-breakout {
   width: 100vw;
   position: relative;
@@ -1180,7 +1163,7 @@ ul li {
   /* Full-width section without breaking layout */
   .overview-width,
   .full-width-section,
-  .highlighted.project-overview {
+  .highlighted {
     width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
