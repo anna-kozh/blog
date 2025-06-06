@@ -411,7 +411,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <h2>Tradeoffs</h2>
 
 <!-- Place for tradeoff table -->
-{% include table.html
+<!-- {% include table.html
   headers="Criteria|Inline editor|Form editor|Guided wizard"
   rows="
     Meeting user needs|90%:green|50%:yellow|30%:red;
@@ -419,7 +419,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
     Effort|High:red|Low:green|Medium:yellow;
     Risk|High:red|Low:green|Medium:yellow
   "
-  accent_index=2 %}
+  accent_index=2 %} -->
 
 {% include blockquote.html
    text="Form editor (option 2) <span class='bold'>delivers the most impact</span> within existing constraints." %}
@@ -748,7 +748,7 @@ Overall, while our original goal was to reduce onboarding time by 90% and cut su
 </p>
 
 <!-- Place for table of sucess metrics and achieved metrics -->
-{% include table.html
+<!-- {% include table.html
   headers="Metric|Target (sucess)|Phase 1 (achieved)"
   rows="
     Meet user needs?|100%|60%;
@@ -756,7 +756,7 @@ Overall, while our original goal was to reduce onboarding time by 90% and cut su
     Operational cost saving|80%|50%;
     Time to launch reduced|1 month|4 months;
     Client satisfaction score during onboarding|90%|80%
-  "%}
+  "%} -->
 </div>
 <!-- Place for the Table of content -->
 <div id= "future-iteractions">
