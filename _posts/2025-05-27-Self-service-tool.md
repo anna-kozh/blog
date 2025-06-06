@@ -15,8 +15,8 @@ toc:
     id: "define"
   - title: "Ideate"
     id: "ideate"
-  - title: "Prototype"
-    id: "prototype"
+  - title: "Design"
+    id: "design"
     sub_sections:
       - title: "Branding"   
         id: "branding"
@@ -82,27 +82,34 @@ toc:
   </div>
 </div>
 
-<!-- Place for the Table of content -->
-<div id="discover">
+
+<div id="discover"> <!-- START OF DISCOVERY PHASE -->
 <h2><span class="step-label" aria-hidden="true" >DISCOVER</span>
 Onboarding costed $940K as business scaled</h2>
 <p>
 During support ticket analysis, we discovered that <strong>30% tickets</strong> were related to onboarding new clients. As the business scaled and client acquisition increased, the volume of these requests grew, resulting in an estimated annual <strong>cost of $940,000 per year</strong>.
 </p>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+  id="discovery"
+  thumb="/assets/uploads/Self-service/discovery.webp"
+  full="/assets/uploads/Self-service/discovery.webp"
+  alt="Manual onboarding caused lost revenue and wasted resources"
+  caption="Onboarding costed $940,000 per year" %}
+
 
 <h2 id="short-direct">Customisation is what sets us apart</h2>
 <p>
 Our greatest competitive advantage is offering <strong>fully customisable</strong> home loan application products, tailored to each lender’s unique processes and forms.
 </p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+  id="customisation"
+  thumb="/assets/uploads/Branding-tool/loanapp.webp"
+  full="/assets/uploads/Branding-tool/loanapp.webp"
+  alt="Different brands customisation"
+  caption="Different brands customisation" %}
+
 
 
 <h2>
@@ -133,14 +140,20 @@ To better understand the existing onboarding workflow, I conducted a cross-funct
 <p><strong>Duration:</strong> 3 hours</p>
 <p><strong>Team:</strong> Account managers, Support, Dev, Design, Product</p>
 <p><strong>Objective:</strong> Map the current process and identify pain points</p>
-<p><strong>Outcome:</strong> The most costly delays happen during configuration and branding setup.</p>
+<p><strong>Outcome:</strong> Metadata is tedius and complicated to update, which leads to delays and frustration.</p>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/generator.webp" width="780px" alt="Color generator">
-  <figcaption>Color generator <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-6332&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="journey-map"
+   thumb="/assets/uploads/Self-service/journey-map.webp"
+   full="/assets/uploads/Self-service/journey-map.webp" 
+   alt="Onboarding journey map"
+   caption="Onboarding journey map" %}
 
-<div class="full-width-section full-width-bg">
+
+
+
+<section class="full-width-section">
+<div>
 <h2>Why branding causes delays?</h2>
 <ul>
 <li>Dependencies on the designer and developer</li>
@@ -148,28 +161,35 @@ To better understand the existing onboarding workflow, I conducted a cross-funct
 <li>No visual preview leads to errors and rework</li>
 </ul>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/generator.webp" width="780px" alt="Color generator">
-  <figcaption>Color generator <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-6332&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="branding-map"
+   thumb="/assets/uploads/Self-service/process-branding.webp"
+   full="/assets/uploads/Self-service/process-branding.webp" 
+   alt="Branding setup process steps"
+   caption="Branding setup process steps" %}
+
 
 <h2>Why configuration causes delays?</h2>
 <ul>
 <li>Understanding client needs takes time and repeated back-and-forth</li>
-<li>Process is repetitive, low-impact, and time-consuming</li>
+<li>Process is tedius, repetitive, and time-consuming</li>
 <li>Requires technical knowledge and developer input</li>
 <li>No visual preview leads to errors and rework</li>
 </ul>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/generator.webp" width="780px" alt="Color generator">
-  <figcaption>Color generator <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-6332&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="config-map"
+   thumb="/assets/uploads/Self-service/process-config.webp"
+   full="/assets/uploads/Self-service/process-config.webp" 
+   alt="Configuration setup process steps"
+   caption="Configuration setup process steps" %}
+
 </div>
-</div>
+</section>
+</div> <!-- END OF DISCOVERY PHASE -->
 
 
-<!-- DEFINE PHASE -->
+<!-- START OF DEFINE PHASE -->
 <div id="define">
 <h2><span class="step-label" aria-hidden="true" >DEFINE</span>Problem statement</h2>
 <p>
@@ -178,7 +198,6 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <h2>Client, User & Business needs</h2>
 
 <div class="card-container">
- <!-- INFO CARDS (Purple, Blue, Red) -->
  {% include card.html
     type="info" subtype="purple"
     icon="account_balance"
@@ -220,21 +239,27 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <li><span class="material-icons">{{ metric_icon }}</span>90% CSAT during onboarding</li>
 </ul>
 
-</div>
-<!-- IDEATE PHASE -->
-<div id="ideate">
+</div>  <!-- END OF DEFINE PHASE -->
+
+
+
+
+<div id="ideate"> <!-- START OF IDEATE PHASE -->
 <h2><span class="step-label" aria-hidden="true">IDEATE</span>Concepts explored</h2>
 
 <h3> Option 1: Inline editor </h3>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
 
-<!-- Place for Needs met, Key challenges, Impact and Effort -->
+{% include lightbox.html
+   id="sketch-inline"
+   thumb="/assets/uploads/Branding-tool/loanapp.webp"
+   full="/assets/uploads/Branding-tool/loanapp.webp" 
+   alt="Option 1. Inline editor"
+   caption="Option 1. Inline editor" %}
+
+
 <div class="card-container">
 
-  <!-- IDEATE CARDS (Needs, Challenges) -->
+
   {% include card.html
      type="ideate" subtype="needs"
      icon="check"
@@ -256,7 +281,6 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 <div class="card-container">
 
-  <!-- TRADEOFF CARDS (Effort & Impact) in Green -->
 
   {% include card.html
      type="tradeoff" subtype="impact" mode="green"
@@ -266,7 +290,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
      header="High impact"
      list="~90% reduction in support tickets; ~80% faster time‑to‑launch; Significant lift in client satisfactiont" %}
 
-  <!-- TRADEOFF CARDS (Effort & Impact) in Red -->
+
   {% include card.html
      type="tradeoff" subtype="effort" mode="red"
      icon="construction"
@@ -276,17 +300,18 @@ Configuration and branding setup caused onboarding delays, high operational cost
    list="UX/UI, PM, BA, 2 FE, 1 BE, 2 QA engineers (30-40 weeks Dev work, 30 weeks Design, 30 weeks QA)" %}
 </div>
 
-<h3>Option 2: Form-based editor </h3>
+<h3>Option 2: Form editor </h3>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="sketch-form"
+   thumb="/assets/uploads/Branding-tool/loanapp.webp"
+   full="/assets/uploads/Branding-tool/loanapp.webp" 
+   alt="Option 2. Form editor"
+   caption="Option 2. Form editor" %}
 
-<!-- Place for Needs met, Key challenges, Impact and Effort -->
 <div class="card-container">
 
-  <!-- IDEATE CARDS (Needs, Challenges) -->
+
   {% include card.html
      type="ideate" subtype="needs"
      icon="check"
@@ -307,9 +332,6 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 
 <div class="card-container">
-
-  <!-- TRADEOFF CARDS (Effort & Impact) in Green -->
-
   {% include card.html
      type="tradeoff" subtype="impact" mode="yellow"
      icon="trending_up"
@@ -318,7 +340,6 @@ Configuration and branding setup caused onboarding delays, high operational cost
      header="Medium impact"
      list="~50% reduction in support tickets; ~80% faster time‑to‑launch" %}
 
-  <!-- TRADEOFF CARDS (Effort & Impact) in Red -->
   {% include card.html
      type="tradeoff" subtype="effort" mode="green"
      icon="construction"
@@ -330,15 +351,16 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 
 <h3>Option 3: Guided wizard</h3>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
 
-<!-- Place for Needs met, Key challenges, Impact and Effort -->
+{% include lightbox.html
+   id="sketch-wizzard"
+   thumb="/assets/uploads/Branding-tool/loanapp.webp"
+   full="/assets/uploads/Branding-tool/loanapp.webp" 
+   alt="Option 3. Guided wizard"
+   caption="Option 3. Guided wizard" %}
+
+
 <div class="card-container">
-
-  <!-- IDEATE CARDS (Needs, Challenges) -->
   {% include card.html
      type="ideate" subtype="needs"
      icon="check"
@@ -346,7 +368,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
      header_color_class="header-black"
      header="Needs met"
      list="Intuitive tool that requires no technical skills; Quick application of branding; Minimise repetitive tasks; Live preview to reduce guesswork; Built-in checks to prevent rework" %}
-
+     
   {% include card.html
      type="ideate" subtype="challenges"
      icon="extension"
@@ -360,8 +382,6 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 <div class="card-container">
 
-  <!-- TRADEOFF CARDS (Effort & Impact) in Green -->
-
   {% include card.html
      type="tradeoff" subtype="impact" mode="red"
      icon="trending_up"
@@ -370,7 +390,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
      header="Low impact"
      list="20% reduction in setup time; Improves time-to-value and client satisfaction" %}
 
-  <!-- TRADEOFF CARDS (Effort & Impact) in Red -->
+
   {% include card.html
      type="tradeoff" subtype="effort" mode="yellow"
      icon="construction"
@@ -391,7 +411,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 <!-- Place for tradeoff table -->
 {% include table.html
-  headers="Criteria|Option A|Option B|Option C"
+  headers="Criteria|Inline editor|Form editor|Guided wizard"
   rows="
     Meeting user needs|90%:green|50%:yellow|30%:red;
     Impact|High:green|Medium:yellow|Low:red;
@@ -400,40 +420,46 @@ Configuration and branding setup caused onboarding delays, high operational cost
   "
   accent_index=2 %}
 
-
-
-<!-- <div class="callout thought">Option 2 delivers the most impact within existing constraints.</div> -->
-
 {% include blockquote.html
-   text="Option 2 <span class='bold'>delivers the most impact</span> within existing constraints." %}
-
+   text="Form editor (option 2) <span class='bold'>delivers the most impact</span> within existing constraints." %}
 
 
 <p>With just 26 weeks and limited resources, we needed a pragmatic solution that delivered the most impact. </p>
 <p>Option 2 was the <strong>most strategic choice</strong> because it:</p>
+
 <ul>
 <li>Addressed 80% of the most common onboarding needs</li>
 <li>Has the biggest impact on saving internal team time on repetitive tasks</li>
 <li>Requires minimal development effort and learning</li>
 <li>Laid a strong foundation for future iterations</li>
 </ul>
-</div>
-<div id="prototype">
-<h2><span class="step-label" aria-hidden="true" >PROTOTYPE</span>Splitting Branding and Configuration</h2>
+</div> <!-- END OF IDEATE PHASE -->
+
+
+<div id="design"> <!-- START OF DESIGN PHASE -->
+<h2><span class="step-label" aria-hidden="true" >DESIGN</span>Splitting Branding and Configuration</h2>
 <p>To move faster, reduce risk and complexity, we made a strategic decision to split the problem into two distinct product tracks:</p>
 <p>A. Branding setup</p>
 <p>B. Configuration setup</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="product-split"
+   thumb="/assets/uploads/Self-service/timeline-both.webp"
+   full="/assets/uploads/Self-service/timeline-both.webp" 
+   alt="The project was broken into 2 products"
+ %}
+
 </div>
 <div id="branding">
 <h2>A. Branding setup</h2>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="phase-branding"
+   thumb="/assets/uploads/Self-service/timeline-branding.webp"
+   full="/assets/uploads/Self-service/timeline-branding.webp" 
+   alt="Branding phase is highlighted"
+ %}
+
 
 <h2>Prioritised user needs</h2>
 <ol>
@@ -523,12 +549,6 @@ Phone, email have an input validation.</p>
   <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
-<li>Added a publish confirmation step</li>
-<p>Users expressed an anxiety publishing, so I added a confirmation step.</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
 
 <li>Added contrast check according to WGAA AA guidelines</li>
 <p>Used WGA AA guidelines to check the contrast of 4,51 :1 check (edit this)</p>
@@ -576,13 +596,21 @@ Phone, email have an input validation.</p>
 <p>Since I did all the scoping and requirements, my team needed more support than I was able to provide at the time. Next time, I’ll plan better to balance priorities.</p>
 </ul>
 </div>
+
+
+
 <!-- B.Configuration -->
 <div id="configuration">
 <h2>B. Configuration setup</h2>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="design-config"
+   thumb="/assets/uploads/Self-service/timeline-config.webp"
+   full="/assets/uploads/Self-service/timeline-config.webp" 
+   alt="Configuration phase is highlighted"
+ %}
+
+
 
 <h2>Prioritised user needs</h2>
 
@@ -731,8 +759,8 @@ Overall, while our original goal was to reduce onboarding time by 90% and cut su
 </div>
 <!-- Place for the Table of content -->
 <div id= "future-iteractions">
-<h2><span class="step-label" aria-hidden="true">FUTURE ITERATIONS</span>Self-serve setup tool</h2>
-<p>Form-based editor made a real impact. But it didn’t fully solve the problem:</p>
+<h2><span class="step-label" aria-hidden="true">FUTURE ITERATIONS</span>Self-service setup tool</h2>
+<p>Form editor made a real impact. But it didn’t fully solve the problem:</p>
 <ul><li>Configuration remained manual and complex, highly dependant on internal teams.</li>
 <li>Operational costs were reduced, but not to target levels.</li>
 <li>Onboarding delays were shortened, but not eliminated.</li></ul>
@@ -755,7 +783,15 @@ Overall, while our original goal was to reduce onboarding time by 90% and cut su
 <li>Accelerate onboarding</li>
 <li>Empower clients nad increase their satisfaction</li></ul>
 
-<p>We’re revisiting <a href>Concept #1</a> to build a <strong>canvas-based tool</strong> (Inline editor). </p>
+<p>We’re revisiting Concept #1 to build a <strong>canvas-based tool</strong> (Inline editor). </p>
+
+{% include lightbox.html
+   id="concept 1"
+   thumb="/assets/uploads/Branding-tool/loanapp.webp"
+   full="/assets/uploads/Branding-tool/loanapp.webp" 
+   alt="Concept 1"
+   caption="Concept 1"
+ %}
 
 <p>It iterates on Form-editor key components:</p>
 <ul>
