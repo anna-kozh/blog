@@ -18,9 +18,7 @@
 <!-- Lightbox Overlay -->
 <div id="{{ include.id }}-lightbox" class="lightbox" style="display:none;">
   <span class="lightbox-close material-symbols-outlined" id="{{ include.id }}-close">close</span>
-
-  <!-- NEW WRAPPER -->
-  <div class="zoom-wrapper">
-    <img class="lightbox-img" src="{{ include.full }}" alt="{{ include.alt | default: '' }}">
-  </div>
+  <img class ="lightbox-img" src="{{ include.full }}" alt="{{ include.alt | default: '' }}">
 </div>
+
+
