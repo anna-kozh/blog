@@ -33,7 +33,7 @@ toc:
 
 
 
-<div class="overview-width highlighted project-overview">
+<div class="highlighted project-overview">
   <div class="overview-item">
   <h4>COMPANY</h4>
   <p>"Simpology" is an Australian fintech company that develops white-label products for the home lending industry.</p>
