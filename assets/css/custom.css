@@ -1092,12 +1092,12 @@ ul li {
 @media only screen and (max-width: 828px) {
   
  .lightbox img {
-    width: 100vw !important;
+    width: auto;
     height: auto;
     padding: 0 !important;
     max-width: 100vw;
     max-height: 100vh;
-    border-radius: 0; /* optional: remove corners on mobile */
+    border-radius: 0; 
   }
 
 
@@ -1692,14 +1692,23 @@ div[id]{
   align-items: center;
   z-index: 9999;
   padding: 2rem;
+  opacity: 0; /* ADDED/MOVED: For fade-in/out effect */
+  transition: opacity 0.3s ease; /* ADDED/MOVED: For fade-in/out effect */
+  pointer-events: none; /* ADDED/MOVED: Prevent clicks when hidden */
 }
 
 .lightbox-img {
-  /* max-width: 1440px !important; */
-  /* max-height: 90vh; */
-  /* width: 1400px; */
-  /* border-radius: 8px; */
-  /* box-shadow: 0 0 20px rgba(0,0,0,0.6); */
+  display: block; /* ADDED: Ensures proper box model behavior */
+  object-fit: contain; /* MOVED: Scales image to fit container without cropping */
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* MOVED: Shadow for depth */
+  
+
+  /* *** Crucial for fixing pinch-zoom gliding on mobile *** */
+  overflow: auto; /* ADDED: Allow scrolling for the image when zoomed in */
+  touch-action: pan-x pan-y; /* ADDED: Allows panning in both directions on touch devices */
+  -webkit-overflow-scrolling: touch; /* ADDED: Improves scrolling fluidity on iOS */
+  position: relative; /* ADDED: Ensure overflow applies correctly */
 
 
   width: auto;
@@ -1713,6 +1722,12 @@ div[id]{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
+/* Make lightbox visible when JS sets display: flex */
+.lightbox[style*="display: flex"] {
+  opacity: 1; /* ADDED/MOVED: Sets opacity to 1 when visible */
+  pointer-events: auto; /* ADDED/MOVED: Allow clicks when visible */
+}
+
 .lightbox-close {
   position: absolute;
   top: 30px;
@@ -1721,6 +1736,10 @@ div[id]{
   color: var(--white);
   cursor: pointer;
   font-weight: bold;
+  z-index: 10000; /* ADDED: Ensure close button is always on top */
+}
+.lightbox-close:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* ADDED: Darker background on hover */
 }
 
 .lightbox {
@@ -1732,35 +1751,4 @@ div[id]{
 .lightbox[style*="display: flex"] {
   opacity: 1;
   pointer-events: auto;
-}
-
-
-.lightbox {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.9);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  overflow: hidden;
-  overscroll-behavior: contain;
-  touch-action: none; /* Prevent page from reacting to gestures */
-}
-
-.zoom-wrapper {
-  max-width: 100vw;
-  max-height: 100vh;
-  overflow: auto;
-  touch-action: pan-x pan-y;
-  scroll-behavior: auto;
-}
-
-.lightbox-img {
-  max-width: none;
-  max-height: none;
-  width: auto;
-  height: auto;
-  user-select: none;
-  -webkit-user-drag: none;
 }
