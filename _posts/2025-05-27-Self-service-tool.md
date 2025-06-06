@@ -1,5 +1,5 @@
 ---
-layout: "single_post"
+layout: "single_post_notoc"
 title: "Onboarding self-service tool"
 description: '"You never get a second chance to make a first impression," they say. Onboarding is like a first date — if you show up late, your client might already be swiping through other options. This is the story of how we got them off the market.'
 tag: "Case study"
