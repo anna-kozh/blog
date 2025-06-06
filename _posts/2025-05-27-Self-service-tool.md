@@ -152,7 +152,7 @@ To better understand the existing onboarding workflow, I conducted a cross-funct
 
 
 
-<section class="full-width-section">
+
 <div>
 <h2>Why branding causes delays?</h2>
 <ul>
@@ -185,7 +185,7 @@ To better understand the existing onboarding workflow, I conducted a cross-funct
    caption="Configuration setup process steps" %}
 
 </div>
-</section>
+
 
 </div> <!-- END OF DISCOVERY PHASE -->
 
