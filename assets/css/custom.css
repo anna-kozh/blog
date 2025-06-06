@@ -1109,10 +1109,54 @@ ul li {
 }
 
 @media only screen and (max-width: 828px) {
-     
-  body {overflow-x: hidden; }
+ 
+  /* Card mobile styles */
+  .card {
+    flex: 1 1 calc(50% - 20px); /* 2 columns */
+  }
 
- .lightbox img {
+  /* Table mobile styles */
+ .custom-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+
+  .custom-table {
+    min-width: 600px;
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .custom-table * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  
+  /* .custom-table {
+    min-width: 600px;   } */
+
+
+  /* .custom-table-wrapper {
+  overflow-x: auto;
+  margin-right: -24px; 
+  padding-right: 24px; 
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  }*/
+
+
+.custom-table-wrapper::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari */
+}
+
+
+  /* Lightbox mobile styles */
+.lightbox img {
     width: 100vw !important;
     height: auto;
     padding: 0 !important;
@@ -1122,38 +1166,51 @@ ul li {
   }
 
 
-  .overview-width {
-  margin-left: -100vw;
-  margin-right: -100vw;
-  margin-bottom: 4rem;
-  margin-top: 3rem;
-  padding-left: 100vw;
-  padding-right: 100vw;
-  /* padding-top: 1rem;
-  padding-bottom: 3.5rem; */
-  /* overflow-x: hidden; */
+  body {
+    overflow-x: hidden;
   }
-  .full-width-breakout {
-    padding: 0 1.5rem;
+
+  /* Full-width section without breaking layout */
+  .overview-width,
+  .full-width-section,
+  .highlighted.project-overview {
+    width: 100vw;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
-  .full-width-section {
-  /* margin-left: -100vw;
-  margin-right: -100vw;
-  margin-bottom: 4rem;
-  margin-top: 3rem;
-  padding-left: 100vw;
-  padding-right: 100vw; */
 
+  .overview-width * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 
-  /* position: relative;
-  left: 50%;
-  right: 50%;
-  width: 100vw;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding: 2rem 1.5rem; 
-  box-sizing: border-box; */
+  .full-width-section * {
+  max-width: 100%;
+  box-sizing: border-box;
 }
+
+  /* TOC scrolls, but doesn't cause zoom issues */
+  #toc-list {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+    gap: 1rem;
+    scrollbar-width: none;
+  }
+
+  #toc-list::-webkit-scrollbar {
+    display: none;
+  }
+ 
+
   
   #singlePost {
     width: 100%;
@@ -1620,12 +1677,6 @@ div[id]{
 .card-list li {
   margin-bottom: 0.5rem;
 }
-@media (max-width: 828px) {
-
-    .card {
-    flex: 1 1 calc(50% - 20px); /* 2 columns */
-  }
-}
 
  @media (max-width: 530px) {
   .card {
@@ -1704,25 +1755,7 @@ div[id]{
 
 
 
-@media (max-width: 828px) {
-  .custom-table {
-    min-width: 600px; /* or whatever fits your content */
-  }
 
-  .custom-table-wrapper {
-  overflow-x: auto;
-  margin-right: -24px; /* Cancel out the parent div’s right padding */
-  padding-right: 24px; /* Optional: to make scroll bar area clear */
-  -ms-overflow-style: none;  /* IE & Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
-.custom-table-wrapper::-webkit-scrollbar {
-  display: none;  /* Chrome, Safari */
-}
-
-
-}
 
 /* Lightbox */
 
