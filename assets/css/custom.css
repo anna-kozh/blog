@@ -1733,3 +1733,34 @@ div[id]{
   opacity: 1;
   pointer-events: auto;
 }
+
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+  overscroll-behavior: contain;
+  touch-action: none; /* Prevent page from reacting to gestures */
+}
+
+.zoom-wrapper {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: auto;
+  touch-action: pan-x pan-y;
+  scroll-behavior: auto;
+}
+
+.lightbox-img {
+  max-width: none;
+  max-height: none;
+  width: auto;
+  height: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
