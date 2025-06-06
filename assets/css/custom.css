@@ -1117,6 +1117,22 @@ ul li {
   /* overflow-x: hidden; */
   }
   
+  .full-width-section {
+  margin-left: -100vw;
+  margin-right: -100vw;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+  padding-left: 100vw;
+  padding-right: 100vw;
+  /* position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 2rem 1.5rem; 
+  box-sizing: border-box; */
+}
   
   #singlePost {
     width: 100%;
@@ -1584,30 +1600,6 @@ div[id]{
   margin-bottom: 0.5rem;
 }
 @media (max-width: 828px) {
-
-  .overview-width {
-    position: relative;
-    left: 50%;
-    right: 50%;
-    width: 100vw;
-    margin-left: -50vw;
-    margin-right: -50vw;
-
-    padding: 2rem 1.5rem;
-    box-sizing: border-box;
-    border-radius: 0;
-  }
-
-  .full-width-section {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  width: 100vw;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding: 2rem 1.5rem; 
-  box-sizing: border-box;
-}
 
     .card {
     flex: 1 1 calc(50% - 20px); /* 2 columns */
