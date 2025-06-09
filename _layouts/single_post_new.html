@@ -1,0 +1,46 @@
+{% if site.is_under_construction %}
+   {% include under-construction.html %}
+{% else %}
+   {% include header.html %}
+  <div class="loader-bar" id="loader-bar"></div>
+
+<div class="page-wrapper">
+  <div class="content-wrapper">
+    
+ {% if page.show_toc %}
+    {% include toc.html %}
+{% endif %}
+
+
+    <div id="article-content">
+        <div class="post-stats">
+          {% assign formattedDate = page.date | date: "%d %b %Y" | upcase %}
+          <span>{{ formattedDate }}</span>
+          <span>{{ page.time }} READ</span>
+          <span class="post-type">{{ page.tag }}</span>
+        </div>
+        <h1>{{ page.title }}</h1>
+        <p class="description">{{ page.description }}</p>
+
+        {{ content }}
+      </div>
+  </div>
+  </div>
+
+    <script src="{{ '/assets/js/toc-highlight.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/toc-scroll.js' | relative_url }}"></script>
+    <script>
+      (() => {
+        const loaderBar = document.getElementById('loader-bar');
+        function updateLoaderBar() {
+          const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+          const scrollProgress = maxScroll > 0 ? (window.scrollY / maxScroll) * 100 : 100;
+          loaderBar.style.width = scrollProgress + '%';
+        }
+        window.addEventListener('scroll', updateLoaderBar, { passive: true });
+        window.addEventListener('load', updateLoaderBar);
+      })();
+    </script>
+   {% include footer.html %}
+{% endif %}

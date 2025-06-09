@@ -1,5 +1,5 @@
 ---
-layout: "single_post_notoc"
+layout: "single_post_new"
 title: "Onboarding self-service tool"
 description: '"You never get a second chance to make a first impression," they say. Onboarding is like a first date — if you show up late, your client might already be swiping through other options. This is the story of how we got them off the market.'
 tag: "Case study"
@@ -152,8 +152,8 @@ To better understand the existing onboarding workflow, I conducted a cross-funct
 
 
 
-
-<div>
+<div class="full-width">
+<div class ="inner-full-width">
 <h2>Why branding causes delays?</h2>
 <ul>
 <li>Dependencies on the designer and developer</li>
@@ -184,10 +184,10 @@ To better understand the existing onboarding workflow, I conducted a cross-funct
    alt="Configuration setup process steps"
    caption="Configuration setup process steps" %}
 
+</div> <!-- END OF INNER -->
 </div>
 
-
-</div> <!-- END OF DISCOVERY PHASE -->
+</div> <!-- END OF FULL WIDTH -->
 
 
 <!-- START OF DEFINE PHASE -->
@@ -410,8 +410,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 <h2>Tradeoffs</h2>
 
-<!-- Place for tradeoff table -->
-<!-- {% include table.html
+<!-- Tradeoff table -->
+{% include table.html
   headers="Criteria|Inline editor|Form editor|Guided wizard"
   rows="
     Meeting user needs|90%:green|50%:yellow|30%:red;
@@ -419,7 +419,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
     Effort|High:red|Low:green|Medium:yellow;
     Risk|High:red|Low:green|Medium:yellow
   "
-  accent_index=2 %} -->
+  accent_index=2 %}
 
 {% include blockquote.html
    text="Form editor (option 2) <span class='bold'>delivers the most impact</span> within existing constraints." %}
@@ -576,14 +576,6 @@ Phone, email have an input validation.</p>
 <li><span class="material-icons">{{ metric_icon }}</span>CSAT affect</li>
 </ul>
 
-<!-- <h2>Impact</h2>
-<ul class="metrics">
-<li>100% of branding completed independently</li>
-<li>Operational cost savings by 10.6%</li>
-<li>Time to launch reduced by 3%</li>
-<li>Task success rate in usability testing 95%</li>
-<li>CSAT affect</li>
-</ul> -->
 
 <div class="callout message">“It’s very helpful, I didn’t have to change the corresponding buttons individually. I think I only had to change one or 2 after that” - CX manager</div>
 
@@ -747,8 +739,8 @@ Phone, email have an input validation.</p>
 Overall, while our original goal was to reduce onboarding time by 90% and cut support load by 80%, the combined impact of our Configuration and Branding solutions achieved a 50% reduction in onboarding time and a 40% reduction in support load. This outcome partially met our success metrics, providing a solid foundation for Phase 2, where we plan to address the remaining gaps and deliver the ideal solution.
 </p>
 
-<!-- Place for table of sucess metrics and achieved metrics -->
-<!-- {% include table.html
+<!-- Table of sucess metrics and achieved metrics -->
+{% include table.html
   headers="Metric|Target (sucess)|Phase 1 (achieved)"
   rows="
     Meet user needs?|100%|60%;
@@ -756,7 +748,8 @@ Overall, while our original goal was to reduce onboarding time by 90% and cut su
     Operational cost saving|80%|50%;
     Time to launch reduced|1 month|4 months;
     Client satisfaction score during onboarding|90%|80%
-  "%} -->
+  "%}
+
 </div>
 <!-- Place for the Table of content -->
 <div id= "future-iteractions">
