@@ -1,6 +1,7 @@
 {% if page.show_toc %}
-<aside class="table-of-contents">
+<aside class="table-of-contents" id="mobile-toc">
     <h3 id="toc-header">Contents</h3>
+      <!-- <div class="toc-scroll-wrapper"></div> -->
     <ul id="toc-list">
         {% for item in page.toc %}
             <li>
@@ -11,9 +12,11 @@
                         <li><a href="#{{ sub_item.id }}">{{ sub_item.title }}</a></li>
                     {% endfor %}
                     </ul>
+                
                 {% endif %}
             </li>
         {% endfor %}
     </ul>
+    <!-- </div> -->
 </aside>
 {% endif %}

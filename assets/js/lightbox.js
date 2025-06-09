@@ -4,31 +4,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const lightbox = document.getElementById(`${id}-lightbox`);
     const close = document.getElementById(`${id}-close`);
 
-    // Check if lightbox and close elements exist before attaching listeners
     if (lightbox && close) {
-        img.addEventListener('click', () => {
-          lightbox.style.display = 'flex';
-          // Prevent background scrolling when lightbox is open
-          document.body.style.overflow = 'hidden'; // ADDED: Prevents scrolling on the body
-        });
+      img.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        document.body.classList.add('body-lock-scroll');
+      });
 
-        close.addEventListener('click', () => {
-          lightbox.style.display = 'none';
-          // Re-enable background scrolling when lightbox is closed
-          document.body.style.overflow = ''; // ADDED: Clears the inline overflow style
-        });
+      const closeLightbox = () => {
+        lightbox.style.display = 'none';
+        document.body.classList.remove('body-lock-scroll');
+      };
 
-        lightbox.addEventListener('click', e => {
-          if (e.target === lightbox) {
-            lightbox.style.display = 'none';
-            // Re-enable background scrolling when lightbox is closed
-            document.body.style.overflow = ''; // ADDED: Clears the inline overflow style
-          }
-        });
+      close.addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', e => {
+        if (e.target === lightbox) closeLightbox();
+      });
     } else {
-        console.warn(`Lightbox or close button not found for ID: ${id}`);
+      console.warn(`Lightbox or close button not found for ID: ${id}`);
     }
   });
 });
-
-

@@ -41,7 +41,8 @@
   {% endif %}
 {% endif %}
 
-<div class="card {{ card_class }}">
+<div class="card {{ card_class }} {{ icon_bg_class | replace: 'icon-bg-', 'bullet-' }}">
+
   <div class="card-header {{ header_class }}">
     {% if include.icon %}
       <span class="material-symbols-outlined card-icon {{ icon_bg_class }} {{ icon_color_class }}">
