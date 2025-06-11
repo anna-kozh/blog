@@ -1,3 +1,23 @@
+// Lock scroll without jumping to top
+function lockScroll() {
+  const scrollY = window.scrollY;
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${scrollY}px`;
+  document.body.style.left = '0';
+  document.body.style.right = '0';
+  document.body.dataset.scrollY = scrollY;
+}
+
+function unlockScroll() {
+  const scrollY = document.body.dataset.scrollY;
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.left = '';
+  document.body.style.right = '';
+  document.body.removeAttribute('data-scroll-y');
+  window.scrollTo(0, parseInt(scrollY || '0'));
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('img[id$="-thumb"]').forEach(img => {
     const id = img.id.replace('-thumb', '');
@@ -6,13 +26,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lightbox && close) {
       img.addEventListener('click', () => {
+        lockScroll();
         lightbox.style.display = 'flex';
-        document.body.classList.add('body-lock-scroll');
       });
 
       const closeLightbox = () => {
         lightbox.style.display = 'none';
-        document.body.classList.remove('body-lock-scroll');
+        unlockScroll();
       };
 
       close.addEventListener('click', closeLightbox);

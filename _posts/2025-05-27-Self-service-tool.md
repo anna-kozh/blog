@@ -252,8 +252,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 {% include lightbox.html
    id="sketch-inline"
-   thumb="/assets/uploads/Branding-tool/loanapp.webp"
-   full="/assets/uploads/Branding-tool/loanapp.webp" 
+   thumb="/assets/uploads/Self-service/concept-1.webp"
+   full="/assets/uploads/Self-service/concept-1.webp" 
    alt="Option 1. Inline editor"
    caption="Option 1. Inline editor" %}
 
@@ -305,8 +305,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 {% include lightbox.html
    id="sketch-form"
-   thumb="/assets/uploads/Branding-tool/loanapp.webp"
-   full="/assets/uploads/Branding-tool/loanapp.webp" 
+   thumb="/assets/uploads/Self-service/concept-2.webp"
+   full="/assets/uploads/Self-service/concept-2.webp" 
    alt="Option 2. Form editor"
    caption="Option 2. Form editor" %}
 
@@ -355,8 +355,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 {% include lightbox.html
    id="sketch-wizzard"
-   thumb="/assets/uploads/Branding-tool/loanapp.webp"
-   full="/assets/uploads/Branding-tool/loanapp.webp" 
+   thumb="/assets/uploads/Self-service/concept-3.webp"
+   full="/assets/uploads/Self-service/concept-3.webp" 
    alt="Option 3. Guided wizard"
    caption="Option 3. Guided wizard" %}
 
@@ -479,56 +479,71 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <p>To make branding setup easier for first-time users, I explored options based on typical client style guide, which usually includes 2–3 brand colors. </p>
 <p>What started as a “Basic vs Expert” mode turned into a smarter approach: basic mode became a palette generator.</p>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="wizard"
+   thumb="/assets/uploads/Self-service/wizard.webp"
+   full="/assets/uploads/Self-service/wizard.webp" 
+   alt="Two modes became Colour wizard"
+   caption="Two modes → Colour wizard"
+ %}
 
 <!-- <div class="callout thought">I mapped 6 brand colors to 91 variables.</div> -->
 
 
 {% include blockquote.html
-  text="<span class='bold'> I mapped 6 brand colors to 91 variables.</span> "%}
+  text="<span class='bold'> I mapped 6 brand colours to 91 variables.</span> "%}
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="mapping"
+   thumb="/assets/uploads/Self-service/mapping.webp"
+   full="/assets/uploads/Self-service/mapping.webp" 
+   alt="Mapping 6 colors to 91 variables"
+   caption="Mapping 6 colours to 91 variables"
+ %}
 
 
 <li><strong>Upload logo, favicon, lender contact information</strong></li>
 <p>I made sure to support the user with suggested image size, resolution, file type. </p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="settings"
+   thumb="/assets/uploads/Self-service/settings.webp"
+   full="/assets/uploads/Self-service/settings.webp" 
+   alt="Branding settings"
+   caption="Logo, favicon and contact information"
+ %}
+
 
 
 <li>Intuitive tool that requires no technical skills </li>
 <p>No code is required to use the tool, it’s visual and simple.</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="intuitive"
+   thumb="/assets/uploads/Self-service/intuitive.gif"
+   full="/assets/uploads/Self-service/intuitive.gif" 
+   alt="Using wizard"
+   caption="Branding setup in 5 seconds"
+ %}
 
 
 <li>Built-in checks to prevent rework</li>
 <p>In the list of color variables, every color has a fall back color in case user saves it with an empty value.
 Error handling checking for a valid color
 Phone, email have an input validation.</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="errors"
+   thumb="/assets/uploads/Self-service/errors.webp"
+   full="/assets/uploads/Self-service/errors.webp" 
+   alt="Error validation"
+   caption="Error validation"
+ %}
 
 
 <li>Live preview to reduce guesswork</li>
 <p>Due to complexity and constraints, I limited the preview to six key brand colors, paired to give a quick visual check.</p>
 <p>With fast publishing, users could still see the full design live within seconds.</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
 
 </ol>
 
@@ -536,31 +551,53 @@ Phone, email have an input validation.</p>
 <p>I conducted a quick, informal usability session with two internal stakeholders: an Account Manager and a Support Specialist.</p>
 
 <ul class="bold-li">
-<li>Increase discoverability of the pallet generator button </li>
+<li>Increase discoverability of the wizard generator button </li>
 <p>Wizard → Generate styles/ pallette</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="button"
+   thumb="/assets/uploads/Self-service/button.webp"
+   full="/assets/uploads/Self-service/button.webp" 
+   alt="Button name change"
+   caption="Button name change"
+ %}
+
 
 <li>Support legacy variables upload</li>
 <p>As legacy variables view is an alternative view to the form fields, I placed them under the toggle to avoid conflicts.</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="legacy"
+   thumb="/assets/uploads/Self-service/legacy.webp"
+   full="/assets/uploads/Self-service/legacy.webp" 
+   alt="Supporting legacy variables upload"
+   caption="Supporting variables upload"
+ %}
 
 
-<li>Added contrast check according to WGAA AA guidelines</li>
-<p>Used WGA AA guidelines to check the contrast of 4,51 :1 check (edit this)</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+<li>Added contrast check</li>
+<p>Financial services must meet WCAG Level AA. That includes making sure all text, big and small, is accessible.</p>
+
+{% include lightbox.html
+   id="contrast"
+   thumb="/assets/uploads/Self-service/contrast.webp"
+   full="/assets/uploads/Self-service/contrast.webp" 
+   alt="Checking contrast"
+   caption="Checking contrast"
+ %}
+
 </ul>
 
 <h2>Final solution</h2>
-<p>Insert final screens here</p>
+{% include lightbox.html
+   id="final"
+   thumb="/assets/uploads/Self-service/final.gif"
+   full="/assets/uploads/Self-service/final.gif" 
+   alt="Branding flow (final wireframes)"
+   caption="Branding flow (final wireframes)"
+   link="https://www.figma.com/"
+ %}
 
 
 <h2>Prototype</h2>

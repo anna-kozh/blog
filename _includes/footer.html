@@ -53,14 +53,28 @@
         }, 3000)
   });
 
-  window.addEventListener("scroll", function() {
-        const scrollDiv = document.getElementById("scroll-up-parent");
-        if (window.scrollY > (window.innerHeight * 3)) {
-          scrollDiv.style.display = "flex";
-        } else {
-          scrollDiv.style.display = "none";
-        }
-      });
+document.addEventListener('DOMContentLoaded', function () {
+  const scrollDiv = document.getElementById("scroll-up-parent");
+
+  // Show/hide the scroll-up button
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > (window.innerHeight * 3)) {
+      scrollDiv.style.display = "flex";
+    } else {
+      scrollDiv.style.display = "none";
+    }
+  });
+
+  // Scroll to top on click
+  scrollDiv.addEventListener("click", function (e) {
+    e.preventDefault(); // prevents jump if it's an <a href="#">
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+
   </script>
 </body>
 </html>

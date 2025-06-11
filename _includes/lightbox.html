@@ -3,7 +3,8 @@
        width="{{ include.thumb_width | default: '780' }}"
        alt="{{ include.alt | default: '' }}"
        id="{{ include.id }}-thumb"
-       style="cursor: zoom-in;">
+       style="cursor: zoom-in;"
+       loading="lazy">
 
   {% if include.caption %}
     <figcaption>

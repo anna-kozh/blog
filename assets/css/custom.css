@@ -23,7 +23,6 @@
 
 }
 
-   
 
 *,
 *:before,
@@ -1290,8 +1289,10 @@ padding-left: 1rem; */
   max-height: 95vh;   /* No taller than 90% of viewport height */
   max-width: 1400px !important; 
 
-
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+
+  transition: transform 0.3s ease;
+  transform-origin: center center;
 }
 
 /* Make lightbox visible when JS sets display: flex */
@@ -1353,6 +1354,10 @@ padding-left: 1rem; */
 /* Table of content */
 
 
+#toc-list li.active-toc > a {
+  color: var(--primary-color);
+  font-weight: 700;
+} 
 
 .table-of-contents {
     width: 250px;
@@ -1560,6 +1565,7 @@ padding: 0;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow */
  overflow-x: auto;
  scrollbar-width: none;  
+
 }
 
 
@@ -1569,6 +1575,7 @@ padding: 0;
   transition: all 0.3s ease;
   width: 100%;
   box-shadow: none;
+
 }
 
 #mobile-toc.fixed {
@@ -1585,19 +1592,23 @@ padding: 0;
 
 
 
-#toc-list{
+ #toc-list{
  display: flex;          
  flex-direction: row;    
- gap: 0.5rem;  
- flex-wrap: nowrap;         /* Prevent wrapping */
- justify-content: space-between; /* Space out items */
- width: 100vw;              /* Full screen width */
- list-style: none;          /* Remove bullets */
+ gap: 1rem;  
+ flex-wrap: nowrap;         
+ justify-content: center;
+
+ width:100%;            
+ list-style: none;         
  padding: 1rem 3rem 1rem 1rem;
  margin:0;
  overflow-x: auto;       
  scrollbar-width: none;   
-}
+  white-space: nowrap;
+} 
+
+
 
 
 #toc-list .submenu{
@@ -1612,9 +1623,11 @@ padding: 0;
 
 
 #toc-list li {
+   scroll-snap-align: center;
  white-space: nowrap;       /* Prevent individual items from wrapping */
  padding: 0 1rem;
  align-items:center;
+ 
 }
 
 
@@ -1631,8 +1644,8 @@ padding: 0;
 
  #toc-list a:hover {
  font-size: 1rem;
- font-weight: 700;
- color: var(--primary-color);
+ font-weight: 500;
+ color: var(--secondary-text-color);
 }
 }
 
@@ -1653,7 +1666,11 @@ padding: 0;
 
 @media only screen and (max-width: 828px) {
  
-
+ .bold-li {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
 
 .project-overview {
 margin-left: -24px;
@@ -1778,6 +1795,13 @@ margin-right: -24px;
     font-size: 1.5rem;
     line-height: 2rem;
   }
+}
+
+
+@media only screen and (max-width: 793px) {
+#toc-list {
+   justify-content: left;
+}
 }
 
 @media only screen and (max-width: 828px) and (min-width: 531px) {
