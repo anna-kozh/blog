@@ -501,6 +501,16 @@ Configuration and branding setup caused onboarding delays, high operational cost
    caption="Mapping 6 colours to 91 variables"
  %}
 
+<li><strong>Easy revision of the colour palette </strong></li>
+<p>We built a new component with a colour picker. </p>
+
+{% include lightbox.html
+   id="colour-picker"
+   thumb="/assets/uploads/Self-service/colourpicker.webp"
+   full="/assets/uploads/Self-service/colourpicker.webp" 
+   alt="Colour picker"
+   caption="Colour picker"
+ %}
 
 <li><strong>Upload logo, favicon, lender contact information</strong></li>
 <p>I made sure to support the user with suggested image size, resolution, file type. </p>
@@ -569,10 +579,10 @@ Phone, email have an input validation.</p>
 {% include lightbox.html
    id="legacy"
    thumb="/assets/uploads/Self-service/legacy.webp"
-   full="/assets/uploads/Self-service/legacy.webp" 
+   full="/assets/uploads/Self-service/legacy.webp"
    alt="Supporting legacy variables upload"
-   caption="Supporting variables upload"
- %}
+   caption="Two views to upload branding"
+%}
 
 
 
@@ -589,20 +599,20 @@ Phone, email have an input validation.</p>
 
 </ul>
 
-<h2>Final solution</h2>
+<h2>Final solution - Branding</h2>
 {% include lightbox.html
    id="final"
    thumb="/assets/uploads/Self-service/final.gif"
    full="/assets/uploads/Self-service/final.gif" 
    alt="Branding flow (final wireframes)"
    caption="Branding flow (final wireframes)"
-   link="https://www.figma.com/"
+   link="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-4852&t=XhbHoQYK32BLwJ8n-1"
  %}
 
 
 <h2>Prototype</h2>
-<p>You can explore the full interactive prototype here: Link here</p>
-
+<p>Explore a full interactive
+<a href= "https://www.figma.com/proto/wztKfGxxSMijwD52mhMaVc/Branding-tool?page-id=1%3A19&node-id=33-6318&p=f&viewport=515%2C207%2C0.05&t=OVBhWOLaawxV3M2D-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=33%3A11234" target="_blank"> Prototype </a></p>
 
 <h2>Impact</h2>
 <ul class="metrics">
@@ -660,59 +670,79 @@ Phone, email have an input validation.</p>
 
 <p>The configuration was organised hierarchically into sections and subsections, and my design mirrors that structure to help user to quickly locate the field. </p>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="ia"
+   thumb="/assets/uploads/Self-service/ia.webp"
+   full="/assets/uploads/Self-service/ia.webp" 
+   alt="Information architecture"
+   caption="Information architecture"
+ %}
 
 
 
 <p>We had 53 properties (columns) which were intended to have a horizontal scroll. To increase discoverability - I organised them in 5 groups (Display, Content, etc...) </p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="properties"
+   thumb="/assets/uploads/Self-service/properties.webp"
+   full="/assets/uploads/Self-service/properties.webp" 
+   alt="Grouping properties for faster discovery"
+   caption="Grouping properties for faster discovery"
+ %}
 
 
 
 <li>Avoid repetitive tasks</li>
 <p>From the user’s perspective the same modal appears multiple time, so I added an option to sync the configuration with linked modals.</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="sync"
+   thumb="/assets/uploads/Self-service/sync.webp"
+   full="/assets/uploads/Self-service/sync.webp" 
+   alt="Syncing modals appearing in multiple places"
+   caption="Syncing repeating modals"
+ %}
 
 
 <li>Prevent user errors</li>
 <p>Immutable “Current” version prevents user from editing the live configuration</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+
+{% include lightbox.html
+   id="current"
+   thumb="/assets/uploads/Self-service/current.webp"
+   full="/assets/uploads/Self-service/current.webp" 
+   alt="Current version is read-only"
+   caption="Current version is read-only"
+ %}
 
 
-<p>Also added a confirmation step before publishing: </p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+<p>An idea that was brought up by a FE developer to add a confirmation step before publishing: </p>
+
+{% include lightbox.html
+   id="confirmation"
+   thumb="/assets/uploads/Self-service/confirmation.webp"
+   full="/assets/uploads/Self-service/confirmation.webp" 
+   alt="Confirmation step before publishing"
+   caption="Confirmation step before publishing"
+ %}
 
 <li>Tool that requires no technical skills</li>
-<p>Building conditional logic is the hard part for the user, it requires Java Script knowledge. Due to constraint, this is how I managed to meet this need partially:</p>
+<p>Conditional logic still required JavaScript due to platform constraints.
+But I made sure users could still create and manage option lists with ease, no coding needed.</p>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="options"
+   thumb="/assets/uploads/Self-service/options.webp"
+   full="/assets/uploads/Self-service/options.webp" 
+   alt="Managing option list"
+   caption="Managing option list"
+ %}
 
 
 
 <li>Live preview</li>
-<p>It was traded off for a confirmation when publishing. We added some visual feedback on Option list.</p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+<p>Live preview was traded off for a confirmation step at publish.
+In the meantime, we added visual feedback to the option list to help users see their changes.</p>
 </ol>
 
 
@@ -722,22 +752,34 @@ Phone, email have an input validation.</p>
 
 <ul class="bold-li"><li>Show default value & Reset to default</li>
 
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="default"
+   thumb="/assets/uploads/Self-service/default.webp"
+   full="/assets/uploads/Self-service/default.webp" 
+   alt="Show default value"
+   caption="User is able to reset to default"
+ %}
 
 <li>Autosaving users’ changes in the  draft </li>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
 
-<li>A new use case was discovered during testing:</li> <p> user want to compare two versions to troubleshoot. Since the publish confirmation was essentially comparing versions, it was affordable to add it as a feature. </p>
-<figure>
-<img src="{{site.baseurl}}/assets/uploads/Branding-tool/loanapp.webp" width="780px" alt="Loanapp UI">
-  <figcaption>Loanapp UI <a href="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-11233&t=1RmVXoVAVUM0o5ET-1" target="_blank">Figma link </a></figcaption>
-</figure>
+{% include lightbox.html
+   id="autosave"
+   thumb="/assets/uploads/Self-service/autosave.webp"
+   full="/assets/uploads/Self-service/autosave.webp" 
+   alt="Auto-saving user's changes"
+   caption="Auto-saving user's changes"
+ %}
+
+<li>A new use case was discovered during testing:</li> <p> Wser wants to compare two versions to troubleshoot. Since the publish confirmation was essentially comparing versions, it was affordable to add it as a feature. </p>
+
+{% include lightbox.html
+   id="compare"
+   thumb="/assets/uploads/Self-service/compare.webp"
+   full="/assets/uploads/Self-service/compare.webp" 
+   alt="User can compare two versions"
+   caption="Troubleshooting by comparing two versions"
+ %}
+
 </ul>
 
 
