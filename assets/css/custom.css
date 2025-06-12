@@ -1248,6 +1248,15 @@ padding-left: 1rem; */
 
 /* Lightbox */
 
+img.thumbnail {
+  transition: filter 0.3s ease;
+}
+
+img.lazy-img {
+  filter: blur(2px);
+}
+
+
 
 .thumbnail:hover {
     /* This line moves the figure up on hover */
