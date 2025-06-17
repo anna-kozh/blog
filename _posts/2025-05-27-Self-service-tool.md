@@ -606,13 +606,13 @@ Phone, email have an input validation.</p>
    full="/assets/uploads/Self-service/final.gif" 
    alt="Branding flow (final wireframes)"
    caption="Branding flow (final wireframes)"
-   link="https://www.figma.com/design/wztKfGxxSMijwD52mhMaVc/Branding-tool?node-id=33-4852&t=XhbHoQYK32BLwJ8n-1"
+   link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=1-138022&t=PChCPaTKzBCkigNH-1"
  %}
 
 
 <h2>Prototype</h2>
 <p>Explore a full interactive
-<a href= "https://www.figma.com/proto/wztKfGxxSMijwD52mhMaVc/Branding-tool?page-id=1%3A19&node-id=33-6318&p=f&viewport=515%2C207%2C0.05&t=OVBhWOLaawxV3M2D-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=33%3A11234" target="_blank"> Prototype </a></p>
+<a href= "https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=1-138282&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A138282&show-proto-sidebar=1" target="_blank"> Prototype </a></p>
 
 <h2>Impact</h2>
 <ul class="metrics">
@@ -786,12 +786,34 @@ In the meantime, we added visual feedback to the option list to help users see t
 
 
 <h2>Final solution</h2>
-<p>Insert final screens here</p>
+{% include lightbox.html
+   id="changing-field"
+   thumb="/assets/uploads/Self-service/changing-field.gif"
+   full="/assets/uploads/Self-service/changing-field.gif" 
+   alt="Example of changing a placeholder for a field"
+   caption="Changing 'Credit issue' placefolder"
+   link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=21-94885&t=sbtO3naXbHv7GI6f-1"
+ %}
+
 
 
 <h2>Prototype</h2>
-<p>You can explore the full interactive prototype here: Link here</p>
+<p>Prototypes for 5 core use cases:</p>
+<ul>
+<li> 
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-74060&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A74060&show-proto-sidebar=1"> Changing field property</a></li>
 
+<li> 
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73748&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73748&show-proto-sidebar=1"> Syncing modals</a></li>
+
+<li>
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-93229&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A93229&show-proto-sidebar=1">  Creative a version draft</a></li>
+
+<li> 
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73875&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73875&show-proto-sidebar=1"> Editing option lists</a></li>
+
+<li> 
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-91211&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A91211&show-proto-sidebar=1"> Comparing versions</a></li></ul>
 
 <h2>Impact</h2>
 <ul class="metrics">
