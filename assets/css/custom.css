@@ -210,7 +210,7 @@ strong {
 
 .project-overview {
   text-indent: 0 !important;
-  padding: 3rem 3rem;
+  padding: 2.5rem 2.5rem;
   margin: 3rem 0;
   border-radius: 1rem;
 }
@@ -225,7 +225,7 @@ strong {
 .project-overview ul {
   font-size: 1.25rem;
   line-height: 1.875rem;
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 1.75rem 0;
 }
 
 .overview-item:last-child p,
@@ -294,7 +294,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin: 3rem 0;
+  margin: 1rem 0 3rem;
   text-align: center;
 }
 
@@ -1192,8 +1192,8 @@ padding-left: 1rem; */
 .custom-table th,
 .custom-table td {
   border: 1px solid var(--light-grey);
-  padding: 8px;
-  text-align: center;
+  padding: 1rem;
+  text-align: left;
 }
 
 .custom-table thead th {
@@ -1466,14 +1466,14 @@ color: var(--primary-color);
 .full-width {
   margin-left: -50vw;
   margin-right: -50vw;
-  background:green;
+  background:white;
 }
 
 .inner-full-width {
   max-width: 780px;
   margin-left: auto;
   margin-right: auto;
- padding: 2rem 0;
+  padding: 4rem 0;
   box-sizing: border-box;
 }
 
@@ -1510,8 +1510,25 @@ body {
 }
 
 
+.project-overview.two-column {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+/* .project-overview .column {
+  flex: 1 1 300px;
+} */
+.project-overview .overview-item {
+  margin-bottom: 1rem;
+}
 
+.column-40 {
+  flex: 0 0 40%;
+}
 
+.column-60 {
+  flex: 1;
+}
 
 
 
@@ -1808,6 +1825,18 @@ margin-right: -24px;
 
 
 @media only screen and (max-width: 793px) {
+
+
+  .project-overview.two-column {
+    flex-direction: column;
+  }
+
+  .column-40,
+  .column-60 {
+    flex: 1 1 100%;
+  }
+
+
 #toc-list {
    justify-content: left;
 }

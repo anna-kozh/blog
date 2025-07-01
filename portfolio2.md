@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Blog
-under_construction: "{{ site.is_under_construction }}"
+# under_construction: "{{ site.is_under_construction }}"
+permalink: /portfolio2
 ---
 
 <div id="post-container" class="block">
   {% for post in site.posts %}
-    {% if post.posted == 1 %}
+    {% if post.posted == 1 and post.tag == "Case study"%}
+  
       <a class="post-title" href="{{post.url}}">
           <div class="post" data-word-count="{{ post.content | number_of_words  }}">
           <div class="post-content">

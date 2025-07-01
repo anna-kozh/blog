@@ -4,7 +4,7 @@ title: "Onboarding self-service tool"
 description: '"You never get a second chance to make a first impression," they say. Onboarding is like a first date — if you show up late, your client might already be swiping through other options. This is the story of how we got them off the market.'
 tag: "Case study"
 permalink: /blog/self-service
-image: 
+image: /Self-service/custom.webp
 posted: 1
 
 show_toc: true 
@@ -104,9 +104,9 @@ Our greatest competitive advantage is offering <strong>fully customisable</stron
 </p>
 
 {% include lightbox.html
-  id="customisation"
-  thumb="/assets/uploads/Branding-tool/loanapp.webp"
-  full="/assets/uploads/Branding-tool/loanapp.webp"
+  id="custom"
+  thumb="/assets/uploads/Self-service/custom.webp"
+  full="/assets/uploads/Self-service/custom.webp"
   alt="Different brands customisation"
   caption="Different brands customisation" %}
 
@@ -606,13 +606,13 @@ Phone, email have an input validation.</p>
    full="/assets/uploads/Self-service/final.gif" 
    alt="Branding flow (final wireframes)"
    caption="Branding flow (final wireframes)"
-   link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=1-138022&t=PChCPaTKzBCkigNH-1"
+   link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=1-138022&t=sbtO3naXbHv7GI6f-1"
  %}
 
 
 <h2>Prototype</h2>
 <p>Explore a full interactive
-<a href= "https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=1-138282&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A138282&show-proto-sidebar=1" target="_blank"> Prototype </a></p>
+<a href= "https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=1-138282&viewport=761%2C996%2C0.03&t=dss0pcOopbPAPfWk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A138282&show-proto-sidebar=1" target="_blank"> Prototype </a></p>
 
 <h2>Impact</h2>
 <ul class="metrics">
@@ -801,19 +801,19 @@ In the meantime, we added visual feedback to the option list to help users see t
 <p>Prototypes for 5 core use cases:</p>
 <ul>
 <li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-74060&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A74060&show-proto-sidebar=1"> Changing field property</a></li>
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-74060&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A74060&show-proto-sidebar=1" target="_blank"> Changing field property</a></li>
 
 <li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73748&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73748&show-proto-sidebar=1"> Syncing modals</a></li>
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73748&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73748&show-proto-sidebar=1" target="_blank"> Syncing modals</a></li>
 
 <li>
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-93229&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A93229&show-proto-sidebar=1">  Creative a version draft</a></li>
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-93229&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A93229&show-proto-sidebar=1" target="_blank">  Creative a version draft</a></li>
 
 <li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73875&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73875&show-proto-sidebar=1"> Editing option lists</a></li>
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73875&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73875&show-proto-sidebar=1" target="_blank"> Editing option lists</a></li>
 
 <li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-91211&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A91211&show-proto-sidebar=1"> Comparing versions</a></li></ul>
+<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-91211&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A91211&show-proto-sidebar=1" target="_blank"> Comparing versions</a></li></ul>
 
 <h2>Impact</h2>
 <ul class="metrics">
