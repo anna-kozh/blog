@@ -1,7 +1,7 @@
 ---
 layout: "single_post_new"
 title: "Onboarding self-service tool"
-description: "I led the strategy, design, and delivery of a self-service onboarding tool that cut setup time by nearly half and reduced support load by 40 percent. It turned a costly operational burden into a scalable product solution that unblocked growth without adding headcount."
+description: "I led the strategy, design, and delivery of a self-service onboarding tool that cut setup time by nearly half and reduced support load by 35 percent. It turned a costly operational burden into a scalable product solution that unblocked growth without adding headcount."
 tag: "Case study"
 permalink: /blog/onboarding
 image: /Self-service/custom.webp
@@ -35,10 +35,15 @@ toc:
 
 {% assign metric_icon = "check_box" %}
 
-
+{% include lightbox.html
+  id="hero"
+  thumb="/assets/uploads/Self-service/custom.webp"
+  full="/assets/uploads/Self-service/custom.webp"
+  alt="Different brands customisation"
+ %}
 
 <div class="highlighted project-overview two-column">
-<div class="column column-40">
+<div class="column-40">
   <div class="overview-item">
   <h4>COMPANY</h4>
   <p>Simpology (fintech, white-label mortgage products)</p>
@@ -59,7 +64,7 @@ toc:
   <p>FE Dev, BE Dev, QA, PM, UX</p>
   </div>
 </div>
-<div class="column column-60">
+<div class="column-60">
     <div class="overview-item">
   <h4>PROBLEM</h4>
   <p>Configuration and branding setup caused onboarding delays, high operational cost, client frustration and lost revenue.</p>
@@ -69,24 +74,20 @@ toc:
   <h4>SOLUTION</h4>
   <p>Launch a self-service tool to streamline onboarding.</p>
   </div>
-   <div class="overview-item">
-  <h4>BUSINESS IMPACT</h4>
-  <ul class="metrics">
-  <li><span class="material-icons">{{ metric_icon }}</span>50% reduction in onboarding operational costs </li>
-  <li><span class="material-icons">{{ metric_icon }}</span>Time to launch from 6 months to 3 months </li>
-  <li><span class="material-icons">{{ metric_icon }}</span>Increased scalability with limited resources </li></ul>
-  </div>
+ 
 
   <div class="overview-item">
-  <h4>USER IMPACT</h4>
+  <h4>IMPACT</h4>
   <ul class= "metrics">
-  <li><span class="material-icons">{{ metric_icon }}</span>50% faster section setup completion </li>
-  <li><span class="material-icons">{{ metric_icon }}</span>80% CSAT during onboarding </li>
-  <li><span class="material-icons">{{ metric_icon }}</span>95% Task success rate in usability testing</li></ul>
+  <li><span class="material-icons">{{ metric_icon }}</span>35% operational cost saving </li>
+  <li><span class="material-icons">{{ metric_icon }}</span>50% time-to-launch reduced</li>
+  <li><span class="material-icons">{{ metric_icon }}</span>81% client satisfaction score during onboarding</li></ul>
   </div>
   </div>
   </div>
-  
+   
+
+
 
   
 <div id="my-role">
@@ -98,12 +99,14 @@ toc:
 </li>
 <li> Defined strategy and execution plan for Phase 1 </li>
 <li>Designed patterns for long-term scalability</li>
+<li>Designed and scopped Phase 2 </li>
 </ul> </p>
 </div>
   
 
 <div id="context"><!-- Beginning of CONTEXT -->
 <h2><span class="step-label" aria-hidden="true">CONTEXT</span>Customisation is what sets us apart</h2>
+
 {% include lightbox.html
   id="custom"
   thumb="/assets/uploads/Self-service/custom.webp"
@@ -111,7 +114,7 @@ toc:
   alt="Different brands customisation"
   caption="Different clients customisation" %}
 
-<p> Onboarding new lender clients at Simpology required a manual, dev-heavy setup of branding and configuration metadata spreadsheet with <strong>thousands of rows</strong>. </p>
+<p> Onboarding new clients at Simpology required manually setting up a <strong>metadata spreadsheet</strong> with thousands of rows, used to configure a dynamic form builder. </p>
 
 {% include lightbox.html
   id="metadata"
@@ -763,7 +766,7 @@ Clients still relied heavily on internal teams</li>
 </ul>
 
 {% include lightbox.html
-   id="csat"
+   id="345"
    thumb="/assets/uploads/Self-service/csat.webp"
    full="/assets/uploads/Self-service/csat.webp" 
    alt="Asking user to give us satisfaction feedback"
@@ -777,7 +780,7 @@ Clients still relied heavily on internal teams</li>
 
 
 {% include lightbox.html
-   id="csat"
+   id="cs234at"
    thumb="/assets/uploads/Self-service/csat.webp"
    full="/assets/uploads/Self-service/csat.webp" 
    alt="Asking user to give us satisfaction feedback"
@@ -788,7 +791,7 @@ Clients still relied heavily on internal teams</li>
 
 
 {% include lightbox.html
-   id="csat"
+   id="123"
    thumb="/assets/uploads/Self-service/csat.webp"
    full="/assets/uploads/Self-service/csat.webp" 
    alt="Asking user to give us satisfaction feedback"
