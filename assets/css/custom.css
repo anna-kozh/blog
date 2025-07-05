@@ -210,32 +210,53 @@ strong {
 
 .project-overview {
   text-indent: 0 !important;
-  padding: 2.5rem 2.5rem;
+  padding: 2.5rem 1.75rem;
   margin: 3rem 0;
   border-radius: 1rem;
 }
 
 .project-overview h4 {
   color: var(--overview-font);
-  margin-bottom: 0.5rem;
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 0.2rem 0;
 }
 
-.project-overview p, 
-.project-overview ul {
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  margin: 0 0 1.75rem 0;
+.project-overview p {
+  margin: 0;
 }
 
-.overview-item:last-child p,
+
+
+
+.project-overview.two-column {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.overview-item .metrics {
+  margin: 0;
+}
+
+.column-60 .overview-item  {
+  margin-bottom: 2rem;
+}
+
+.column-40 .overview-item  {
+  margin-bottom: 2.5rem;
+}
+
+.column-40 {
+  flex: 0 0 35%;
+}
+
+.column-60 {
+  flex: 1;
+} 
+
+.overview-item:last-child,
+.overview-item:last-child li,
 .overview-item:last-child ul {
   margin-bottom: 0;
 }
-
-
-
-
 
 .highlighted {
   background-color: var(--overview-background);
@@ -260,8 +281,6 @@ ul.metrics {
 ul.metrics li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 8px;
-
   position: relative;
   padding-left: 30px; /* space for the icon */
   margin-bottom: 10px; /* spacing between items */
@@ -1509,26 +1528,11 @@ body {
   touch-action: none; /* disables touch events on body */
 }
 
+ 
 
-.project-overview.two-column {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-/* .project-overview .column {
-  flex: 1 1 300px;
-} */
-.project-overview .overview-item {
-  margin-bottom: 1rem;
-}
 
-.column-40 {
-  flex: 0 0 40%;
-}
 
-.column-60 {
-  flex: 1;
-}
+
 
 
 
@@ -1829,12 +1833,19 @@ margin-right: -24px;
 
   .project-overview.two-column {
     flex-direction: column;
+    gap: 0px;
   }
 
   .column-40,
   .column-60 {
     flex: 1 1 100%;
   }
+
+.column-60 .overview-item,
+.column-40 .overview-item
+  {
+  margin-bottom: 2rem;
+}
 
 
 #toc-list {
