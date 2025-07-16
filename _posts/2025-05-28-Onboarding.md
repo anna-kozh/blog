@@ -121,7 +121,7 @@ toc:
   thumb="/assets/uploads/Self-service/metadata.webp"
   full="/assets/uploads/Self-service/metadata.webp"
   alt="Client setup spreadhsheet"
-  caption="Client setup spreadsheet (blurred)" %}
+  caption="Client setup via spreadsheet" %}
 
 
 <p>As client base grew, this process became a major liability:
@@ -712,6 +712,11 @@ While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progre
 
 <div id= "future-iteractions"> <!-- Star of FUTURE ITERACTIONS -->
 <h2><span class="step-label" aria-hidden="true">FUTURE ITERATIONS</span>Strong foundation & clear gaps</h2>
+
+
+<p>Link to figma for <a href= "https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=412-241768&t=wI4bd9rhdllSnA3i-1" target="_blank"> Canvas editor </a></p>
+<br><br><br>
+<p> BELOW IS UNDER CONSTRUCTION </p>
 <p>Form Editor made meaningful progress, but it didn't fully solve the problem:
 <ul> <li>
 Clients still relied heavily on internal teams</li>

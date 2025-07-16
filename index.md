@@ -8,7 +8,7 @@ title: Portfolio
 <div id="hero_text">
     <h1 class="hero_title"> Hi, I'm <span>Anna Kozh</span></h1>
     <h1>Senior Product Designer</h1>
-    <p> I design with curiosity, strategy, and just the right amount of obsession. <br>I get things done.</p>
+    <p> I design with curiosity, strategy, and just the right amount of obsession. <br>I know what needs to be done and I get it done.</p>
 
 
 <div class="button-container">
