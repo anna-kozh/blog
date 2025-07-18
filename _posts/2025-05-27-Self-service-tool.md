@@ -5,7 +5,7 @@ description: '"You never get a second chance to make a first impression," they s
 tag: "Case study"
 permalink: /blog/self-service
 image: /Self-service/custom.webp
-posted: 1
+posted: 0
 
 show_toc: true 
 toc:
