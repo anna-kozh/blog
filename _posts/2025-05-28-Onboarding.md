@@ -91,19 +91,18 @@ toc:
   
 <div id="my-role">
 <h2><span class="step-label" aria-hidden="true">MY ROLE</span>My role & influence </h2>
-<p> <ul>
-<li> Led discovery that reframed onboarding as a business bottleneck </li>
-<li>Drove roadmap tradeoffs and feature prioritisation with product and engineering </li>
-<li>Aligned stakeholders around a phased delivery model under tight constraints
-</li>
-<li> Defined strategy and execution plan for Phase 1 </li>
-<li>Designed patterns for long-term scalability</li>
-<li>Designed and scopped Phase 2 </li>
-</ul> </p>
+<ul>
+
+<li>Reframed onboarding as a business bottleneck</li>
+<li>Prioritised high-impact, low-effort solutions with product and engineering</li>
+<li>Drove a phased delivery plan to manage risk under tight constraints</li>
+<li>Designed Phase 1 (Form Editor) with scalable UX patterns</li>
+<li>Scoped Phase 2 (Canvas Editor) to expand client autonomy</li>
+</ul>
 </div>
   
 
-<div id="context"><!-- Beginning of CONTEXT -->
+<div id="context" class="l-space"><!-- Beginning of CONTEXT -->
 <h2><span class="step-label" aria-hidden="true">CONTEXT</span>Customisation is what sets us apart</h2>
 
 {% include lightbox.html
@@ -113,7 +112,7 @@ toc:
   alt="Different brands customisation"
   caption="Different clients customisation" %}
 
-<p> Onboarding new clients at Simpology required manually setting up a <strong>metadata spreadsheet</strong> with thousands of rows, used to configure a dynamic form builder. </p>
+<p class="m-space"> Onboarding new clients at Simpology required manually setting up a <strong>metadata spreadsheet</strong> with thousands of rows, used to configure a dynamic form builder. </p>
 
 {% include lightbox.html
   id="metadata"
@@ -122,29 +121,33 @@ toc:
   alt="Client setup spreadsheet"
   caption="Client setup via spreadsheet" %}
 
-
-<p>As client base grew, this process became a major liability:
+<div class="xs-space">
+<p>As the client base grew, this process became a major liability:
 <ul>
 <li> 30% tickets were related to onboarding new clients </li>
 <li>$500K in operational cost per year </li>
 <li>6+ month launch delay causing $480K lost in revenue annually</li>
 <li>Constant strain on support, devs, and client teams </li>
 </ul></p>
+</div>
 
 {% include blockquote.html
    text="Customisation that set us apart also made it <span class='bold'>hard to scale</span>." %}
 
-</div> <!--  END of CONTEXT -->
+</div> 
+<!--  END of CONTEXT -->
 
 
-<div id="discovery"> <!-- START OF DISCOVERY PHASE -->
+<div class="full-width">
+<div class ="inner-full-width">
+<div id="discovery" class="l-space"> <!-- START OF DISCOVERY PHASE -->
 <h2><span class="step-label" aria-hidden="true" >DISCOVERY</span>
 Workshop showed a bottleneck</h2>
-<p>
+<p class="s-space"> 
 I kicked off with a 3-hour cross-functional onboarding workshop including Support, AMs, Engineers, and PM. We mapped the actual onboarding flow and surfaced pain points:
 <ul>
 <li> Branding was blocked by design and dev dependencies </li>
-<li>Configuration relied on fragile spreadsheets no one fully understood </li>
+<li>Configuration relied on fragile spreadsheet no one fully understood </li>
 <li>No preview or validation existed at any stage, leading to avoidable rework </li>
 <li>Process was slow and repetitive</li>
 </ul>
@@ -161,9 +164,7 @@ I kicked off with a 3-hour cross-functional onboarding workshop including Suppor
 
 
 
-<div class="full-width">
-<div class ="inner-full-width">
-<p>To dig deeper, I mapped the two biggest sources of friction separately: </p>
+<p class="xs-space">To dig deeper, I mapped the two biggest sources of friction separately: </p>
 <h3>Branding flow</h3>
 
 {% include lightbox.html
@@ -183,19 +184,21 @@ I kicked off with a 3-hour cross-functional onboarding workshop including Suppor
    caption="Configuration setup process steps" %}
 
 <p>The detailed view confirmed that manual processes, technical dependencies, and a lack of visibility were slowing every launch. </p>
+</div><!-- END OF DISCOVERY -->
 </div> <!-- END OF INNER -->
 </div><!-- END OF FULL WIDTH -->
-</div><!-- END OF DISCOVERY -->
 
 
-<div id="define"> <!-- START OF DEFINE PHASE -->
+
+<div id="define" class="l-space"> <!-- START OF DEFINE PHASE -->
 <h2><span class="step-label" aria-hidden="true" >DEFINE</span>Problem statement</h2>
 <p>
 Configuration and branding setup caused onboarding delays, high operational cost, client frustration and lost revenue.
 </p>
+<div class="m-space">
 <h2>Client, User & Business needs</h2>
 
-<div class="card-container">
+<div class="card-container s-space">
  {% include card.html
     type="info" subtype="purple"
     icon="account_balance"
@@ -229,6 +232,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 {% include blockquote.html
    text="<span class='bold'>How might we streamline </span> configuration and branding setup?" %}
+</div>
+
 
 <h2>Success metrics</h2>
 <ul class="metrics">
@@ -242,63 +247,69 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 
 
-<div id="ideate"> <!-- START OF IDEATE PHASE -->
-<h2><span class="step-label" aria-hidden="true">IDEATE</span>Concepts explored</h2>
-<p>I explored three product directions to solve onboarding at scale. Each concept was evaluated against user needs, technical feasibility, long-term scalability, and effort required. </p>
 
 
-<h3> Option 1: Canvas editor </h3>
+  <div class="full-width"> <!-- START OF FULL -->
+    <div class ="inner-full-width"> <!-- START OF INNER -->
 
-{% include lightbox.html
-   id="sketch-inline"
-   thumb="/assets/uploads/Self-service/concept-1.webp"
-   full="/assets/uploads/Self-service/concept-1.webp" 
-   alt="Option 1. Canvas editor"
-   caption="Option 1. Canvas editor" %}
+  <div id="ideate" class="l-space"> <!-- START OF IDEATE PHASE -->
+      <h2><span class="step-label" aria-hidden="true">IDEATE</span>Concepts explored</h2>
+      <p>I explored three product directions to solve onboarding at scale. Each concept was evaluated against user needs, technical feasibility, long-term scalability, and effort required. </p>
 
+      <div class="xs-space">
+        <h3> Option 1: Canvas editor </h3>
+       
+        {% include lightbox.html
+          id="sketch-inline"
+          thumb="/assets/uploads/Self-service/concept-1.webp"
+          full="/assets/uploads/Self-service/concept-1.webp" 
+          alt="Option 1. Canvas editor"
+          caption="Option 1. Canvas editor" %}
+  
+        <div class="card-container">
 
-<div class="card-container">
+            {% include card.html
+              type="ideate" subtype="needs"
+              icon="check"
+              icon_color_class="icon-white"
+              header_color_class="header-black"
+              header="Needs met"
+              list="Intuitive tool that requires no technical skills; Quick application of branding; Minimise repetitive tasks; Live preview to reduce guesswork; Built-in checks to prevent rework" %}
 
-
-  {% include card.html
-     type="ideate" subtype="needs"
-     icon="check"
-     icon_color_class="icon-white"
-     header_color_class="header-black"
-     header="Needs met"
-     list="Intuitive tool that requires no technical skills; Quick application of branding; Minimise repetitive tasks; Live preview to reduce guesswork; Built-in checks to prevent rework" %}
-
-  {% include card.html
-     type="ideate" subtype="challenges"
-     icon="extension"
-     icon_color_class="icon-white"
-     header_color_class="header-black"
-     header="Key challenges"
-     list="Highest front‑end engineering complexity; Requires performant, sandboxed rendering of live UI;Longer QA testing" %}
-
-</div>
-
-
-<div class="card-container">
-
-
-  {% include card.html
-     type="tradeoff" subtype="impact" mode="green"
-     icon="trending_up"
-     icon_color_class="icon-white"
-     header_color_class="header-white"
-     header="High impact"
-     list="~90% reduction in support tickets; ~80% faster time‑to‑launch; Significant lift in client satisfactiont" %}
+            {% include card.html
+              type="ideate" subtype="challenges"
+              icon="extension"
+              icon_color_class="icon-white"
+              header_color_class="header-black"
+              header="Key challenges"
+              list="Highest front‑end engineering complexity; Requires performant, sandboxed rendering of live UI;Longer QA testing" %}
+        </div>  
 
 
-  {% include card.html
-     type="tradeoff" subtype="effort" mode="red"
-     icon="construction"
-     icon_color_class="icon-white"
-     header_color_class="header-white"
-     header="High effort"
-   list="UX/UI, PM, BA, 2 FE, 1 BE, 2 QA engineers (30-40 weeks Dev work, 30 weeks Design, 30 weeks QA)" %}
-</div>
+        <div class="card-container">
+
+          {% include card.html
+            type="tradeoff" subtype="impact" mode="green"
+            icon="trending_up"
+            icon_color_class="icon-white"
+            header_color_class="header-white"
+            header="High impact"
+            list="~90% reduction in support tickets; ~80% faster time‑to‑launch; Significant lift in client satisfaction" %}
+
+          {% include card.html
+            type="tradeoff" subtype="effort" mode="red"
+            icon="construction"
+            icon_color_class="icon-white"
+            header_color_class="header-white"
+            header="High effort"
+          list="UX/UI, PM, BA, 2 FE, 2 BE, 2 QA engineers (40-50 weeks Dev work, 30 weeks Design, 30 weeks QA)" %}
+       </div>
+
+  </div> <!-- END OF SPACE-->
+
+
+
+<div class="m-space">
 
 <h3>Option 2: Form Editor </h3>
 
@@ -318,7 +329,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
      icon_color_class="icon-white"
      header_color_class="header-black"
      header="Needs met"
-     list="Quick application of branding; Minimise repetitive tasks; Live preview to reduce guesswork - met 50%; Built-in checks to prevent rework - met 50%" %}
+     list="Quick application of branding; Minimise repetitive tasks; Built-in checks to prevent rework - met 50%" %}
 
   {% include card.html
      type="ideate" subtype="challenges"
@@ -346,10 +357,11 @@ Configuration and branding setup caused onboarding delays, high operational cost
      icon_color_class="icon-white"
      header_color_class="header-white"
      header="Low effort"
-   list="UX/UI, BA, 1 FE , 1 BE, 1 QA engineers (20 weeks Dev work, 4 weeks Design, 4 weeks QA)" %}
+   list="UX/UI, BA, 1 FE, 1 BE, 1 QA engineers (20 weeks Dev work, 4 weeks Design, 4 weeks QA)" %}
 </div>
+ </div> <!--Close space -->
 
-
+<div class="m-space">
 <h3>Option 3: Guided wizard</h3>
 
 {% include lightbox.html
@@ -397,26 +409,29 @@ Configuration and branding setup caused onboarding delays, high operational cost
      icon_color_class="icon-black"
      header_color_class="header-black"
      header="Medium effort"
-   list="Insert data here" %}
+   list="UX/UI, BA, 1 FE, 1 BE, 1 QA engineers (30 weeks Dev work, 6 weeks Design, 6 weeks QA)" %}
 </div>
-<br> <br>
-<p>I facilitated a tradeoff workshop with Product and Engineering to align on direction and clarify which path delivered the most value within our constraints.</p>
 
-<h2>Constrains</h2>
+</div> <!--Close space -->
+
+<div class="s-space">
+<h2>Constraints</h2>
 <ul>
 <li>26 weeks to reduce onboarding-related support load</li>
-<li>Only 1 FE and one BE engineer available part‑time, plus QA support</li>
-<li>The team has minimal familiarity with the metadata schema, risk of unknown edge cases.</li>
+<li>Only 1 FE and 1 BE engineer (part-time), 1 QA</li>
+<li>The team has minimal familiarity with the metadata schema, risk of unexpected issues.</li>
 </ul>
+</div>
 
+<div class="s-space">
 <h2>Tradeoffs</h2>
 
-<p>With just 26 weeks and limited resources, we needed a pragmatic solution that delivered the most impact. </p>
+<p>I facilitated a tradeoff workshop with Product and Engineering to align on direction and clarify which path delivered the most value within our constraints. With just 26 weeks and limited resources, we needed a pragmatic solution that delivered the most impact. </p>
 <!-- Tradeoff table -->
 {% include table.html
   headers="Criteria|Canvas Editor|Form Editor|Guided Wizard"
   rows="
-    Meeting user needs|90%:green|50%:yellow|30%:red;
+    Meeting user needs|100%:green|65%:yellow|30%:red;
     Impact|High:green|Medium:yellow|Low:red;
     Effort|High:red|Low:green|Medium:yellow;
     Risk|High:red|Low:green|Medium:yellow
@@ -429,7 +444,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <p>Form Editor (option 2) was the <strong>most strategic choice</strong> because it:</p>
 
 <ul>
-<li>Addressed 80% of the most common onboarding needs</li>
+<li>Addressed 65% of the most common onboarding needs</li>
 <li>Significantly reduced internal team time spent on repetitive setup</li>
 <li>Had the lowest build effort and learning curve</li>
 <li>Established reusable components and mental models for future iterations
@@ -438,21 +453,19 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
 {% include blockquote.html
    text="Form Editor served as a <span class='bold'>stepping stone</span> toward the Canvas Editor." %}
-
+</div>
 </div> <!-- END OF IDEATE PHASE -->
+   </div> <!-- END OF INNER -->
+  </div> <!-- END OF FULL WIDTH -->
 
-
-<div id="design"> <!-- START OF DESIGN PHASE -->
+<div id="design" > <!-- START OF DESIGN PHASE -->
 <h2><span class="step-label" aria-hidden="true" >DESIGN</span>Splitting Branding and Configuration</h2>
 <p>To move faster, reduce risk and complexity, I proposed to split the problem into two distinct product tracks:</p>
 <p>A. Branding setup</p>
 <p>B. Configuration setup</p>
-
-
-
 </div>
 
-<div id="branding">
+<div id="branding" class="l-space">
 <h2>A. Branding setup</h2>
 
 {% include lightbox.html
@@ -461,15 +474,18 @@ Configuration and branding setup caused onboarding delays, high operational cost
    full="/assets/uploads/Self-service/timeline-branding.webp" 
    alt="Branding phase is highlighted"
  %}
+ <div class="s-space">
 <h2> Strategy </h2>
-<p>I designed every part of the branding tool with the future Canvas editor in mind.
-<ul><li> The "Style Generator" served as the early version of what would become the "Base Theme". </li>
-<li>The colour picker, validation logic, contrast checks, and fallback behavior were all built as modular components, intentionally designed to be reused.  </li> </ul>
+<p>I designed every part of the branding tool with the future Canvas Editor in mind.
+<ul><li> The "Style Generator" served as the early version of what would become the "Brand Base". </li>
+<li>The colour picker, validation logic, contrast checks, and fallback behaviour were all built as modular components, intentionally designed to be reused.  </li> </ul>
 </p>
 
 {% include blockquote.html
    text="This allowed us to  <span class='bold'>validate complex styling patterns early</span>." %}
+</div>
 
+ <div class="s-space">
  <h2> Key design decisions </h2>
 <!-- Table of user needs and design decisions -->
 {% include table.html
@@ -477,9 +493,9 @@ Configuration and branding setup caused onboarding delays, high operational cost
   rows="
     Fast, non-technical first-time setup|Auto-generate full theme by mapping 3 input colours to 91 style variables;
     Easy palette revisions|Added interactive colour picker with immediate visual feedback;
-    Upload brand assets|Logo, favicon, and contact info with inline file guidance;
+    Upload brand assets|Logo, favicon, and contact info with inline guidance;
     Reduce errors and rework|Built-in validation, fallbacks for missing values, and contact format checks;
-    Live preview|Live preview via color swatches and instant publish
+    Live preview|Live preview via colour swatches and instant publish
 
   "%}
 
@@ -490,19 +506,19 @@ Configuration and branding setup caused onboarding delays, high operational cost
    alt="Key design decisions"
    caption="Key design decisions"
  %}
+</div>
 
 
-
-
+ <div class="s-space">
 <h2>User testing and revisions</h2>
-<p>I ran an informal usability testing with a Support Specialist and Account Manager. Iterations included:</p>
+<p>I ran an informal usability testing with a Support Specialist and Account Manager. Revisions included:</p>
 
 <ul class="bold-li">
-<li>Increase discoverability of the wizard generator button </li>
+<li>Increase discoverability of the styles generator button </li>
 <p>"Wizard" → "Generate styles"</p>
 
 <li>Support legacy variables upload</li>
-<p>As legacy variables view is an alternative view to the form fields, I placed them under the toggle to avoid conflicts.</p>
+<p>Legacy variables view is an alternative view to the form fields, I placed them under the toggle to avoid conflicts.</p>
 
 {% include lightbox.html
    id="legacy"
@@ -523,8 +539,11 @@ Configuration and branding setup caused onboarding delays, high operational cost
  %}
 
 </ul>
-
+</div>
 <h2>Final solution - Branding</h2>
+<p>Explore a full interactive
+<a href= "https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=1-138282&viewport=761%2C996%2C0.03&t=dss0pcOopbPAPfWk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A138282&show-proto-sidebar=1" target="_blank"> Prototype </a></p>
+
 {% include lightbox.html
    id="final"
    thumb="/assets/uploads/Self-service/final.gif"
@@ -534,11 +553,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
    link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=1-138022&t=sbtO3naXbHv7GI6f-1"
  %}
 
-
-<h2>Prototype</h2>
-<p>Explore a full interactive
-<a href= "https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=1-138282&viewport=761%2C996%2C0.03&t=dss0pcOopbPAPfWk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A138282&show-proto-sidebar=1" target="_blank"> Prototype </a></p>
-
+ <div class="s-space">
 <h2>Impact</h2>
 <ul class="metrics">
 <li><span class="material-icons">{{ metric_icon }}</span>100% of branding completed independently</li>
@@ -552,7 +567,9 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <div class="callout message">“It’s very helpful, I didn’t have to change the corresponding buttons individually. I think I only had to change one or 2 after that” - CX manager</div>
 
 <div class="callout message">”It’s great. I have punched in a few colours and it populates the whole style guide” - CEO</div>
+</div>
 
+ <div class="s-space">
 <h2>Learnings</h2>
 <ul class="bold-li">
 <li>Big impact from a simple tool</li>
@@ -561,9 +578,10 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <p>I set the direction and scoped the work, but I underestimated how much day-to-day support the team would need. Now, I stay more involved during delivery to keep momentum and make sure we stay aligned.</p>
 </ul>
 </div>
+</div>
 
-
-
+<div class="full-width l-space" >
+<div class ="inner-full-width">
 <!-- B.Configuration -->
 <div id="configuration">
 <h2>B. Configuration setup</h2>
@@ -575,20 +593,21 @@ Configuration and branding setup caused onboarding delays, high operational cost
    alt="Configuration phase is highlighted"
  %}
 
+ <div class="s-space">
 <h2> Strategy </h2>
-<p>The configuration tool was also built as a foundation for the future Canvas editor.
+<p>The configuration tool was also built as a foundation for the future Canvas Editor.
 <ul><li> Versioning, draft autosave, and confirmation steps were designed as a reusable mental model for editing and publishing. </li>
 <li> The properties and option list editors were modular by design, ready to plug into the canvas workflow. </li> </ul>
 </p>
-
-
+</div>
+ <div class="s-space">
  <h2> Key design decisions </h2>
 <!-- Table of user needs and design decisions -->
 {% include table.html
   headers="User need|Design decision"
   rows="
     Quickly locate a field |Mirrored the metadata structure with hierarchical sections and subsections;
-    Quickly locate a property |Grouped 53 properties into 5 categories (e.g., Display, Content) for easy scanning;
+    Quickly locate a property |Grouped 53 properties into 5 categories (e.g. Display, Content) for easy scanning;
     Avoid repetitive tasks|Enabled syncing for modals reused across the app;
     Prevent user errors|Made the 'Current' version read-only and added a confirmation step before publishing changes;
     No technical skills required|Allowed users to manage option lists without writing code;
@@ -602,11 +621,11 @@ Configuration and branding setup caused onboarding delays, high operational cost
    alt="Key design decisions"
    caption="Key design decisions"
  %}
+</div>
 
-
-
+ <div class="s-space">
 <h2>User testing and revisions</h2>
-<p>I conducted a quick, informal usability session with two internal stakeholders: an Account Manager and a Support Specialist.</p>
+<p>I conducted a quick, informal usability session with two internal stakeholders: Account Manager and a Support Specialist. Revisions included:</p>
 
 <ul class="bold-li">
 <li>Show default value & Reset to default</li>
@@ -629,10 +648,10 @@ Configuration and branding setup caused onboarding delays, high operational cost
  %}
 
 </ul>
+</div>
 
 
-
-
+ <div class="s-space">
 <h2>Final solution</h2>
 {% include lightbox.html
    id="changing-field"
@@ -642,46 +661,33 @@ Configuration and branding setup caused onboarding delays, high operational cost
    caption="Changing 'Credit issue' placeholder"
    link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=21-94885&t=sbtO3naXbHv7GI6f-1"
  %}
+</div>
 
 
-<!-- 
-<h2>Prototype</h2>
-<p>Prototypes for 5 core use cases:</p>
-<ul>
-<li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-74060&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A74060&show-proto-sidebar=1" target="_blank"> Changing field property</a></li>
-
-<li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73748&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73748&show-proto-sidebar=1" target="_blank"> Syncing modals</a></li>
-
-<li>
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-93229&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A93229&show-proto-sidebar=1" target="_blank">  Creative a version draft</a></li>
-
-<li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=5-73875&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5%3A73875&show-proto-sidebar=1" target="_blank"> Editing option lists</a></li>
-
-<li> 
-<a href="https://www.figma.com/proto/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?page-id=0%3A1&node-id=19-91211&viewport=2748%2C1415%2C0.19&t=8TpD6QeRPSfMlWUt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A91211&show-proto-sidebar=1" target="_blank"> Comparing versions</a></li></ul> -->
-
+ <div class="s-space">
 <h2>Impact</h2>
 <ul class="metrics">
 <li><span class="material-icons">{{ metric_icon }}</span>45% drop in support tickets</li>
 <li><span class="material-icons">{{ metric_icon }}</span>40% faster time-to-launch</li>
-<li><span class="material-icons">{{ metric_icon }}</span>90% eliminated cross-team dependencies</li>
+<li><span class="material-icons">{{ metric_icon }}</span>70% eliminated cross-team dependencies</li>
 <li><span class="material-icons">{{ metric_icon }}</span>Positive feedback from stakeholders</li>
+<li><span class="material-icons">{{ metric_icon }}</span>85% task success rate in usability testing</li>
 </ul>
 
 <div class="callout message">"This completely changes how we scale onboarding. What used to take months now takes weeks." - Chief Product Officer</div>
-
-
-
-<h2>Learnings</h2>
-<p> Involving engineers early paid off. Their insights shaped a smarter solution, flagged risks I hadn’t seen, and surfaced better ways to build within constraints.</p>
-
 </div>
 
+ <div class="s-space">
+<h2>Learnings</h2>
+<p> Bringing engineers in early helped us catch blind spots and find smarter, lower-effort ways to deliver key features.</p>
+</div>
+</div>
+
+  </div> <!-- END OF INNER -->
+  </div> <!-- END OF FULL WIDTH -->
+
 <!-- Place for the Table of content -->
-<div id="impact">
+<div id="impact" class="l-space">
 <h2><span class="step-label" aria-hidden="true" >IMPACT</span>Form Editor impact</h2>
 <p>
 While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progress by cutting onboarding time in half, reducing support load by 35%, and laying the groundwork for full self-service in Phase 2.
@@ -694,10 +700,10 @@ While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progre
     Decrease reliance on internal teams|100%|70%;
     Operational cost saving|80%|35%;
     Time to launch reduced|1 month|3-4 months (50% faster);
-    Client satisfaction score during onboarding|90%|81%
+    Client satisfaction score (CSAT) during onboarding|90%|81%
   "%}
 <h3>Measuring CSAT </h3>
-<p>I used 5-point Likert scale that would appear once a week after user completes a task. The tool got 81% satisfaction, showing strong positive feedback from internal users, which is above average for fintech benchmarks 78–79%.</p>
+<p>I used 5-point Likert scale that would appear once a week after user completes a task. The tool got 81% satisfaction, showing strong positive feedback from internal users, which is above average for fintech benchmarks, 78–79%.</p>
 
 {% include lightbox.html
    id="csat"
@@ -709,7 +715,13 @@ While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progre
 
 </div>
 
+
+
 <div id= "future-iteractions"> <!-- Star of FUTURE ITERACTIONS -->
+
+<div class="full-width l-space" >
+<div class ="inner-full-width">
+
 <h2><span class="step-label" aria-hidden="true">FUTURE ITERATIONS</span>Strong foundation & clear gaps</h2>
 <p>Form Editor made meaningful progress, but it didn't fully solve the problem:
 <ul> <li>
@@ -725,41 +737,43 @@ Clients still relied heavily on internal teams</li>
 <!-- {% include blockquote.html
   text="<span class='bold'> Clients want more control.</span> "%} -->
 
+<div class="s-space">
 <h2>Building momentum for full self-service </h2>
 <p>Once Form Editor cut onboarding time by 50%, I pitched a scalable self-service vision to leadership. </p>
-
 <strong>Canvas Editor</strong> extends the impact of Form Editor by:
 <ul>
 <li>Enabling real-time, client-led configuration</li>
 <li>Eliminating back-and-forth during setup</li>
 <li>Reducing internal onboarding load</li>
 <li>Strengthening product differentiation </li></ul>
+</div>
 
+<div class="s-space">
 <h2>Design tradeoffs</h2>
 
 {% include table.html
   headers="Decision|Tradeoff|Rationale"
   rows="
     Made setup tool brand-agnostic | Added styling work | Avoided confusion from client branding overrides, kept setup UI stable and clear;
-    Draggable, context-aware panel |Added UI complexity | Prioritizes form visibility and avoids overlaying editable content;
-    Separated style & settings modals |More modals to manage| Clear behavior vs appearance split, improves discoverability, enables nested IA, and signals shared styles. May revisit if users experience friction jumping between modals;
+    Draggable, context-aware panel |Added UI complexity | Prioritises form visibility and avoids overlaying editable content;
+    Separated style & settings modals |More modals to manage| Clear behaviour/appearance split, improves discoverability, enables nested IA, and signals shared styles. May revisit if users experience friction jumping between modals;
     Showed visible & conditional fields | Preview isn’t a perfect snapshot | Maintains clean WYSIWYG expectations while surfacing logic clearly, marking conditional fields;
-    Modal sync by default | Removed manual control | Ensures consistency, avoids user errors, lowers cognitive load
+    Modal sync by default | Removed manual sync | Ensures consistency, avoids user errors, lowers cognitive load
   "%}
+</div>
 
-
-
+<div class="s-space">
 <h2>Cross-functional prioritisation </h2>
 <p>To reduce delivery risk and build momentum, I led early reviews with cross-functional leads to align on priorities and technical constraints. We scoped Phase 2 and made strategic tradeoffs to stay within our timeline:</p>
 <p>
 <strong>Deferred functionality:</strong> 
-<ul> <li>Undo/Redo: too complex for MVP, low usage expected, supported by versioning </li>
-<li>Drag-and-drop: High efforts to change metadata schema, nice to have</li>
-<li>AI suggestions: High effort, not critical to core flows</li>
-<li>Mobile editing: Usage data showed strong desktop preference</li></ul> </p>
+<ul> <li>Undo/Redo, too complex for MVP, low usage expected, supported by versioning </li>
+<li>Drag-and-drop, high efforts to change metadata schema, nice to have</li>
+<li>AI suggestions, High effort, not critical to core flows</li>
+<li>Mobile editing, usage data showed strong desktop preference</li></ul> </p>
+</div>
 
-
-
+<div class="s-space">
 <h2>Iterating on Form Editor </h2>
 <p>Reused successful patterns from Form Editor:
 
@@ -778,8 +792,9 @@ Clients still relied heavily on internal teams</li>
    alt="Reused elements from Form Editor"
    caption="Reused elements from Form Editor"
  %}
+</div>
 
-
+<div class="s-space">
 <h2> Prototype </h2>
 {% include lightbox.html
    id="canvaseditor"
@@ -789,8 +804,12 @@ Clients still relied heavily on internal teams</li>
    caption="Proposed solution"
   link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=412-241768&t=wI4bd9rhdllSnA3i-1"
  %}
+</div>
 
+  </div> <!-- END OF INNER -->
+  </div> <!-- END OF FULL WIDTH -->
 
+ <div class="s-space">
 <h2>What's next </h2>
 
 <p> Canvas Editor is in the design phase. So far I’ve: </p>
@@ -802,6 +821,8 @@ Clients still relied heavily on internal teams</li>
 <p>Next, I’ll prototype and test core flows with internal and client users to validate the mental model, confirm usability, and ensure it scales without developer involvement. </p>
 
 <p class="last-step">
-Canvas Editor gives clients full ownership, removes developer bottlenecks, and accelerates onboarding. It marks a major shift in how the business scales.</p>
+Canvas Editor gives clients full ownership, removes developer bottlenecks and accelerates onboarding. It marks a major shift in how the business scales.</p>
+</div>
 
+</div>
  <!-- End of FUTURE ITERACTIONS -->
