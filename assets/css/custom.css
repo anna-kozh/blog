@@ -243,7 +243,9 @@ strong {
   margin: 0;
 }
 
-
+.overview-item {
+  margin-bottom:2rem;
+}
 
 
 .project-overview.two-column {
@@ -334,7 +336,7 @@ figure {
   gap: 8px;
   margin: 2rem 0 3rem;
   text-align: center;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .video-container {
@@ -429,7 +431,7 @@ a {
 a,
 a:visited,
 .more {
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1.5px solid var(--primary-color);
   text-decoration: none;
   font-family: var(--primary-font);
   font-weight: 700;
@@ -536,7 +538,7 @@ textarea {
 img {
   height: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 
@@ -576,6 +578,7 @@ span {
 
 .block img {
   width: 100%;
+  margin: 0.5rem 0;
 }
 
 .block span {
@@ -587,8 +590,13 @@ span {
   flex-direction: column;
   margin: 2rem 24px;
   align-items: start;
-  gap: 3em;
+  gap: 4rem;
 }
+
+.gap-increase {
+  gap: 8rem !important;
+}
+
 
 #post-container .post {
   max-width: 780px;
@@ -784,7 +792,7 @@ line-height: 2rem;
     }
     
     .arrow-button:hover {
-      background-color: var(-primary-hover); /* Darker pink on hover */
+      /* background-color: var(--primary-hover);  */
     }
     
   
@@ -957,9 +965,6 @@ footer h2 {
   opacity: 1;
 }
 
-#design {
-  padding-top:5rem;
-}
 
 ol,
 ul {
@@ -975,8 +980,17 @@ li {
 }
 
 .bold-li li {
+  margin-top: 2rem;
   font-weight: 700; /* Text bold */
 }
+
+.bold-li p{
+ margin: 0.5rem 0;
+}
+
+/* .bold-li figure{
+margin: 0;
+}  */
 
 .bold-li li::marker {
   font-weight: 700; /* Marker bold */
@@ -1435,8 +1449,8 @@ img.lazy-img {
     z-index: 990;
 }
 
-div[id]{
- scroll-margin-top: 4rem;
+h2[id]{
+ scroll-margin-top: 0;
 }
 
 
@@ -1482,15 +1496,25 @@ text-transform: uppercase;
 border-bottom: 0;
 }
 
-#toc-list a, #toc-list a:visited  {
+#toc-list a {
 border-bottom: 0;
 font-size: 1rem;
 color: var(--secondary-text-color);
 font-weight: 500;
 }
 
-#toc-list a:hover {
+#toc-list a {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* #toc-list a:hover {
 color: var(--primary-color); 
+} */
+
+#toc-list li:not(.active-toc) > a:hover {
+  color: var(--secondary-text-color);
+  font-weight: 500;
 }
 
 #toc-list a.active {
@@ -1573,6 +1597,8 @@ body {
 
 
 /* MEDIA QUERIES */
+
+
 @media only screen and (min-width: 1408px) {
   .nav {
     max-width: 1312px;
@@ -1708,11 +1734,11 @@ padding: 0;
 }
 
 
- #toc-list a:hover {
+ /* #toc-list a:hover {
  font-size: 1rem;
  font-weight: 500;
  color: var(--secondary-text-color);
-}
+} */
 }
 
 

@@ -2,10 +2,10 @@
 layout: "single_post"
 title: "How I convinced my manager"
 description: '"Don’t change the original design," my Product Lead told me on my second day at Simpology. He had designed the whole solution two years before I joined, and the team had already implemented 20% of the design. This is a story about how I changed the original design.'
-tag: "Case study"
+tag: "Experience"
 permalink: /blog/branding-tool
 image: 
-posted: 1
+posted: 0
 ---
 
 <div class="overview-width highlighted project-overview">

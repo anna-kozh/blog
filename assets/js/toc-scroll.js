@@ -1,21 +1,23 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const toc = document.getElementById('mobile-toc');
+document.querySelectorAll('#toc-list a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
 
-  if (!toc) return;
+    const targetId = this.getAttribute('href').substring(1);
+    const targetEl = document.getElementById(targetId);
+    if (!targetEl) return;
 
-  const tocOffset = toc.offsetTop;
+    // Scroll to section (adjust as needed)
+    const offset = window.innerWidth < 768 ? 100 : 80;
+    const scrollY = targetEl.getBoundingClientRect().top + window.scrollY - offset;
 
-  window.addEventListener('scroll', function () {
-    const isMobile = window.innerWidth <= 1224;
+    window.scrollTo({ top: scrollY, behavior: 'smooth' });
 
-    if (isMobile) {
-      if (window.scrollY > tocOffset) {
-        toc.classList.add('fixed');
-      } else {
-        toc.classList.remove('fixed');
-      }
-    } else {
-      toc.classList.remove('fixed'); // reset for larger screens
-    }
+    // Remove stuck hover by blurring
+    this.blur(); // clear focus from clicked link
+    setTimeout(() => this.blur(), 50); // fallback in case iOS delays focus
+
+    // Optional: update active class
+    document.querySelectorAll('#toc-list li').forEach(li => li.classList.remove('active-toc'));
+    this.parentElement.classList.add('active-toc');
   });
 });
