@@ -5,7 +5,7 @@ title: Blog
 permalink: /portfolio2
 ---
 
-<div id="post-container" class="block">
+<div id="post-container" class="gap-increase block">
   {% for post in site.posts %}
     {% if post.posted == 1 and post.tag == "Case study"%}
   

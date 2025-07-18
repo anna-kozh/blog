@@ -3,7 +3,7 @@ layout: "single_post_new"
 title: "Onboarding self-service tool"
 description: "With all my love for spreadsheets, we gladly replaced our 5,000-row onboarding file with a self-service tool I designed. It cut setup time by 50% and reduced support load by 35%."
 tag: "Case study"
-permalink: /blog/onboarding
+permalink: /portfolio/onboarding
 image: /Self-service/hero.webp
 posted: 1
 
@@ -29,7 +29,7 @@ toc:
   - title: "Impact"
     id: "impact"
   - title: "Future iterations"
-    id: "future-iteractions"
+    id: "future-iterations"
 
 ---
 
@@ -89,8 +89,8 @@ toc:
 
 
   
-<div id="my-role">
-<h2><span class="step-label" aria-hidden="true">MY ROLE</span>My role & influence </h2>
+
+<h2 id="my-role"><span class="step-label" aria-hidden="true">MY ROLE</span>My role & influence </h2>
 <ul>
 
 <li>Reframed onboarding as a business bottleneck</li>
@@ -99,18 +99,18 @@ toc:
 <li>Designed Phase 1 (Form Editor) with scalable UX patterns</li>
 <li>Scoped Phase 2 (Canvas Editor) to expand client autonomy</li>
 </ul>
-</div>
+
   
 
-<div id="context" class="l-space"><!-- Beginning of CONTEXT -->
-<h2><span class="step-label" aria-hidden="true">CONTEXT</span>Customisation is what sets us apart</h2>
+<div  class="l-space"><!-- Beginning of CONTEXT -->
+<h2 id="context"><span class="step-label" aria-hidden="true">CONTEXT</span>Customisation is what sets us apart</h2>
 
 {% include lightbox.html
   id="custom"
   thumb="/assets/uploads/Self-service/custom.webp"
   full="/assets/uploads/Self-service/custom.webp"
   alt="Different brands customisation"
-  caption="Different clients customisation" %}
+  caption="Each client required customisation" %}
 
 <p class="m-space"> Onboarding new clients at Simpology required manually setting up a <strong>metadata spreadsheet</strong> with thousands of rows, used to configure a dynamic form builder. </p>
 
@@ -119,7 +119,7 @@ toc:
   thumb="/assets/uploads/Self-service/metadata.webp"
   full="/assets/uploads/Self-service/metadata.webp"
   alt="Client setup spreadsheet"
-  caption="Client setup via spreadsheet" %}
+  caption="5,000-row spreadsheet for every onboarding" %}
 
 <div class="xs-space">
 <p>As the client base grew, this process became a major liability:
@@ -140,8 +140,8 @@ toc:
 
 <div class="full-width">
 <div class ="inner-full-width">
-<div id="discovery" class="l-space"> <!-- START OF DISCOVERY PHASE -->
-<h2><span class="step-label" aria-hidden="true" >DISCOVERY</span>
+<div  class="l-space"> <!-- START OF DISCOVERY PHASE -->
+<h2 id="discovery"><span class="step-label" aria-hidden="true" >DISCOVERY</span>
 Workshop showed a bottleneck</h2>
 <p class="s-space"> 
 I kicked off with a 3-hour cross-functional onboarding workshop including Support, AMs, Engineers, and PM. We mapped the actual onboarding flow and surfaced pain points:
@@ -158,7 +158,7 @@ I kicked off with a 3-hour cross-functional onboarding workshop including Suppor
    thumb="/assets/uploads/Self-service/journey-map.webp"
    full="/assets/uploads/Self-service/journey-map.webp" 
    alt="Onboarding journey map"
-   caption="Onboarding journey map" %}
+   caption="Journey mapping exposed the root of our onboarding delays" %}
 
 
 
@@ -172,7 +172,7 @@ I kicked off with a 3-hour cross-functional onboarding workshop including Suppor
    thumb="/assets/uploads/Self-service/process-branding.webp"
    full="/assets/uploads/Self-service/process-branding.webp" 
    alt="Branding setup process steps"
-   caption="Branding setup process steps" %}
+   caption="Branding flow exposed cross-functional bottleneck" %}
 
 <h3>Configuration flow</h3>
 
@@ -181,7 +181,7 @@ I kicked off with a 3-hour cross-functional onboarding workshop including Suppor
    thumb="/assets/uploads/Self-service/process-config.webp"
    full="/assets/uploads/Self-service/process-config.webp" 
    alt="Configuration setup process steps"
-   caption="Configuration setup process steps" %}
+   caption="Configuration flow exposed repetitive, low-value work" %}
 
 <p>The detailed view confirmed that manual processes, technical dependencies, and a lack of visibility were slowing every launch. </p>
 </div><!-- END OF DISCOVERY -->
@@ -190,8 +190,8 @@ I kicked off with a 3-hour cross-functional onboarding workshop including Suppor
 
 
 
-<div id="define" class="l-space"> <!-- START OF DEFINE PHASE -->
-<h2><span class="step-label" aria-hidden="true" >DEFINE</span>Problem statement</h2>
+<div class="l-space"> <!-- START OF DEFINE PHASE -->
+<h2 id="problem"><span class="step-label" aria-hidden="true" >PROBLEM</span>Problem statement</h2>
 <p>
 Configuration and branding setup caused onboarding delays, high operational cost, client frustration and lost revenue.
 </p>
@@ -252,8 +252,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
   <div class="full-width"> <!-- START OF FULL -->
     <div class ="inner-full-width"> <!-- START OF INNER -->
 
-  <div id="ideate" class="l-space"> <!-- START OF IDEATE PHASE -->
-      <h2><span class="step-label" aria-hidden="true">IDEATE</span>Concepts explored</h2>
+  <div class="l-space"> <!-- START OF IDEATE PHASE -->
+      <h2 id="ideate"><span class="step-label" aria-hidden="true">IDEATE</span>Concepts explored</h2>
       <p>I explored three product directions to solve onboarding at scale. Each concept was evaluated against user needs, technical feasibility, long-term scalability, and effort required. </p>
 
       <div class="xs-space">
@@ -417,7 +417,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <div class="s-space">
 <h2>Constraints</h2>
 <ul>
-<li>26 weeks to reduce onboarding-related support load</li>
+<li>24 weeks to reduce onboarding-related support load</li>
 <li>Only 1 FE and 1 BE engineer (part-time), 1 QA</li>
 <li>The team has minimal familiarity with the metadata schema, risk of unexpected issues.</li>
 </ul>
@@ -426,7 +426,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <div class="s-space">
 <h2>Tradeoffs</h2>
 
-<p>I facilitated a tradeoff workshop with Product and Engineering to align on direction and clarify which path delivered the most value within our constraints. With just 26 weeks and limited resources, we needed a pragmatic solution that delivered the most impact. </p>
+<p>I facilitated a tradeoff workshop with Product and Engineering to align on direction and clarify which path delivered the most value within our constraints. </p>
+<p>With just 24 weeks and limited resources, we needed a pragmatic solution that delivered the most impact. </p>
 <!-- Tradeoff table -->
 {% include table.html
   headers="Criteria|Canvas Editor|Form Editor|Guided Wizard"
@@ -458,15 +459,17 @@ Configuration and branding setup caused onboarding delays, high operational cost
    </div> <!-- END OF INNER -->
   </div> <!-- END OF FULL WIDTH -->
 
-<div id="design" > <!-- START OF DESIGN PHASE -->
-<h2><span class="step-label" aria-hidden="true" >DESIGN</span>Splitting Branding and Configuration</h2>
+
+
+<div class="l-space"> <!-- START OF DESIGN PHASE -->
+<h2 id="design"><span class="step-label" aria-hidden="true" >DESIGN</span>Splitting Branding and Configuration</h2>
 <p>To move faster, reduce risk and complexity, I proposed to split the problem into two distinct product tracks:</p>
 <p>A. Branding setup</p>
 <p>B. Configuration setup</p>
-</div>
 
-<div id="branding" class="l-space">
-<h2>A. Branding setup</h2>
+
+<div  class="l-space">
+<h2 id="branding">A. Branding setup</h2>
 
 {% include lightbox.html
    id="phase-branding"
@@ -525,8 +528,10 @@ Configuration and branding setup caused onboarding delays, high operational cost
    thumb="/assets/uploads/Self-service/legacy.webp"
    full="/assets/uploads/Self-service/legacy.webp"
    alt="Supporting legacy variables upload"
-   caption="Two views to upload branding"
+   caption="Two views to support legacy upload"
 %}
+
+
 <li>Added contrast check</li>
 <p>Financial services must meet WCAG Level AA. That includes making sure all text, big and small, is accessible.</p>
 
@@ -535,7 +540,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
    thumb="/assets/uploads/Self-service/contrast.webp"
    full="/assets/uploads/Self-service/contrast.webp" 
    alt="Checking contrast"
-   caption="Checking contrast"
+   caption="Validated color choices for WCAG AA compliance"
  %}
 
 </ul>
@@ -548,8 +553,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
    id="final"
    thumb="/assets/uploads/Self-service/final.gif"
    full="/assets/uploads/Self-service/final.gif" 
-   alt="Branding flow (final wireframes)"
-   caption="Branding flow (final wireframes)"
+   alt="Branding flow (final design)"
+   caption="Branding flow (final design)"
    link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=1-138022&t=sbtO3naXbHv7GI6f-1"
  %}
 
@@ -583,8 +588,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <div class="full-width l-space" >
 <div class ="inner-full-width">
 <!-- B.Configuration -->
-<div id="configuration">
-<h2>B. Configuration setup</h2>
+<div>
+<h2 id="configuration">B. Configuration setup</h2>
 
 {% include lightbox.html
    id="design-config"
@@ -635,7 +640,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
    thumb="/assets/uploads/Self-service/default.webp"
    full="/assets/uploads/Self-service/default.webp" 
    alt="Show default value"
-   caption="User is able to reset to default"
+   caption="Default option makes changes low-risk"
  %}
 <li>Version comparison came from collaboration</li> <p> During testing, a developer suggested expanding the publish confirmation step into a full version comparison. It aligned with user needs and was feasible to add to scope.  </p>
 
@@ -662,7 +667,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
    link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=21-94885&t=sbtO3naXbHv7GI6f-1"
  %}
 </div>
-
+</div>
 
  <div class="s-space">
 <h2>Impact</h2>
@@ -687,8 +692,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
   </div> <!-- END OF FULL WIDTH -->
 
 <!-- Place for the Table of content -->
-<div id="impact" class="l-space">
-<h2><span class="step-label" aria-hidden="true" >IMPACT</span>Form Editor impact</h2>
+<div class="l-space">
+<h2 id="impact"><span class="step-label" aria-hidden="true" >IMPACT</span>Form Editor impact</h2>
 <p>
 While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progress by cutting onboarding time in half, reducing support load by 35%, and laying the groundwork for full self-service in Phase 2.
 </p>
@@ -703,26 +708,26 @@ While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progre
     Client satisfaction score (CSAT) during onboarding|90%|81%
   "%}
 <h3>Measuring CSAT </h3>
-<p>I used 5-point Likert scale that would appear once a week after user completes a task. The tool got 81% satisfaction, showing strong positive feedback from internal users, which is above average for fintech benchmarks, 78–79%.</p>
+<p>I used a 5-point Likert scale that would appear once a week after user completes a task. The tool got 81% satisfaction, showing strong positive feedback from internal users, which is above average for fintech benchmarks, 78–79%.</p>
 
 {% include lightbox.html
    id="csat"
    thumb="/assets/uploads/Self-service/csat.webp"
    full="/assets/uploads/Self-service/csat.webp" 
    alt="Asking user to give us satisfaction feedback"
-   caption="Requesting user feedback"
+   caption="Collected CSAT to track user satisfaction"
  %}
 
 </div>
 
 
 
-<div id= "future-iteractions"> <!-- Star of FUTURE ITERACTIONS -->
+<div> <!-- Star of FUTURE ITERACTIONS -->
 
 <div class="full-width l-space" >
 <div class ="inner-full-width">
 
-<h2><span class="step-label" aria-hidden="true">FUTURE ITERATIONS</span>Strong foundation & clear gaps</h2>
+<h2 id= "future-iterations"><span class="step-label" aria-hidden="true">FUTURE ITERATIONS</span>Strong foundation & clear gaps</h2>
 <p>Form Editor made meaningful progress, but it didn't fully solve the problem:
 <ul> <li>
 Clients still relied heavily on internal teams</li>
@@ -790,7 +795,7 @@ Clients still relied heavily on internal teams</li>
    thumb="/assets/uploads/Self-service/reused.webp"
    full="/assets/uploads/Self-service/reused.webp" 
    alt="Reused elements from Form Editor"
-   caption="Reused elements from Form Editor"
+   caption="Reduced dev effort with existing Form Editor components"
  %}
 </div>
 

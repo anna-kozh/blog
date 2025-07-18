@@ -17,21 +17,21 @@
         let blogLink = document.querySelectorAll('.nav_links .nav-item a')[1];
         let aboutLink = document.querySelectorAll('.nav_links .nav-item a')[2];
 
-        if(getPage === "/portfolio.html") {
+        if (getPage.includes("/portfolio")) {
                 portfolioLink.classList.add("selected");
                 blogLink.classList.remove("selected");
                 aboutLink.classList.remove("selected");
-        } else if(getPage === "/blog.html") {
+        } else if (getPage.includes("/blog")) {
                 portfolioLink.classList.remove("selected");      
                 blogLink.classList.add("selected");
                 aboutLink.classList.remove("selected");
         }
-        else if(getPage === "/about.html") {
+        else if (getPage.includes("/about")) {
                 portfolioLink.classList.remove("selected");      
                 blogLink.classList.remove("selected");
                 aboutLink.classList.add("selected");
         }
-        else if(getPage === "/") {
+        else if (getPage.includes("/")) {
                 portfolioLink.classList.remove("selected");      
                 blogLink.classList.remove("selected");
                 aboutLink.classList.remove("selected");
