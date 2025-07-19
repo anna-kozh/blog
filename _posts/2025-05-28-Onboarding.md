@@ -1,7 +1,7 @@
 ---
 layout: "single_post_new"
 title: "Onboarding self-service tool"
-description: "With all my love for spreadsheets, we gladly replaced our 5,000-row onboarding file with a self-service tool I designed. It cut setup time by 50% and reduced support load by 35%."
+description: "We were scaling fast, but onboarding was still stuck in the stone age, running on a single anxiety-provoking spreadsheet. The tool we built broke the bottleneck and gave us a clear path to full client self-service."
 tag: "Case study"
 permalink: /portfolio/onboarding
 image: /Self-service/hero.webp
@@ -127,7 +127,7 @@ toc:
 <li> 30% tickets were related to onboarding new clients </li>
 <li>$500K in operational cost per year </li>
 <li>6+ month launch delay causing $480K lost in revenue annually</li>
-<li>Constant strain on support, devs, and client teams </li>
+<li>Constant strain on support, devs and client teams </li>
 </ul></p>
 </div>
 
@@ -144,7 +144,7 @@ toc:
 <h2 id="discovery"><span class="step-label" aria-hidden="true" >DISCOVERY</span>
 Workshop showed a bottleneck</h2>
 <p class="s-space"> 
-I kicked off with a 3-hour cross-functional onboarding workshop including Support, AMs, Engineers, and PM. We mapped the actual onboarding flow and surfaced pain points:
+I kicked off with a 3-hour cross-functional onboarding workshop including Support, AMs, Engineers and PM. We mapped the actual onboarding flow and surfaced pain points:
 <ul>
 <li> Branding was blocked by design and dev dependencies </li>
 <li>Configuration relied on fragile spreadsheet no one fully understood </li>
@@ -183,7 +183,7 @@ I kicked off with a 3-hour cross-functional onboarding workshop including Suppor
    alt="Configuration setup process steps"
    caption="Configuration flow exposed repetitive, low-value work" %}
 
-<p>The detailed view confirmed that manual processes, technical dependencies, and a lack of visibility were slowing every launch. </p>
+<p>The detailed view confirmed that manual processes, technical dependencies and a lack of visibility were slowing every launch. </p>
 </div><!-- END OF DISCOVERY -->
 </div> <!-- END OF INNER -->
 </div><!-- END OF FULL WIDTH -->
@@ -254,7 +254,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
 
   <div class="l-space"> <!-- START OF IDEATE PHASE -->
       <h2 id="ideate"><span class="step-label" aria-hidden="true">IDEATE</span>Concepts explored</h2>
-      <p>I explored three product directions to solve onboarding at scale. Each concept was evaluated against user needs, technical feasibility, long-term scalability, and effort required. </p>
+      <p>I explored three product directions to solve onboarding at scale. Each concept was evaluated against user needs, technical feasibility, impact and effort required. </p>
 
       <div class="xs-space">
         <h3> Option 1: Canvas editor </h3>
@@ -432,7 +432,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
 {% include table.html
   headers="Criteria|Canvas Editor|Form Editor|Guided Wizard"
   rows="
-    Meeting user needs|100%:green|65%:yellow|30%:red;
+    User needs met|100%:green|65%:yellow|30%:red;
     Impact|High:green|Medium:yellow|Low:red;
     Effort|High:red|Low:green|Medium:yellow;
     Risk|High:red|Low:green|Medium:yellow
@@ -468,7 +468,7 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <p>B. Configuration setup</p>
 
 
-<div  class="l-space">
+<div  class="xs-space">
 <h2 id="branding">A. Branding setup</h2>
 
 {% include lightbox.html
@@ -477,11 +477,11 @@ Configuration and branding setup caused onboarding delays, high operational cost
    full="/assets/uploads/Self-service/timeline-branding.webp" 
    alt="Branding phase is highlighted"
  %}
- <div class="s-space">
+ <div class="xs-space">
 <h2> Strategy </h2>
 <p>I designed every part of the branding tool with the future Canvas Editor in mind.
 <ul><li> The "Style Generator" served as the early version of what would become the "Brand Base". </li>
-<li>The colour picker, validation logic, contrast checks, and fallback behaviour were all built as modular components, intentionally designed to be reused.  </li> </ul>
+<li>The colour picker, validation logic, contrast checks and fallback behaviour were all built as modular components, intentionally designed to be reused.  </li> </ul>
 </p>
 
 {% include blockquote.html
@@ -496,8 +496,8 @@ Configuration and branding setup caused onboarding delays, high operational cost
   rows="
     Fast, non-technical first-time setup|Auto-generate full theme by mapping 3 input colours to 91 style variables;
     Easy palette revisions|Added interactive colour picker with immediate visual feedback;
-    Upload brand assets|Logo, favicon, and contact info with inline guidance;
-    Reduce errors and rework|Built-in validation, fallbacks for missing values, and contact format checks;
+    Upload brand assets|Logo, favicon and contact info with inline guidance;
+    Reduce errors and rework|Built-in validation, fallbacks for missing values and contact format checks;
     Live preview|Live preview via colour swatches and instant publish
 
   "%}
@@ -565,7 +565,9 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <li><span class="material-icons">{{ metric_icon }}</span>94% operational cost savings on branding</li>
 <li><span class="material-icons">{{ metric_icon }}</span>3-5% reduced time to launch </li>
 <li><span class="material-icons">{{ metric_icon }}</span>Task success rate in usability testing 95%</li>
-<li><span class="material-icons">{{ metric_icon }}</span>Qualitative CSAT increase confirmed via stakeholder feedback</li>
+<li><span class="material-icons">{{ metric_icon }}</span>Improved satisfaction, confirmed by stakeholder feedback.
+
+</li>
 </ul>
 
 
@@ -598,10 +600,10 @@ Configuration and branding setup caused onboarding delays, high operational cost
    alt="Configuration phase is highlighted"
  %}
 
- <div class="s-space">
+ <div class="xs-space">
 <h2> Strategy </h2>
 <p>The configuration tool was also built as a foundation for the future Canvas Editor.
-<ul><li> Versioning, draft autosave, and confirmation steps were designed as a reusable mental model for editing and publishing. </li>
+<ul><li> Versioning, draft autosave and confirmation steps were designed as a reusable mental model for editing and publishing. </li>
 <li> The properties and option list editors were modular by design, ready to plug into the canvas workflow. </li> </ul>
 </p>
 </div>
@@ -695,14 +697,13 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <div class="l-space">
 <h2 id="impact"><span class="step-label" aria-hidden="true" >IMPACT</span>Form Editor impact</h2>
 <p>
-While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progress by cutting onboarding time in half, reducing support load by 35%, and laying the groundwork for full self-service in Phase 2.
+While we didn’t hit every stretch goal, Form Editor (Phase 1) made real progress by cutting onboarding time in half, reducing support load by 35% and laying the groundwork for full self-service in Phase 2.
 </p>
 
 <!-- Table of sucess metrics and achieved metrics -->
 {% include table.html
   headers="Metric|Target |Outcome"
   rows="
-    Decrease reliance on internal teams|100%|70%;
     Operational cost saving|80%|35%;
     Time to launch reduced|1 month|3-4 months (50% faster);
     Client satisfaction score (CSAT) during onboarding|90%|81%
@@ -761,7 +762,7 @@ Clients still relied heavily on internal teams</li>
   rows="
     Made setup tool brand-agnostic | Added styling work | Avoided confusion from client branding overrides, kept setup UI stable and clear;
     Draggable, context-aware panel |Added UI complexity | Prioritises form visibility and avoids overlaying editable content;
-    Separated style & settings modals |More modals to manage| Clear behaviour/appearance split, improves discoverability, enables nested IA, and signals shared styles. May revisit if users experience friction jumping between modals;
+    Separated style & settings modals |More modals to manage| Clear behaviour/appearance split, improves discoverability, enables nested IA and signals shared styles. May revisit if users experience friction jumping between modals;
     Showed visible & conditional fields | Preview isn’t a perfect snapshot | Maintains clean WYSIWYG expectations while surfacing logic clearly, marking conditional fields;
     Modal sync by default | Removed manual sync | Ensures consistency, avoids user errors, lowers cognitive load
   "%}
@@ -823,7 +824,7 @@ Clients still relied heavily on internal teams</li>
 <li>Outlined reusable components </li>
 <li>Validated technical tradeoffs </li> </ul>
 
-<p>Next, I’ll prototype and test core flows with internal and client users to validate the mental model, confirm usability, and ensure it scales without developer involvement. </p>
+<p>Next, I’ll prototype and test core flows with internal and client users to validate the mental model, confirm usability and ensure it scales without developer involvement. </p>
 
 <p class="last-step">
 Canvas Editor gives clients full ownership, removes developer bottlenecks and accelerates onboarding. It marks a major shift in how the business scales.</p>
