@@ -1,6 +1,6 @@
 ---
 layout: "single_page"
-title: What I am about
+title: Hello. It’s Me. 
 permalink: /about
 under_construction: "{{ site.is_under_construction }}"
 ---
