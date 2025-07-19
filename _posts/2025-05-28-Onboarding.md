@@ -736,7 +736,7 @@ Clients still relied heavily on internal teams</li>
 <li>Onboarding delays were shortened, but not eliminated </li></ul>
 </p>
 
-<div class="callout message">"This tool is still too complex for our customers." - Support Officer</div>
+<div class="callout message">"This tool is too complex for our customers." - Support Officer</div>
 
 <div class="callout message">"Clients want to have more control over their configuration." - Account Manager</div>
 
@@ -775,7 +775,7 @@ Clients still relied heavily on internal teams</li>
 <strong>Deferred functionality:</strong> 
 <ul> <li>Undo/Redo, too complex for MVP, low usage expected, supported by versioning </li>
 <li>Drag-and-drop, high efforts to change metadata schema, nice to have</li>
-<li>AI suggestions, High effort, not critical to core flows</li>
+<li>AI suggestions, high effort, not critical to core flows</li>
 <li>Mobile editing, usage data showed strong desktop preference</li></ul> </p>
 </div>
 
@@ -784,7 +784,7 @@ Clients still relied heavily on internal teams</li>
 <p>Reused successful patterns from Form Editor:
 
 <ul>
-<li>Branding generator (Brand base) </li>
+<li>Brand generator </li>
 <li>Versioning</li>
 <li>Option editor </li>
 <li>Legacy branding support </li>
