@@ -233,6 +233,9 @@ strong {
   margin: 2rem 0 5rem 0;
   border-radius: 1rem;
 }
+.project-overview ul {
+  margin-block-start: 0;
+}
 
 .project-overview h4 {
   color: var(--overview-font);
@@ -591,6 +594,10 @@ span {
   margin: 2rem 24px;
   align-items: start;
   gap: 4rem;
+}
+
+.post-title:hover .more {
+  color: var(--primary-color);
 }
 
 .gap-increase {
@@ -1325,6 +1332,11 @@ img.lazy-img {
   filter: blur(2px);
 }
 
+.post-image:hover {
+    /* This line moves the figure up on hover */
+    transform: translateY(-2px);
+    box-shadow: var( --shadow-elevation);
+} 
 
 
 .thumbnail:hover {
