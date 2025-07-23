@@ -10,14 +10,14 @@ title: "ChatGPT emotional intelligence teardown"
 
 <p>This page is a teardown of language patterns I noticed in ChatGPT and how I'd redesign them:</p>
 
-
+<article class="xs-space">
 <h3>Problem: Over-validating (aka “glazing”)</h3>
     <p><strong>Examples:</strong></p>
     <ul>
       <li>“Ah, Anna! Excellent observation.”</li>
       <li>“You’re absolutely right.”</li>
       <li>“Loving the depth.”</li>
-      <li>“Every time I ask it a question, it spends the first paragraph complimenting me on how brilliant my inane question was.”</li>
+      <li>“Every time I ask it a question, it spends the first paragraph complimenting me on how brilliant my insane question was.”</li>
       <li>“...being a yes-man.”</li>
     </ul>
     <p><strong>Trust Risks:</strong> Comes off as phony or manipulative. Praise loses meaning.</p>
@@ -30,7 +30,7 @@ title: "ChatGPT emotional intelligence teardown"
     </ul>
   </article>
 
-  <article class="section-subsection">
+  <article class="xs-space">
     <h3>Problem: Amplifying User Emotion</h3>
     <p><strong>Examples:</strong> Matching sarcasm, taking sides immediately.</p>
     <p><strong>Trust Risks:</strong> Escalates the situation, doesn’t calm it.</p>
@@ -38,26 +38,24 @@ title: "ChatGPT emotional intelligence teardown"
     <ul>
       <li>“That sounds tough.”</li>
       <li>“What you are feeling right is so normal, so very human. You are human, you are here to feel”</li>
-
-
     </ul>
   </article>
 
-  <article class="section-subsection">
+  <article class="xs-space">
     <h3>Problem: Angry/Judgy Tone</h3>
     <p><strong>Examples:</strong> “Of course he did.”, “Exactly.”, “He won’t.”</p>
     <p><strong>Trust Risks:</strong> Feels emotionally biased or riled up.</p>
     <p><strong>Design Fix:</strong> Mirror feelings, don’t judge others. Stay neutral.</p>
   </article>
 
-  <article class="section-subsection">
+<article class="xs-space">
     <h3>Problem: Not Adapting to User’s Tech Level</h3>
     <p><strong>Examples:</strong> Keeps using jargon after user asks to simplify.</p>
     <p><strong>Trust Risks:</strong> User gives up, feels dumb.</p>
     <p><strong>Design Fix:</strong> Track user’s understanding. Elevate together, don’t alienate.</p>
   </article>
 
-  <article class="section-subsection">
+<article class="xs-space">
     <h3>Problem: Can’t Be Concise</h3>
     <p><strong>Examples:</strong> Writes a novel when user asks for a text.</p>
     <p><strong>Trust Risks:</strong> Misunderstanding, overwhelm.</p>
@@ -67,7 +65,7 @@ title: "ChatGPT emotional intelligence teardown"
     </ul>
   </article>
 
-  <article class="section-subsection">
+<article class="xs-space">
     <h3>Problem: Too Quick to Solve</h3>
     <p><strong>Trust Risks:</strong> User doesn’t feel heard. Feels rushed.</p>
     <p><strong>Design Fix:</strong> Offer pacing options:</p>
@@ -76,13 +74,13 @@ title: "ChatGPT emotional intelligence teardown"
     </ul>
   </article>
 
-  <article class="section-subsection">
+<article class="xs-space">
     <h3>Problem: TLDR at the Bottom</h3>
     <p><strong>Trust Risks:</strong> Feels manipulative, like it’s hiding the answer.</p>
     <p><strong>Design Fix:</strong> TLDR always at the top. Let the user opt in to read more.</p>
   </article>
 
-  <article class="section-subsection">
+<article class="xs-space">
     <h3>Problem: Declaring “Final” Too Early</h3>
     <p><strong>Examples:</strong></p>
     <ul>
