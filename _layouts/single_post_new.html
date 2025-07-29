@@ -5,7 +5,7 @@
   <div class="loader-bar" id="loader-bar"></div>
 
 <div class="page-wrapper">
-  <div class="content-wrapper">
+  <div class="content-wrapper {% unless page.show_toc %}centered{% endunless %}">
     
  {% if page.show_toc %}
     {% include toc.html %}

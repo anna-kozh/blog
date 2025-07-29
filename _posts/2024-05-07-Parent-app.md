@@ -44,12 +44,12 @@ posted: 1
 </div>
 
 <p>
-“SkoolBag” (now “Audiri”) is a communication platform, where the two main products are:
+“SkoolBag” (now “Audiri”) is a communication platform, where the two main products are:</p>
 <ul>
   <li>School admin console (content creation web app)</li>
   <li>Parent app (content interaction mobile app)</li>
   </ul>
-</p>
+
 
 <p>During my time with SkoolBag, parents were required to sign up for a mobile app to receive school news updates. Registration flow was pretty standard.</p>
 
@@ -83,7 +83,7 @@ After conducting research, we identified two problems with our implementation:
 </figure>
 
 <p>
-With tight backend constraints and limited engineering capacity, we aligned on three priorities:
+With tight back end constraints and limited engineering capacity, we aligned on three priorities:
 </p>
 <ul>
 <li>Help users log in by any means necessary </li>
@@ -101,7 +101,7 @@ I proposed adding a One-Time Password login option. OTP had already been adopted
 <li>No need to remember or reset passwords </li>
 <li>Replaced the outdated confirmation flow </li>
 <li>Didn’t require reworking the entire auth flow </li>
-<li>Worked for both "unconfirned" and "password reset" users</li>
+<li>Worked for both "unconfirmed" and "password reset" users</li>
 </ul>
 <p> It was a pragmatic, high-leverage addition that respected technical limits while delivering clear user value. </p>
 <figure>

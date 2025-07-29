@@ -118,7 +118,7 @@ When Figma Variables launched, I saw the opportunity to consolidate everything. 
 <p>Both libraries contributed to the ecosystem of Simpology products:</p>
 
 <figure>
-<img src="{{site.baseurl}}/assets/uploads/White-label/phase2.webp" width="780px" alt="Color generator">
+<img src="{{site.baseurl}}/assets/uploads/White-label/phase2.webp" width="780px" alt="Colour generator">
   <figcaption>Design files structure (Phase 2)</figcaption>
 </figure>
 
