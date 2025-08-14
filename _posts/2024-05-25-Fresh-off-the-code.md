@@ -5,7 +5,7 @@ description: '"Fresh off the code" weekly video updates were born during the pan
 tag: "Videos"
 permalink: /blog/fresh-off-the-code
 image: 
-posted: 1
+posted: 0
 ---
 
 

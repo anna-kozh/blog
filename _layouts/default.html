@@ -1,7 +1,18 @@
 {% if site.is_under_construction %}
     {% include under-construction.html %}
 {% else %}
-  {% include header.html %}
-  <div id="content">{{ content }}</div>
-  {% include footer.html %}
+    {% include header.html %}
+
+<div class="page-wrapper">
+      <div class="content-wrapper centered"> 
+        <div id="singlePost">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+
+    <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+
+    {% include footer.html %}
 {% endif %}
