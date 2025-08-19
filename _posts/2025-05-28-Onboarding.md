@@ -564,7 +564,6 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <li><span class="material-icons">{{ metric_icon }}</span>100% of branding completed independently</li>
 <li><span class="material-icons">{{ metric_icon }}</span>94% operational cost savings on branding</li>
 <li><span class="material-icons">{{ metric_icon }}</span>3-5% reduced time to launch </li>
-<li><span class="material-icons">{{ metric_icon }}</span>Task success rate in usability testing 95%</li>
 <li><span class="material-icons">{{ metric_icon }}</span>Improved satisfaction, confirmed by stakeholder feedback.
 
 </li>
@@ -678,7 +677,6 @@ Configuration and branding setup caused onboarding delays, high operational cost
 <li><span class="material-icons">{{ metric_icon }}</span>40% faster time-to-launch</li>
 <li><span class="material-icons">{{ metric_icon }}</span>70% eliminated cross-team dependencies</li>
 <li><span class="material-icons">{{ metric_icon }}</span>Positive feedback from stakeholders</li>
-<li><span class="material-icons">{{ metric_icon }}</span>85% task success rate in usability testing</li>
 </ul>
 
 <div class="callout message">"This completely changes how we scale onboarding. What used to take months now takes weeks." - Chief Product Officer</div>
