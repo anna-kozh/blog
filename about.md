@@ -10,22 +10,17 @@ under_construction: "{{ site.is_under_construction }}"
 
 
 
-<!-- <figure>
-<img src="/assets/uploads/about.webp" width="780px" alt="About Anna infographic">
-</figure> -->
+
+<div class="video-container">
+<iframe width="780" height="438.75" src="https://player.vimeo.com/video/1072624350?h=9161bba358&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Hi there!"></iframe></div>
 
 <p class="xs-space"><b>I’m known for...</b>
-<br>Challenging the status quo when it drives measurable improvement, while delivering results quickly when execution speed is critical.</p>
-
+<br>Challenging the status quo when it drives improvement, while delivering results super quickly when execution is key.</p>
 <p class="xs-space"><b>A perfect workday for me looks like...</b>
-<br>My team and I take over a meeting room, unpack a complex problem, sketch and debate solutions and leave with a clear path forward, plus a few good laughs and a shared pizza.</p>
-
+<br>My team is in the office, we take over a meeting room, dive into a tricky problem, bounce ideas around, laugh a bit, and grab some pizza along the way.</p>
 <p class="xs-space"><b>My ideal work environment...</b>
-<br>A high-trust, high-ownership space where individuals lead end-to-end decisions, teams collaborate seamlessly and customer-obsessed solutions are delivered at scale.</p>
-
+<br>It encourages collaboration, open communication, trust, and the freedom of independent thinking.</p>
 <p class="xs-space"><b>A challenge I’ve overcome in my career...</b>
-<br>Early on, I worked in environments that tested my confidence. By creating deliberate feedback loops, refining my process and focusing relentlessly on customer outcomes, I rebuilt my confidence and went on to lead projects that became company-wide design standards.</p>
-
+<br>Working in difficult environments that tested my confidence. I discovered strategies to rebuild my self-belief and regained my confidence through self-reflection and growth.</p>
 <p class="last-step xs-space"><b>When I’m not designing, you’ll find me...</b>
 <br>Trying out random creative classes (stand-up, improv, painting), planning a fun event or trip, slowly making my way through the Harry Potter books, or wandering near trees and water.</p>
-
