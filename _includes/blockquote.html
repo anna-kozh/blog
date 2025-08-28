@@ -1,6 +1,6 @@
 <blockquote>
   <span class="material-symbols-outlined">bookmark</span>
-  <p class="indent">
-    {{ include.text }}
-  </p>
+  <div class="indent">
+    {{ include.text | markdownify }}
+  </div>
 </blockquote>
