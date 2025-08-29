@@ -806,7 +806,7 @@ Clients still relied heavily on internal teams</li>
    full="/assets/uploads/Self-service/canvaseditor.gif" 
    alt="Proposed solution preview"
    caption="Proposed solution"
-  link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=412-241768&t=wI4bd9rhdllSnA3i-1"
+  link="https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=440-247953&t=PfRhKdaKlaN872Ms-1"
  %}
 </div>
 
@@ -818,7 +818,7 @@ Clients still relied heavily on internal teams</li>
 
 <p> Canvas Editor is in the design phase. So far I’ve: </p>
 <ul>
-<li>Mapped key flows <a href= "https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=440-247953&t=VF8hV41gAKn5IeVq-1" target="_blank"> Figma link </a></li>
+<li>Mapped key flows <a href= "https://www.figma.com/design/kJAUBG2WOJxqTXg0ZsjIZ5/Onboarding?node-id=440-247953&t=PfRhKdaKlaN872Ms-1" target="_blank"> Figma link </a></li>
 <li>Outlined reusable components </li>
 <li>Validated technical tradeoffs </li> </ul>
 

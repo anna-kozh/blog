@@ -112,7 +112,7 @@ When Figma Variables launched, I saw the opportunity to consolidate everything. 
 
 <figure>
 <img src="{{site.baseurl}}/assets/uploads/White-label/design-system.gif" width="780px" alt="Two brands of Loanapp">
-  <figcaption>Design system (Phase 2) <a href="https://www.figma.com/design/QYJC5EsMLgAqFCF9c747vd/Core?node-id=98-98895&t=q5vLNFRld5vb3rzW-1" target="_blank">Figma link </a></figcaption>
+  <figcaption>Design system (Phase 2) <a href="https://www.figma.com/design/QYJC5EsMLgAqFCF9c747vd/Design-system?node-id=2819-6951&t=1FOBId2VT0GdMJYt-1" target="_blank">Figma link </a></figcaption>
 </figure>
 
 <p>Both libraries contributed to the ecosystem of Simpology products:</p>
