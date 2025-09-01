@@ -641,7 +641,8 @@ span {
 #post-container {
   display: flex;
   flex-direction: column;
-  margin: 2rem 24px;
+  /* margin: 2rem 24px; */
+    margin: 2rem 0px;
   align-items: start;
   gap: 4rem;
 }
