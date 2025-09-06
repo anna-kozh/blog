@@ -17,9 +17,40 @@ layout: default
   }
 </style>
 
-<div class="container">
+<div class="container" id="ref-container">
   <h1>404</h1>
-
   <p><b>Page not found :(</b></p>
   <p>The requested page could not be found.</p>
 </div>
+
+<script>
+  (function () {
+    var path = window.location.pathname;              // e.g. /ref/amazon
+    var parts = path.split("/").filter(Boolean);      // ["ref","amazon"]
+
+    // Only handle /ref/<slug>
+    if (parts.length === 2 && parts[0] === "ref") {
+      // Instantly hide the 404 content so it feels immediate
+      var refContainer = document.getElementById("ref-container");
+      if (refContainer) refContainer.style.display = "none";
+
+      // Immediately update the visible URL
+      window.history.replaceState({}, "", "/");
+
+      // Fire GA page_view for /ref/<slug>
+      if (typeof gtag === "function") {
+        gtag('event', 'page_view', {
+          page_title: 'Tracked redirect',
+          page_location: window.location.origin + path,
+          page_path: path
+        });
+      }
+
+      // Redirect almost instantly (50ms delay)
+      setTimeout(function () {
+        window.location.replace("/");
+      }, 100);
+    }
+    // All other 404s show normally
+  })();
+</script>
