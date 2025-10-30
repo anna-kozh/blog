@@ -537,6 +537,32 @@ a:hover {
   text-transform: none;
 }
 
+.story-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.story-meta .step-label {
+  margin-bottom:0;
+}
+
+.badge{
+  border-radius: 13px;
+  font-family: var(--primary-font);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-color);
+  padding: .3rem .6rem !important;
+  letter-spacing: 0.15px;
+  width: max-content;
+  text-transform: none;
+}
+
+
 .clients {
   display: flex;
   flex-direction: row;
@@ -2076,6 +2102,13 @@ padding-block: var(--section-gap);
   }
 
   .post-type {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+
+
+  .badge {
     font-size: 0.75rem;
     line-height: 0.75rem;
     font-weight: 500;
