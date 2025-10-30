@@ -405,7 +405,7 @@ Upon analysis, I found that conditional logic was almost always used for one spe
         <span class="badge">Pushing Back & Vision
 </span>
     </span>
- The one with Redesigning Control
+ Rebuilding trust
   </h2> 
 
 <p>After the migration, the app layout broke from a user perspective.</p>
@@ -421,7 +421,8 @@ Upon analysis, I found that conditional logic was almost always used for one spe
 
 
 <p>The PM proposed a quick fix to enable reordering, but that wouldn’t solve the real problem: admins needed to rebuild the structure. </p>
-<p>The app included a mix of forms, links and nested tiles, so we needed a <strong>scalable solution</strong> that could handle that complexity.</p>
+{% include blockquote.html
+   text="We needed a **scalable solution** that could handle the layout complexity." %}
 
 <p>I designed a full layout tool that lets admins drag and drop tiles, group and nest items, change icons and customise colours. </p>
 
