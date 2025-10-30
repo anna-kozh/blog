@@ -5,7 +5,7 @@ description: "How do you “single case study” your favourite 2-year project? 
 tag: "Case study"
 permalink: /portfolio/admin-console
 image: Admin-console/hero.webp
-posted: 0
+posted: 1
 
 show_toc: true 
 toc:
@@ -82,7 +82,7 @@ toc:
   <ul class= "metrics">
   <li><span class="material-icons">{{ metric_icon }}</span>Migrated 1,000+ schools to a new console without loss of functionality. </li>
   <li><span class="material-icons">{{ metric_icon }}</span>Increased adoption of key features by 25%.</li>
-  <li><span class="material-icons">{{ metric_icon }}</span>Cut design-to-dev turnaround time by 30%.</li></ul>
+  <li><span class="material-icons">{{ metric_icon }}</span>Enabled new revenue streams and partnership opportunities.</li></ul>
   </div>
   </div>
   </div>
@@ -92,9 +92,9 @@ toc:
 <ul>
 <li>Lead Product Designer for the School Admin Console</li>
 <li>Owned end-to-end design across discovery, UX and UI</li>
-<li>Acted as Product Owner when needed, prioritising backlog and defining requirements </li>
-<li>Partnered with PMs and tech leads to define priorities and scope</li>
 <li>Created user flows, prototypes and component specs for multiple squads</li>
+<li>Partnered with PMs and tech leads to define priorities and scope</li>
+<li>Acted as Product Owner when needed, prioritising backlog and defining requirements </li>
 <li>Facilitated design reviews and supported dev during implementation</li>
 <li>Improved handoff efficiency and design consistency across teams</li>
 <li>Advocated for lean, iterative delivery and design maturity practices</li>
@@ -109,15 +109,21 @@ toc:
 
 <p>SkoolBag was a scrappy B2B2C startup connecting schools and parents.</p>
 
-<p>The business needed to cut costs, expand features and enable new partnerships, which required migrating the old backend and rebuilding the entire school admin console.</p>
+ {% include lightbox.html
+          id="products"
+          thumb="/assets/uploads/Admin-console/products.webp"
+          full="/assets/uploads/Admin-console/products.webp" 
+          alt="SkoolBag products"
+          caption="SkoolBag products ecosystem"
+        %}
 
-<p>I joined as Lead Product Designer to build a new modern school admin console serving over 1,000 schools.</p>
+<p>The business needed to cut costs, expand features and enable new partnerships, which required migrating the old backend and <strong>rebuilding the entire school admin console</strong>.</p>
 
+<p>SkoolBag proved to be the ideal setting for me. I thrived in the startup pace, working with a lean team and tight deadlines. It was the kind of environment where I do my best work.</p>
 
-<p>Startup pace, small team and constant migration deadlines forced me to rethink how I worked. </p>
 
  {% include blockquote.html
-   text="These **six stories** capture the moments that defined the product and how design leadership really looks in a startup." %}
+   text="These **six stories** show the real side of design leadership in a startup." %}
 
 <h3> Design process </h3>
 <p>The overall approach followed a lean double-diamond pattern:</p>
@@ -127,7 +133,7 @@ toc:
 <li>Ideation </li>
 <li>Validation </li>
 <li>Delivery </li>
-<li>Iteration. </li>
+<li>Iterations </li>
 </ul>
 <p>Each story below represents one decision point in that cycle: identifying a real problem, reframing it, testing ideas and measuring impact.</p>
 
@@ -145,6 +151,7 @@ toc:
         <span class="badge">Data-Driven Decision</span>
     </span> Convincing stakeholders </h2> 
 
+<p>The main way schools communicate with parents is through a newsfeed of posts. </p>
 <p>Our analytics showed that posts with images had significantly higher open rates. But most schools struggled to source quality pictures and often requested guidance from our support team.</p>
 
 {% include blockquote.html
@@ -152,11 +159,11 @@ toc:
 
 <p>What helped to convince them:</p>
 <ul><li>Showed them data proving higher engagement </li>
-<li>Shared all the support tickets that cost us resources </li>
-<li>Suggested to test the idea with an easy first iteration: show 5 image options from Unsplash based on the post title. </li>
-<li>Reframed it as a market differentiator for the business </li></ul>
+<li>Highlighted support costs from image-related tickets </li>
+<li>Proposed an easy MVP: 5 Unsplash image options based on the post title</li>
+<li>Reframed it as a market differentiator, not a design tweak </li></ul>
 
-<p>That mix of clear data, small build effort, and real business value convinced them to go ahead with it.</p>
+<p>That mix of clear data, small build effort and real business value convinced them to go ahead with it.</p>
 
  {% include lightbox.html
           id="unsplash1"
@@ -168,10 +175,10 @@ toc:
 
 <h3>Adoption was great! </h3>
 <ul>
-<li>Within the first month, over 50% of posts used a suggested image </li>
+<li>Within the first month, over 50% of posts used a suggested Unsplash image </li>
 <li>Post engagement rate for schools using the feature increased </li>
-<li>Schools' feedback asking for more image options </li>
-<li>Image support request decreased significantly </li> </ul>
+<li>Schools requested more image options after launch </li>
+<li>Image-related support requests dropped significantly </li> </ul>
 
 <h3>Further iterations</h3>
 
@@ -202,7 +209,7 @@ toc:
 {% include blockquote.html
    text="PM wanted to rebuild the **entire feature** in the new console." %}
 
-<p>My goal was to avoid a large, slow rebuild that would consume significant engineering time without guaranteed value. </p>
+<p>My goal was to avoid a large, slow rebuild that would cost a significant engineering effort without guaranteed value. </p>
 <p>I needed to find a version of the feature that solved the most common use case quickly.</p>
 <ul><li>
 Upon analysis, I found that conditional logic was almost always used for one specific scenario of “Contact Us” rerouting (e.g. teacher email). </li>
@@ -240,7 +247,7 @@ Upon analysis, I found that conditional logic was almost always used for one spe
 
 <p>This frustrated school admins, who relied on event posts to grab parents’ attention.</p>
 
-<p>While redesigning this feature, I got an interesting edge case: What happens when an event is shared after it’s been edited but not yet saved.</p>
+<p>While redesigning this feature, I got an interesting edge case: What happens when an event is shared after it’s been edited but not yet saved?</p>
 
 <div class="subsection">
 <h3>Initial solution</h3>
@@ -266,43 +273,29 @@ Upon analysis, I found that conditional logic was almost always used for one spe
 </div>
 
 <div class="subsection">
-<h3> Iteration 2 </h3>   
+<h3> Iteration </h3>   
 
-<p>We then added a prompt to confirm that event was changed.</p>
-
-<p>This restored users' control. Even though the extra step many found annoying, majority of users were not tech savvy and needed a slow introduction to change.</p>
+<p>We added a confirmation prompt when a user shared an event with unsaved changes. This restored control and trust.</p>
+<p>I worried the extra step might feel annoying, but most admins weren’t tech-savvy and appreciated the clarity.</p>
 
 
 {% include lightbox.html
           id="share-updated"
-          thumb="/assets/uploads/Admin-console/share-updated.webp"
-          full="/assets/uploads/Admin-console/share-updated.webp" 
+          thumb="/assets/uploads/Admin-console/share-updated1.webp"
+          full="/assets/uploads/Admin-console/share-updated1.webp" 
           alt="Share event - updated"
           caption="Updated flow of sharing an event"
         %}
 </div>
+<p>User feedback on the new flow was overwhelmingly positive.</p>
+<p>Even in a scrappy startup, you have to be selective about what you test, but I learned that high-impact edge cases still need to be tested.</p>
 
 
-<div class="subsection">
-<h3>Final iteration </h3>
-<p>Eventually, I redesigned the flow to remove prompting. We saved any edits in the background automatically.</p>
-
-{% include lightbox.html
-          id="share-updated-final"
-          thumb="/assets/uploads/Admin-console/share-updated-final.webp"
-          full="/assets/uploads/Admin-console/share-updated-final.webp" 
-          alt="Share event - updated"
-          caption="Final flow of sharing an event"
-        %}
-
-<p>User feedback on the new flow was overwhelmingly positive. </p>
-</div>
 
 
   </section>
    </div> <!-- END OF INNER -->
   </div> <!-- END OF FULL WIDTH --> <!--  END of Story 3 -->
-
 
   <section class="section "> <!-- Beginning of Story 4 -->
   <h2 id="story-4">
@@ -311,15 +304,15 @@ Upon analysis, I found that conditional logic was almost always used for one spe
         <span class="badge">Collaboration & Constraints</span>
     </span> Making tradeoffs </h2> 
 
-<p>One of the toughest workflows for schools was user management. SkoolBag stored only parent data, not students.</p>
-<p>Each year, schools updated their parent lists, deleting all users and reuploaded a new CSV. This bulk upload feature existed in the legacy console, and schools relied on it.  </p>
+<p>One of the toughest workflows for schools was user management because SkoolBag stored only parent data, not students.</p>
+<p>Each year, multiple schools update their parent lists, deleting all records and reuploading a new CSV. This bulk upload feature existed in the legacy console and schools relied on it.  </p>
 <p>I was now redesigning bulk user upload for the new console. </p>
 <div class="subsection">
 <h3>Reuse over Reinvent</h3>
 <p>This story sums up startup life perfectly:</p>
-<ul><li>I presented a design in a feature review</li>
-<li>Dev suggested to reause an existing component from our stack</li>
-<li>I weighed both options, saw it aligned with our goals and redesigned the flow in 20 minutes.</li></ul>
+<ul><li>10:00 - I presented a design in a feature review</li>
+<li>10:20 - Dev suggested reusing an existing component from our stack instead</li>
+<li>11:00 - I weighed both options, saw the benefits and redesigned the flow.</li></ul>
 
 {% include lightbox.html
           id="bulk-upload"
@@ -349,7 +342,7 @@ Upon analysis, I found that conditional logic was almost always used for one spe
         %}
 
 <p>The flow worked reliably and scaled well for large files.</p>
-<p>We didn’t receive complaints or support tickets after launch, and admins were able to complete bulk uploads without issues.</p>
+<p>We didn’t receive complaints or support tickets after launch and admins were able to complete bulk uploads without issues.</p>
 
 <p>It taught me to <strong>involve engineering earlier</strong> when designing data-heavy features and to treat technical limits as part of the design challenge.</p>
 </div>
@@ -365,14 +358,13 @@ Upon analysis, I found that conditional logic was almost always used for one spe
    <span class="story-meta">
        <span class="step-label" aria-hidden="true">STORY 5 </span>
         <span class="badge">Adoption & Behaviour Change</span>
-    </span> Increasing adoption </h2> 
+    </span> Failed adoption </h2> 
 
-<p>One of the biggest admin pain points was updating user groups each year — for example, moving all “Year 1” parents to “Year 2.”</p>
+<p>One of the biggest admin pain points was updating user groups each year.</p>
 
 <p>Some schools solved this by uploading new CSV files, while others just relied on parents to do the right thing and update their groups.</p>
 
-<p>I took the initiative to design an “Assign Groups” feature that let admins bulk-move users directly in the UI without needing spreadsheets. </p>
-<p>Admin would filter parents by the group and then click “Assign groups” - remove them from Year 1 and add them to Year 2.</p>
+<p>We explored a lot of different options to solve that user pain. One of my initiatives was a lightweight “Assign groups” feature that let admins bulk-move users directly in the UI without needing spreadsheets. </p>
  
 {% include lightbox.html
           id="assign-groups"
@@ -387,22 +379,19 @@ Upon analysis, I found that conditional logic was almost always used for one spe
 
 
 <p>This was not a legacy feature for them, so they hesitated to use it. They didn’t understand how it fit into their existing workflow. </p>
-<p>I even created a <strong>training video</strong>, it increased the adoption a little. </p>
+<p>To help with adoption, I created a <strong>training video</strong>. </p>
 
 
 
 <div class="m-space">
-<!-- <h2> Fresh off the code (Nov) </h2> -->
 <div class="video-container"><iframe width="780" height="438.75" src="https://www.youtube.com/embed/KvnjBD93gQc?si=KdDMU_YrLfxjI4ol" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
 </div>
 
 
-<p>I could have increased adoption by surfacing the feature in context 
-for example, suggesting it in the bulk upload flow
-highlighting time saved,
-adding onboarding nudges to guide users toward it.</p>
-
-<p>The experience taught me that solving a user problem isn’t enough — you also need to meet users where they are, shape habits, and clearly communicate value if you want a new solution to replace an old one.</p>
+<p>Looking back:</p>
+<ul><li>If I had more time, I’d validate the solution with real users before release. </li>
+<li> I also would’ve planned for behaviour change, not just problem-solving.</li> </ul>
+<p>Solving a user problem isn’t enough. You also need to plan the onboarding and shape habits if you want a new solution to replace an old one.</p>
 
   </section>
   </div> <!-- END OF INNER -->
@@ -419,7 +408,8 @@ adding onboarding nudges to guide users toward it.</p>
  The one with Redesigning Control
   </h2> 
 
-After a major backend migration at SkoolBag, the app layout broke from a user perspective. Tiles all looked the same, subcategories collapsed into “Everyone” groups, and nothing could be reordered. Schools that had spent years carefully structuring their app were frustrated and some even considered leaving.
+<p>After the migration, the app layout broke from a user perspective.</p>
+<p>All tiles had the same color and icon, sub-tiles split into tiles and they could be reordered. Schools that had spent years carefully structuring their app were frustrated and some even considered leaving.</p>
 
 {% include lightbox.html
           id="layout-broken"
@@ -430,10 +420,11 @@ After a major backend migration at SkoolBag, the app layout broke from a user pe
         %}
 
 
-T: The PM proposed a quick fix — adding icons and basic drag-and-drop to the list. But that wouldn’t solve the real problem: admins needed to rebuild structure, not just reorder items. 
-The app included a mix of forms, links, and nested groups, so we needed a scalable solution that could handle that complexity.
-A: I pushed for a deeper approach. I designed a full layout tool that let admins drag and drop tiles, group and nest items, change icons, and customise colours. 
-This gave them back ownership and control while future-proofing the system for new content types.
+<p>The PM proposed a quick fix to enable reordering, but that wouldn’t solve the real problem: admins needed to rebuild the structure. </p>
+<p>The app included a mix of forms, links and nested tiles, so we needed a <strong>scalable solution</strong> that could handle that complexity.</p>
+
+<p>I designed a full layout tool that lets admins drag and drop tiles, group and nest items, change icons and customise colours. </p>
+
 
 {% include lightbox.html
           id="layout-fixed"
@@ -444,12 +435,10 @@ This gave them back ownership and control while future-proofing the system for n
         %}
 
 
-The impact was clear: 
-over 80% of schools customised their layout within the first month, and
- the drag-and-drop view became one of the most-used features in the admin console.
-Post-launch feedback flipped from mostly negative to positive, and 
-several schools that were considering churn decided to stay. 
-Most importantly, schools said they felt they now had more control than before the migration.
+<h3>Impact </h3>
+<ul><li>Over 80% of schools customised their layout within the first month </li>
+<li>Post-launch feedback turned positive</li>
+<li>Several schools that were considering churn decided to stay </li></ul>
 
   </section><!--  END of Story 6-->
 
@@ -465,7 +454,8 @@ Most importantly, schools said they felt they now had more control than before t
 <ul class="metrics">
 <li><span class="material-icons">{{ metric_icon }}</span>Migrated 1,000+ schools to a new console without loss of functionality.</li>
   <li><span class="material-icons">{{ metric_icon }}</span>Increased adoption of key features by 25%.</li>
-  <li><span class="material-icons">{{ metric_icon }}</span>Cut design-to-dev turnaround time by 30%.</li></ul>
+  <li><span class="material-icons">{{ metric_icon }}</span>Enabled new revenue streams and partnership opportunities.</li>
+  </ul>
 
 
 </section> <!-- END OF IMPACT PHASE -->
@@ -475,7 +465,6 @@ Most importantly, schools said they felt they now had more control than before t
 
 <section class="section"> <!-- start of section LEARNINGS -->
 <h2 id="learnings"><span class="step-label" aria-hidden="true" >KEY LEARNINGS</span>Key learnings</h2>
-<ul>
-<li>This environment was where I do my best work.</li>
-<li>
-</ul>
+<p>My time at SkoolBag was formative. It shaped me as a design leader, giving me the opportunity to wear multiple hats and work closely with the team every day. It taught me to be pragmatic and focus on what truly matters right now.</p>
+
+<p>Without formal design mentorship, I learned by doing: solving real problems, making mistakes and iterating on processes and solutions. That experience grounded me in practicality and ownership and I’m deeply grateful for it. </p>
